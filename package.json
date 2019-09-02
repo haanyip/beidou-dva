@@ -1,0 +1,35 @@
+{
+  "name": "beidou-dva",
+  "version": "1.0.0",
+  "description": "Beidou example with dva",
+  "scripts": {
+    "start": "beidou start",
+    "debug": "beidou debug",
+    "stop": "beidou stop",
+    "dev": "beidou dev",
+    "build": "beidou build",
+    "build:node": "beidou build --target=node"
+  },
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "beidou": "^2.2.1",
+    "beidou-cli": "^2.1.1",
+    "dva": "^2.4.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "antd-mobile": "^2.3.1",
+    "babel-plugin-import": "^1.12.0",
+    "react-intl": "^3.1.11",
+    "react-loadable": "^5.5.0",
+    "koa-is-json": "^1.0.0",
+    "webpack-manifest-plugin": "^2.0.4"
+ 
+  }
+}

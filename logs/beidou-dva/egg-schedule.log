@@ -1,0 +1,357 @@
+2019-08-23 11:07:07,125 INFO 71347 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-23 11:07:07,125 INFO 71347 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-23 11:07:07,125 INFO 71347 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-23 11:07:08,365 INFO 71339 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62571638ms at 2019-08-24 04:30:00.003
+2019-08-23 11:07:08,366 INFO 71339 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 46371635ms at 2019-08-24 00:00:00.001
+2019-08-23 11:07:08,366 INFO 71339 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46372634ms at 2019-08-24 00:00:01.000
+2019-08-25 09:43:18,471 INFO 74092 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-25 09:43:18,472 INFO 74092 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-25 09:43:18,472 INFO 74092 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-25 09:43:19,125 INFO 74088 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67600879ms at 2019-08-26 04:30:00.004
+2019-08-25 09:43:19,125 INFO 74088 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 51400875ms at 2019-08-26 00:00:00.000
+2019-08-25 09:43:19,126 INFO 74088 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 51401875ms at 2019-08-26 00:00:01.001
+2019-08-25 22:00:02,137 INFO 74565 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-25 22:00:02,137 INFO 74565 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-25 22:00:02,137 INFO 74565 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-25 22:00:02,794 INFO 74560 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23397210ms at 2019-08-26 04:30:00.004
+2019-08-25 22:00:02,794 INFO 74560 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7197206ms at 2019-08-26 00:00:00.000
+2019-08-25 22:00:02,794 INFO 74560 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7198206ms at 2019-08-26 00:00:01.000
+2019-08-25 22:02:01,908 INFO 74653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-25 22:02:01,908 INFO 74653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-25 22:02:01,908 INFO 74653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-25 22:02:02,622 INFO 74625 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23277381ms at 2019-08-26 04:30:00.003
+2019-08-25 22:02:02,622 INFO 74625 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7077378ms at 2019-08-26 00:00:00.000
+2019-08-25 22:02:02,622 INFO 74625 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7078378ms at 2019-08-26 00:00:01.000
+2019-08-25 22:02:18,173 INFO 74690 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-25 22:02:18,173 INFO 74690 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-25 22:02:18,173 INFO 74690 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-25 22:02:19,139 INFO 74682 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23260864ms at 2019-08-26 04:30:00.003
+2019-08-25 22:02:19,139 INFO 74682 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 7060861ms at 2019-08-26 00:00:00.000
+2019-08-25 22:02:19,140 INFO 74682 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 7061861ms at 2019-08-26 00:00:01.000
+2019-08-25 22:05:43,316 INFO 74877 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-25 22:05:43,316 INFO 74877 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-25 22:05:43,316 INFO 74877 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-25 22:05:44,086 INFO 74869 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 23055919ms at 2019-08-26 04:30:00.005
+2019-08-25 22:05:44,086 INFO 74869 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 6855914ms at 2019-08-26 00:00:00.000
+2019-08-25 22:05:44,087 INFO 74869 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 6856914ms at 2019-08-26 00:00:01.001
+2019-08-26 11:09:33,646 INFO 78144 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:09:33,647 INFO 78144 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:09:33,647 INFO 78144 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:09:34,303 INFO 78116 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62425700ms at 2019-08-27 04:30:00.003
+2019-08-26 11:09:34,303 INFO 78116 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 46225697ms at 2019-08-27 00:00:00.000
+2019-08-26 11:09:34,304 INFO 78116 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46226696ms at 2019-08-27 00:00:01.000
+2019-08-26 11:23:20,900 INFO 78645 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61599103ms at 2019-08-27 04:30:00.003
+2019-08-26 11:23:20,901 INFO 78645 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45399100ms at 2019-08-27 00:00:00.001
+2019-08-26 11:23:20,901 INFO 78645 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45400099ms at 2019-08-27 00:00:01.000
+2019-08-26 11:23:20,039 INFO 78653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:23:20,039 INFO 78653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:23:20,039 INFO 78653 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:27:51,595 INFO 78941 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:27:51,595 INFO 78941 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:27:51,595 INFO 78941 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:27:52,445 INFO 78933 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61327559ms at 2019-08-27 04:30:00.004
+2019-08-26 11:27:52,445 INFO 78933 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45127555ms at 2019-08-27 00:00:00.000
+2019-08-26 11:27:52,446 INFO 78933 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45128555ms at 2019-08-27 00:00:01.001
+2019-08-26 11:29:46,129 INFO 79083 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:29:46,129 INFO 79083 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:29:46,129 INFO 79083 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:29:46,929 INFO 79075 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61213075ms at 2019-08-27 04:30:00.003
+2019-08-26 11:29:46,929 INFO 79075 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45013071ms at 2019-08-27 00:00:00.000
+2019-08-26 11:29:46,929 INFO 79075 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45014071ms at 2019-08-27 00:00:01.000
+2019-08-26 11:43:44,138 INFO 79929 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:43:44,138 INFO 79929 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:43:44,138 INFO 79929 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:43:44,283 INFO 79921 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60375720ms at 2019-08-27 04:30:00.003
+2019-08-26 11:43:44,284 INFO 79921 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44175716ms at 2019-08-27 00:00:00.000
+2019-08-26 11:43:44,284 INFO 79921 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44176716ms at 2019-08-27 00:00:01.000
+2019-08-26 11:45:13,127 INFO 80128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-26 11:45:13,127 INFO 80128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-26 11:45:13,127 INFO 80128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-26 11:45:14,067 INFO 80120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60285937ms at 2019-08-27 04:30:00.003
+2019-08-26 11:45:14,067 INFO 80120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44085933ms at 2019-08-27 00:00:00.000
+2019-08-26 11:45:14,067 INFO 80120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44086933ms at 2019-08-27 00:00:01.000
+2019-08-31 10:20:13,447 INFO 56341 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:20:13,447 INFO 56341 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:20:13,447 INFO 56341 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:20:14,605 INFO 56337 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65385398ms at 2019-09-01 04:30:00.003
+2019-08-31 10:20:14,606 INFO 56337 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 49185395ms at 2019-09-01 00:00:00.001
+2019-08-31 10:20:14,606 INFO 56337 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49186394ms at 2019-09-01 00:00:01.000
+2019-08-31 10:23:55,091 INFO 56555 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:23:55,091 INFO 56555 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:23:55,091 INFO 56555 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:23:55,408 INFO 56546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65164595ms at 2019-09-01 04:30:00.003
+2019-08-31 10:23:55,409 INFO 56546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 48964592ms at 2019-09-01 00:00:00.001
+2019-08-31 10:23:55,409 INFO 56546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48965591ms at 2019-09-01 00:00:01.000
+2019-08-31 10:34:49,432 INFO 57414 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:34:49,432 INFO 57414 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:34:49,432 INFO 57414 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:35:21,191 INFO 57510 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:35:21,192 INFO 57510 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:35:21,192 INFO 57510 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:35:21,910 INFO 57502 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 64478094ms at 2019-09-01 04:30:00.004
+2019-08-31 10:35:21,910 INFO 57502 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 48278090ms at 2019-09-01 00:00:00.000
+2019-08-31 10:35:21,910 INFO 57502 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 48279090ms at 2019-09-01 00:00:01.000
+2019-08-31 10:36:58,270 INFO 57746 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:36:58,270 INFO 57746 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:36:58,270 INFO 57746 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:41:33,253 INFO 57972 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:41:33,253 INFO 57972 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:41:33,253 INFO 57972 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:50:10,279 INFO 58551 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 10:50:10,279 INFO 58551 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 10:50:10,279 INFO 58551 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 10:50:10,789 INFO 58546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63589215ms at 2019-09-01 04:30:00.004
+2019-08-31 10:50:10,789 INFO 58546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 47389211ms at 2019-09-01 00:00:00.000
+2019-08-31 10:50:10,790 INFO 58546 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47390211ms at 2019-09-01 00:00:01.000
+2019-08-31 11:09:16,602 INFO 59745 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62443401ms at 2019-09-01 04:30:00.003
+2019-08-31 11:09:16,602 INFO 59745 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 46243398ms at 2019-09-01 00:00:00.000
+2019-08-31 11:09:16,602 INFO 59745 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46244398ms at 2019-09-01 00:00:01.000
+2019-08-31 11:09:16,407 INFO 59749 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:09:16,407 INFO 59749 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:09:16,407 INFO 59749 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:10:12,766 INFO 59793 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:10:12,766 INFO 59793 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:10:12,766 INFO 59793 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:11:25,606 INFO 59990 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:11:25,606 INFO 59990 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:11:25,607 INFO 59990 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:11:42,728 INFO 60025 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:11:42,728 INFO 60025 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:11:42,728 INFO 60025 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:11:43,550 INFO 60016 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62296453ms at 2019-09-01 04:30:00.003
+2019-08-31 11:11:43,551 INFO 60016 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 46096449ms at 2019-09-01 00:00:00.000
+2019-08-31 11:11:43,551 INFO 60016 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46097449ms at 2019-09-01 00:00:01.000
+2019-08-31 11:12:03,898 INFO 60031 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:12:03,898 INFO 60031 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:12:03,898 INFO 60031 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:12:23,096 INFO 60062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:12:23,096 INFO 60062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:12:23,096 INFO 60062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:12:23,892 INFO 60053 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62256111ms at 2019-09-01 04:30:00.002
+2019-08-31 11:12:23,892 INFO 60053 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 46056108ms at 2019-09-01 00:00:00.000
+2019-08-31 11:12:23,892 INFO 60053 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46057108ms at 2019-09-01 00:00:01.000
+2019-08-31 11:13:40,756 INFO 60073 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:13:40,756 INFO 60073 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:13:40,756 INFO 60073 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:13:52,607 INFO 60097 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:13:52,607 INFO 60097 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:13:52,608 INFO 60097 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:14:05,870 INFO 60128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:14:05,870 INFO 60128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:14:05,870 INFO 60128 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:14:06,867 INFO 60120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62153137ms at 2019-09-01 04:30:00.004
+2019-08-31 11:14:06,867 INFO 60120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45953133ms at 2019-09-01 00:00:00.000
+2019-08-31 11:14:06,868 INFO 60120 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45954133ms at 2019-09-01 00:00:01.001
+2019-08-31 11:15:52,208 INFO 60215 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:15:52,208 INFO 60215 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:15:52,208 INFO 60215 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:15:53,248 INFO 60207 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62046756ms at 2019-09-01 04:30:00.004
+2019-08-31 11:15:53,248 INFO 60207 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45846752ms at 2019-09-01 00:00:00.000
+2019-08-31 11:15:53,249 INFO 60207 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45847752ms at 2019-09-01 00:00:01.001
+2019-08-31 11:16:29,317 INFO 60224 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:16:29,317 INFO 60224 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:16:29,317 INFO 60224 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:16:42,509 INFO 60254 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:16:42,509 INFO 60254 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:16:42,509 INFO 60254 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:16:43,374 INFO 60246 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61996629ms at 2019-09-01 04:30:00.003
+2019-08-31 11:16:43,375 INFO 60246 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45796626ms at 2019-09-01 00:00:00.001
+2019-08-31 11:16:43,375 INFO 60246 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45797625ms at 2019-09-01 00:00:01.000
+2019-08-31 11:16:56,321 INFO 60262 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:16:56,321 INFO 60262 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:16:56,321 INFO 60262 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:17:03,848 INFO 60286 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:17:03,848 INFO 60286 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:17:03,848 INFO 60286 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:17:20,819 INFO 60316 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:17:20,819 INFO 60316 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:17:20,819 INFO 60316 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:17:21,683 INFO 60308 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61958320ms at 2019-09-01 04:30:00.003
+2019-08-31 11:17:21,684 INFO 60308 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45758317ms at 2019-09-01 00:00:00.001
+2019-08-31 11:17:21,684 INFO 60308 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45759316ms at 2019-09-01 00:00:01.000
+2019-08-31 11:36:44,804 INFO 60809 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:36:44,804 INFO 60809 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:36:44,804 INFO 60809 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:36:45,777 INFO 60802 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60794226ms at 2019-09-01 04:30:00.003
+2019-08-31 11:36:45,778 INFO 60802 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44594223ms at 2019-09-01 00:00:00.001
+2019-08-31 11:36:45,778 INFO 60802 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44595222ms at 2019-09-01 00:00:01.000
+2019-08-31 11:38:59,944 INFO 60850 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:38:59,944 INFO 60850 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:38:59,944 INFO 60850 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:39:49,682 INFO 60945 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60610321ms at 2019-09-01 04:30:00.003
+2019-08-31 11:39:49,683 INFO 60945 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44410318ms at 2019-09-01 00:00:00.001
+2019-08-31 11:39:49,683 INFO 60945 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44411317ms at 2019-09-01 00:00:01.000
+2019-08-31 11:39:48,902 INFO 60954 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:39:48,902 INFO 60954 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:39:48,902 INFO 60954 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:40:36,592 INFO 60981 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:40:36,592 INFO 60981 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:40:36,592 INFO 60981 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:41:06,090 INFO 61094 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-31 11:41:06,090 INFO 61094 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-08-31 11:41:06,090 INFO 61094 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-31 11:41:06,926 INFO 61086 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60533077ms at 2019-09-01 04:30:00.003
+2019-08-31 11:41:06,926 INFO 61086 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44333074ms at 2019-09-01 00:00:00.000
+2019-08-31 11:41:06,927 INFO 61086 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44334074ms at 2019-09-01 00:00:01.001
+2019-09-01 11:20:55,770 INFO 61821 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:20:55,770 INFO 61821 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:20:55,770 INFO 61821 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:21:01,951 INFO 61847 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:21:01,951 INFO 61847 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:21:01,951 INFO 61847 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:22:34,055 INFO 61956 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:22:34,055 INFO 61956 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:22:34,055 INFO 61956 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:22:34,867 INFO 61948 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61645136ms at 2019-09-02 04:30:00.003
+2019-09-01 11:22:34,867 INFO 61948 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 45445133ms at 2019-09-02 00:00:00.000
+2019-09-01 11:22:34,868 INFO 61948 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 45446133ms at 2019-09-02 00:00:01.001
+2019-09-01 11:32:37,972 INFO 62332 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:32:37,972 INFO 62332 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:32:37,972 INFO 62332 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:32:38,880 INFO 62305 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 61041123ms at 2019-09-02 04:30:00.003
+2019-09-01 11:32:38,881 INFO 62305 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44841120ms at 2019-09-02 00:00:00.001
+2019-09-01 11:32:38,881 INFO 62305 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44842119ms at 2019-09-02 00:00:01.000
+2019-09-01 11:32:39,128 INFO 62336 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:32:39,128 INFO 62336 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:32:39,128 INFO 62336 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:32:41,373 INFO 62406 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:32:41,373 INFO 62406 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:32:41,373 INFO 62406 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:44:00,877 INFO 62859 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 11:44:00,877 INFO 62859 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 11:44:00,877 INFO 62859 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 11:44:02,213 INFO 62855 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60357790ms at 2019-09-02 04:30:00.003
+2019-09-01 11:44:02,214 INFO 62855 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 44157787ms at 2019-09-02 00:00:00.001
+2019-09-01 11:44:02,214 INFO 62855 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 44158786ms at 2019-09-02 00:00:01.000
+2019-09-01 12:53:11,833 INFO 63900 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56208171ms at 2019-09-02 04:30:00.004
+2019-09-01 12:53:11,833 INFO 63900 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 40008167ms at 2019-09-02 00:00:00.000
+2019-09-01 12:53:11,835 INFO 63900 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 40009166ms at 2019-09-02 00:00:01.001
+2019-09-01 12:53:11,029 INFO 63904 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 12:53:11,029 INFO 63904 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 12:53:11,029 INFO 63904 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:15:37,019 INFO 64322 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:15:37,019 INFO 64322 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:15:37,019 INFO 64322 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:24:26,101 INFO 64984 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:24:26,101 INFO 64984 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:24:26,101 INFO 64984 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:24:27,218 INFO 64976 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50732785ms at 2019-09-02 04:30:00.003
+2019-09-01 14:24:27,219 INFO 64976 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34532782ms at 2019-09-02 00:00:00.001
+2019-09-01 14:24:27,219 INFO 64976 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34533781ms at 2019-09-02 00:00:01.000
+2019-09-01 14:28:52,879 INFO 65311 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:28:52,879 INFO 65311 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:28:52,879 INFO 65311 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:28:53,062 INFO 65303 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50466942ms at 2019-09-02 04:30:00.004
+2019-09-01 14:28:53,062 INFO 65303 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34266938ms at 2019-09-02 00:00:00.000
+2019-09-01 14:28:53,062 INFO 65303 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34267938ms at 2019-09-02 00:00:01.000
+2019-09-01 14:36:42,700 INFO 65493 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:36:42,700 INFO 65493 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:36:42,700 INFO 65493 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:38:48,900 INFO 65817 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:38:48,900 INFO 65817 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:38:48,900 INFO 65817 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:39:02,511 INFO 65838 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:39:02,511 INFO 65838 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:39:02,511 INFO 65838 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:40:34,442 INFO 65970 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:40:34,442 INFO 65970 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:40:34,442 INFO 65970 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:41:49,781 INFO 66060 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:41:49,781 INFO 66060 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:41:49,781 INFO 66060 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:42:12,405 INFO 66084 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:42:12,405 INFO 66084 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:42:12,405 INFO 66084 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:44:05,423 INFO 66198 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:44:05,423 INFO 66198 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:44:05,423 INFO 66198 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:44:08,438 INFO 66217 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:44:08,438 INFO 66217 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:44:08,438 INFO 66217 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:46:53,421 INFO 66318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:46:53,421 INFO 66318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:46:53,421 INFO 66318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:47:22,516 INFO 66340 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:47:22,516 INFO 66340 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:47:22,516 INFO 66340 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:48:18,869 INFO 66446 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:48:18,869 INFO 66446 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:48:18,869 INFO 66446 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:48:19,704 INFO 66438 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49300299ms at 2019-09-02 04:30:00.003
+2019-09-01 14:48:19,705 INFO 66438 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 33100296ms at 2019-09-02 00:00:00.001
+2019-09-01 14:48:19,705 INFO 66438 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 33101295ms at 2019-09-02 00:00:01.000
+2019-09-01 14:49:14,889 INFO 66520 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:49:14,889 INFO 66520 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:49:14,889 INFO 66520 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:50:38,923 INFO 66687 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:50:38,923 INFO 66687 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:50:38,923 INFO 66687 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:50:39,747 INFO 66679 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 49160256ms at 2019-09-02 04:30:00.002
+2019-09-01 14:50:39,747 INFO 66679 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32960253ms at 2019-09-02 00:00:00.000
+2019-09-01 14:50:39,747 INFO 66679 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32961253ms at 2019-09-02 00:00:01.000
+2019-09-01 14:52:26,589 INFO 66822 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:52:26,589 INFO 66822 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:52:26,589 INFO 66822 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:53:53,829 INFO 66971 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:53:53,829 INFO 66971 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:53:53,829 INFO 66971 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:54:03,602 INFO 66991 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:54:03,602 INFO 66991 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:54:03,602 INFO 66991 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:54:20,592 INFO 67021 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:54:20,592 INFO 67021 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:54:20,592 INFO 67021 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:54:21,393 INFO 67013 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48938610ms at 2019-09-02 04:30:00.003
+2019-09-01 14:54:21,394 INFO 67013 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32738606ms at 2019-09-02 00:00:00.000
+2019-09-01 14:54:21,394 INFO 67013 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32739606ms at 2019-09-02 00:00:01.000
+2019-09-01 14:54:57,000 INFO 67062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:54:57,000 INFO 67062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:54:57,000 INFO 67062 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:54:57,954 INFO 67054 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48902049ms at 2019-09-02 04:30:00.003
+2019-09-01 14:54:57,954 INFO 67054 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32702046ms at 2019-09-02 00:00:00.000
+2019-09-01 14:54:57,955 INFO 67054 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32703046ms at 2019-09-02 00:00:01.001
+2019-09-01 14:55:33,576 INFO 67138 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:55:33,576 INFO 67138 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:55:33,576 INFO 67138 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:55:34,629 INFO 67130 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48865375ms at 2019-09-02 04:30:00.004
+2019-09-01 14:55:34,630 INFO 67130 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32665371ms at 2019-09-02 00:00:00.001
+2019-09-01 14:55:34,630 INFO 67130 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32666370ms at 2019-09-02 00:00:01.000
+2019-09-01 14:55:55,688 INFO 67170 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:55:55,688 INFO 67170 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:55:55,688 INFO 67170 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:55:58,716 INFO 67189 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:55:58,716 INFO 67189 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:55:58,716 INFO 67189 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:56:08,331 INFO 67219 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:56:08,331 INFO 67219 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:56:08,331 INFO 67219 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:56:09,189 INFO 67211 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48830815ms at 2019-09-02 04:30:00.004
+2019-09-01 14:56:09,189 INFO 67211 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32630811ms at 2019-09-02 00:00:00.000
+2019-09-01 14:56:09,190 INFO 67211 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32631811ms at 2019-09-02 00:00:01.001
+2019-09-01 14:58:03,618 INFO 67318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:58:03,618 INFO 67318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:58:03,618 INFO 67318 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:58:34,707 INFO 67366 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:58:34,707 INFO 67366 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:58:34,707 INFO 67366 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:59:05,151 INFO 67398 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 14:59:05,151 INFO 67398 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 14:59:05,151 INFO 67398 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 14:59:06,004 INFO 67389 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48654000ms at 2019-09-02 04:30:00.004
+2019-09-01 14:59:06,004 INFO 67389 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32453996ms at 2019-09-02 00:00:00.000
+2019-09-01 14:59:06,004 INFO 67389 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32454996ms at 2019-09-02 00:00:01.000
+2019-09-01 15:00:19,188 INFO 67512 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 15:00:19,188 INFO 67512 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 15:00:19,188 INFO 67512 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 15:00:20,027 INFO 67504 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 48579977ms at 2019-09-02 04:30:00.004
+2019-09-01 15:00:20,027 INFO 67504 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 32379973ms at 2019-09-02 00:00:00.000
+2019-09-01 15:00:20,027 INFO 67504 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 32380973ms at 2019-09-02 00:00:01.000
+2019-09-01 15:14:40,747 INFO 68609 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 15:14:40,747 INFO 68609 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 15:14:40,747 INFO 68609 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-01 15:14:41,733 INFO 68605 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47718270ms at 2019-09-02 04:30:00.003
+2019-09-01 15:14:41,733 INFO 68605 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 31518267ms at 2019-09-02 00:00:00.000
+2019-09-01 15:14:41,733 INFO 68605 [Timer] /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31519267ms at 2019-09-02 00:00:01.000
+2019-09-01 15:16:01,722 INFO 68682 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-01 15:16:01,722 INFO 68682 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-09-01 15:16:01,722 INFO 68682 [egg-schedule]: register schedule /Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

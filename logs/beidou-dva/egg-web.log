@@ -1,0 +1,1268 @@
+2019-08-23 11:07:07,095 INFO 71347 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-23 11:07:07,126 INFO 71347 [egg-multipart] stream mode enable
+2019-08-23 11:07:07,240 INFO 71347 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-23 11:07:07,245 INFO 71347 [egg-security] use csrf middleware
+2019-08-23 11:07:07,246 INFO 71347 [egg-security] use methodnoallow middleware
+2019-08-23 11:07:07,247 INFO 71347 [egg-security] use noopen middleware
+2019-08-23 11:07:07,249 INFO 71347 [egg-security] use nosniff middleware
+2019-08-23 11:07:07,250 INFO 71347 [egg-security] use xssProtection middleware
+2019-08-23 11:07:07,251 INFO 71347 [egg-security] use xframe middleware
+2019-08-23 11:07:07,252 INFO 71347 [egg-security] use dta middleware
+2019-08-23 11:07:07,252 INFO 71347 [egg-security] compose 7 middlewares into one security middleware
+2019-08-23 11:07:07,271 INFO 71347 [egg:core] dump config after load, 7ms
+2019-08-23 11:07:07,398 INFO 71347 [egg-watcher:application] watcher start success
+2019-08-23 11:07:07,409 INFO 71347 [egg:core] dump config after ready, 8ms
+2019-08-23 13:19:20,245 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-23 14:59:46,769 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-23 16:59:20,046 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-23 16:59:20,058 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-23 18:58:56,061 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-23 18:58:56,068 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-23 20:58:30,934 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-23 20:58:30,957 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-23 22:58:08,037 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-23 22:58:08,043 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 00:00:00,279 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-24 00:00:00,382 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 18:24:01,689 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 19:12:35,971 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 19:30:03,198 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-24 19:30:03,198 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 19:37:11,864 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 19:56:56,565 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-24 19:56:56,565 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 21:26:28,849 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-24 21:26:28,850 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-24 23:00:08,189 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-24 23:00:08,189 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 00:18:33,878 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 00:18:33,894 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 00:33:06,797 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 00:33:06,842 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 00:59:48,792 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 01:10:11,936 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 01:10:11,947 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 01:20:29,141 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 01:30:30,560 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 01:54:46,798 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 01:54:46,949 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 02:09:20,639 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 02:37:33,863 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 02:37:33,889 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 07:44:21,917 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 07:44:21,922 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 08:13:56,682 WARN 71347 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 08:13:56,745 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 09:37:05,674 WARN 71347 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 09:43:18,446 INFO 74092 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-25 09:43:18,472 INFO 74092 [egg-multipart] stream mode enable
+2019-08-25 09:43:18,574 INFO 74092 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-25 09:43:18,577 INFO 74092 [egg-security] use csrf middleware
+2019-08-25 09:43:18,578 INFO 74092 [egg-security] use methodnoallow middleware
+2019-08-25 09:43:18,578 INFO 74092 [egg-security] use noopen middleware
+2019-08-25 09:43:18,579 INFO 74092 [egg-security] use nosniff middleware
+2019-08-25 09:43:18,580 INFO 74092 [egg-security] use xssProtection middleware
+2019-08-25 09:43:18,581 INFO 74092 [egg-security] use xframe middleware
+2019-08-25 09:43:18,581 INFO 74092 [egg-security] use dta middleware
+2019-08-25 09:43:18,581 INFO 74092 [egg-security] compose 7 middlewares into one security middleware
+2019-08-25 09:43:18,601 INFO 74092 [egg:core] dump config after load, 6ms
+2019-08-25 09:43:19,104 INFO 74092 [egg-watcher:application] watcher start success
+2019-08-25 09:43:19,114 INFO 74092 [egg:core] dump config after ready, 8ms
+2019-08-25 10:11:30,635 WARN 74092 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 11:05:30,486 WARN 74092 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 13:07:23,848 WARN 74092 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 13:07:23,848 WARN 74092 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 21:51:16,543 WARN 74092 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-25 21:51:16,551 WARN 74092 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-25 22:00:02,112 INFO 74565 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-25 22:00:02,138 INFO 74565 [egg-multipart] stream mode enable
+2019-08-25 22:00:02,229 INFO 74565 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-25 22:00:02,233 INFO 74565 [egg-security] use csrf middleware
+2019-08-25 22:00:02,234 INFO 74565 [egg-security] use methodnoallow middleware
+2019-08-25 22:00:02,234 INFO 74565 [egg-security] use noopen middleware
+2019-08-25 22:00:02,235 INFO 74565 [egg-security] use nosniff middleware
+2019-08-25 22:00:02,236 INFO 74565 [egg-security] use xssProtection middleware
+2019-08-25 22:00:02,236 INFO 74565 [egg-security] use xframe middleware
+2019-08-25 22:00:02,237 INFO 74565 [egg-security] use dta middleware
+2019-08-25 22:00:02,237 INFO 74565 [egg-security] compose 7 middlewares into one security middleware
+2019-08-25 22:00:02,251 INFO 74565 [egg:core] dump config after load, 6ms
+2019-08-25 22:00:02,774 INFO 74565 [egg-watcher:application] watcher start success
+2019-08-25 22:00:02,782 INFO 74565 [egg:core] dump config after ready, 7ms
+2019-08-25 22:02:01,879 INFO 74653 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-25 22:02:01,909 INFO 74653 [egg-multipart] stream mode enable
+2019-08-25 22:02:01,983 INFO 74653 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-25 22:02:01,986 INFO 74653 [egg-security] use csrf middleware
+2019-08-25 22:02:01,990 INFO 74653 [egg-security] use methodnoallow middleware
+2019-08-25 22:02:01,990 INFO 74653 [egg-security] use noopen middleware
+2019-08-25 22:02:01,991 INFO 74653 [egg-security] use nosniff middleware
+2019-08-25 22:02:01,991 INFO 74653 [egg-security] use xssProtection middleware
+2019-08-25 22:02:01,992 INFO 74653 [egg-security] use xframe middleware
+2019-08-25 22:02:01,992 INFO 74653 [egg-security] use dta middleware
+2019-08-25 22:02:01,992 INFO 74653 [egg-security] compose 7 middlewares into one security middleware
+2019-08-25 22:02:02,006 INFO 74653 [egg:core] dump config after load, 6ms
+2019-08-25 22:02:02,603 INFO 74653 [egg-watcher:application] watcher start success
+2019-08-25 22:02:02,611 INFO 74653 [egg:core] dump config after ready, 6ms
+2019-08-25 22:02:18,127 INFO 74690 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-25 22:02:18,174 INFO 74690 [egg-multipart] stream mode enable
+2019-08-25 22:02:18,277 INFO 74690 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-25 22:02:18,280 INFO 74690 [egg-security] use csrf middleware
+2019-08-25 22:02:18,281 INFO 74690 [egg-security] use methodnoallow middleware
+2019-08-25 22:02:18,281 INFO 74690 [egg-security] use noopen middleware
+2019-08-25 22:02:18,282 INFO 74690 [egg-security] use nosniff middleware
+2019-08-25 22:02:18,282 INFO 74690 [egg-security] use xssProtection middleware
+2019-08-25 22:02:18,283 INFO 74690 [egg-security] use xframe middleware
+2019-08-25 22:02:18,283 INFO 74690 [egg-security] use dta middleware
+2019-08-25 22:02:18,283 INFO 74690 [egg-security] compose 7 middlewares into one security middleware
+2019-08-25 22:02:18,296 INFO 74690 [egg:core] dump config after load, 5ms
+2019-08-25 22:02:19,121 INFO 74690 [egg-watcher:application] watcher start success
+2019-08-25 22:02:19,129 INFO 74690 [egg:core] dump config after ready, 6ms
+2019-08-25 22:05:43,291 INFO 74877 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-25 22:05:43,317 INFO 74877 [egg-multipart] stream mode enable
+2019-08-25 22:05:43,387 INFO 74877 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-25 22:05:43,390 INFO 74877 [egg-security] use csrf middleware
+2019-08-25 22:05:43,391 INFO 74877 [egg-security] use methodnoallow middleware
+2019-08-25 22:05:43,391 INFO 74877 [egg-security] use noopen middleware
+2019-08-25 22:05:43,392 INFO 74877 [egg-security] use nosniff middleware
+2019-08-25 22:05:43,393 INFO 74877 [egg-security] use xssProtection middleware
+2019-08-25 22:05:43,393 INFO 74877 [egg-security] use xframe middleware
+2019-08-25 22:05:43,393 INFO 74877 [egg-security] use dta middleware
+2019-08-25 22:05:43,393 INFO 74877 [egg-security] compose 7 middlewares into one security middleware
+2019-08-25 22:05:43,406 INFO 74877 [egg:core] dump config after load, 5ms
+2019-08-25 22:05:44,061 INFO 74877 [egg-watcher:application] watcher start success
+2019-08-25 22:05:44,071 INFO 74877 [egg:core] dump config after ready, 8ms
+2019-08-25 23:06:37,737 WARN 74877 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-26 09:05:41,533 WARN 74877 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-26 09:05:41,539 WARN 74877 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-26 09:44:25,209 WARN 74877 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-26 09:49:26,492 WARN 74877 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-26 11:09:33,613 INFO 78144 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:09:33,647 INFO 78144 [egg-multipart] stream mode enable
+2019-08-26 11:09:33,773 INFO 78144 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:09:33,777 INFO 78144 [egg-security] use csrf middleware
+2019-08-26 11:09:33,779 INFO 78144 [egg-security] use methodnoallow middleware
+2019-08-26 11:09:33,780 INFO 78144 [egg-security] use noopen middleware
+2019-08-26 11:09:33,781 INFO 78144 [egg-security] use nosniff middleware
+2019-08-26 11:09:33,782 INFO 78144 [egg-security] use xssProtection middleware
+2019-08-26 11:09:33,783 INFO 78144 [egg-security] use xframe middleware
+2019-08-26 11:09:33,784 INFO 78144 [egg-security] use dta middleware
+2019-08-26 11:09:33,784 INFO 78144 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:09:33,807 INFO 78144 [egg:core] dump config after load, 11ms
+2019-08-26 11:09:34,287 INFO 78144 [egg-watcher:application] watcher start success
+2019-08-26 11:09:34,295 INFO 78144 [egg:core] dump config after ready, 6ms
+2019-08-26 11:20:31,636 INFO 78481 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:20:31,636 INFO 78481 [egg:core] dump config after load, 9ms
+2019-08-26 11:20:32,700 INFO 78481 [egg:core] dump config after ready, 5ms
+2019-08-26 11:21:55,078 INFO 78557 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:21:55,078 INFO 78557 [egg:core] dump config after load, 9ms
+2019-08-26 11:21:56,237 INFO 78557 [egg:core] dump config after ready, 4ms
+2019-08-26 11:23:20,011 INFO 78653 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:23:20,039 INFO 78653 [egg-multipart] stream mode enable
+2019-08-26 11:23:20,126 INFO 78653 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:23:20,129 INFO 78653 [egg-security] use csrf middleware
+2019-08-26 11:23:20,131 INFO 78653 [egg-security] use methodnoallow middleware
+2019-08-26 11:23:20,132 INFO 78653 [egg-security] use noopen middleware
+2019-08-26 11:23:20,134 INFO 78653 [egg-security] use nosniff middleware
+2019-08-26 11:23:20,135 INFO 78653 [egg-security] use xssProtection middleware
+2019-08-26 11:23:20,136 INFO 78653 [egg-security] use xframe middleware
+2019-08-26 11:23:20,136 INFO 78653 [egg-security] use dta middleware
+2019-08-26 11:23:20,136 INFO 78653 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:23:20,159 INFO 78653 [egg:core] dump config after load, 9ms
+2019-08-26 11:23:20,884 INFO 78653 [egg-watcher:application] watcher start success
+2019-08-26 11:23:20,892 INFO 78653 [egg:core] dump config after ready, 6ms
+2019-08-26 11:27:51,566 INFO 78941 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:27:51,596 INFO 78941 [egg-multipart] stream mode enable
+2019-08-26 11:27:51,684 INFO 78941 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:27:51,688 INFO 78941 [egg-security] use csrf middleware
+2019-08-26 11:27:51,690 INFO 78941 [egg-security] use methodnoallow middleware
+2019-08-26 11:27:51,691 INFO 78941 [egg-security] use noopen middleware
+2019-08-26 11:27:51,692 INFO 78941 [egg-security] use nosniff middleware
+2019-08-26 11:27:51,692 INFO 78941 [egg-security] use xssProtection middleware
+2019-08-26 11:27:51,692 INFO 78941 [egg-security] use xframe middleware
+2019-08-26 11:27:51,693 INFO 78941 [egg-security] use dta middleware
+2019-08-26 11:27:51,693 INFO 78941 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:27:51,712 INFO 78941 [egg:core] dump config after load, 9ms
+2019-08-26 11:27:52,428 INFO 78941 [egg-watcher:application] watcher start success
+2019-08-26 11:27:52,436 INFO 78941 [egg:core] dump config after ready, 6ms
+2019-08-26 11:29:46,104 INFO 79083 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:29:46,129 INFO 79083 [egg-multipart] stream mode enable
+2019-08-26 11:29:46,200 INFO 79083 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:29:46,203 INFO 79083 [egg-security] use csrf middleware
+2019-08-26 11:29:46,206 INFO 79083 [egg-security] use methodnoallow middleware
+2019-08-26 11:29:46,207 INFO 79083 [egg-security] use noopen middleware
+2019-08-26 11:29:46,208 INFO 79083 [egg-security] use nosniff middleware
+2019-08-26 11:29:46,208 INFO 79083 [egg-security] use xssProtection middleware
+2019-08-26 11:29:46,208 INFO 79083 [egg-security] use xframe middleware
+2019-08-26 11:29:46,209 INFO 79083 [egg-security] use dta middleware
+2019-08-26 11:29:46,209 INFO 79083 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:29:46,224 INFO 79083 [egg:core] dump config after load, 7ms
+2019-08-26 11:29:46,909 INFO 79083 [egg-watcher:application] watcher start success
+2019-08-26 11:29:46,917 INFO 79083 [egg:core] dump config after ready, 6ms
+2019-08-26 11:43:44,110 INFO 79929 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:43:44,138 INFO 79929 [egg-multipart] stream mode enable
+2019-08-26 11:43:44,214 INFO 79929 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:43:44,217 INFO 79929 [egg-security] use csrf middleware
+2019-08-26 11:43:44,217 INFO 79929 [egg-security] use methodnoallow middleware
+2019-08-26 11:43:44,218 INFO 79929 [egg-security] use noopen middleware
+2019-08-26 11:43:44,218 INFO 79929 [egg-security] use nosniff middleware
+2019-08-26 11:43:44,219 INFO 79929 [egg-security] use xssProtection middleware
+2019-08-26 11:43:44,219 INFO 79929 [egg-security] use xframe middleware
+2019-08-26 11:43:44,219 INFO 79929 [egg-security] use dta middleware
+2019-08-26 11:43:44,220 INFO 79929 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:43:44,232 INFO 79929 [egg:core] dump config after load, 6ms
+2019-08-26 11:43:44,263 INFO 79929 [egg-watcher:application] watcher start success
+2019-08-26 11:43:44,272 INFO 79929 [egg:core] dump config after ready, 6ms
+2019-08-26 11:45:13,098 INFO 80128 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-26 11:45:13,128 INFO 80128 [egg-multipart] stream mode enable
+2019-08-26 11:45:13,203 INFO 80128 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-26 11:45:13,206 INFO 80128 [egg-security] use csrf middleware
+2019-08-26 11:45:13,207 INFO 80128 [egg-security] use methodnoallow middleware
+2019-08-26 11:45:13,208 INFO 80128 [egg-security] use noopen middleware
+2019-08-26 11:45:13,208 INFO 80128 [egg-security] use nosniff middleware
+2019-08-26 11:45:13,209 INFO 80128 [egg-security] use xssProtection middleware
+2019-08-26 11:45:13,209 INFO 80128 [egg-security] use xframe middleware
+2019-08-26 11:45:13,209 INFO 80128 [egg-security] use dta middleware
+2019-08-26 11:45:13,209 INFO 80128 [egg-security] compose 7 middlewares into one security middleware
+2019-08-26 11:45:13,223 INFO 80128 [egg:core] dump config after load, 6ms
+2019-08-26 11:45:14,050 INFO 80128 [egg-watcher:application] watcher start success
+2019-08-26 11:45:14,058 INFO 80128 [egg:core] dump config after ready, 6ms
+2019-08-31 10:20:13,420 INFO 56341 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:20:13,448 INFO 56341 [egg-multipart] stream mode enable
+2019-08-31 10:20:13,553 INFO 56341 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:20:13,557 INFO 56341 [egg-security] use csrf middleware
+2019-08-31 10:20:13,559 INFO 56341 [egg-security] use methodnoallow middleware
+2019-08-31 10:20:13,559 INFO 56341 [egg-security] use noopen middleware
+2019-08-31 10:20:13,565 INFO 56341 [egg-security] use nosniff middleware
+2019-08-31 10:20:13,566 INFO 56341 [egg-security] use xssProtection middleware
+2019-08-31 10:20:13,567 INFO 56341 [egg-security] use xframe middleware
+2019-08-31 10:20:13,567 INFO 56341 [egg-security] use dta middleware
+2019-08-31 10:20:13,567 INFO 56341 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:20:13,722 INFO 56341 [egg:core] dump config after load, 5ms
+2019-08-31 10:20:14,589 INFO 56341 [egg-watcher:application] watcher start success
+2019-08-31 10:20:14,597 INFO 56341 [egg:core] dump config after ready, 6ms
+2019-08-31 10:23:55,060 INFO 56555 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:23:55,092 INFO 56555 [egg-multipart] stream mode enable
+2019-08-31 10:23:55,180 INFO 56555 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:23:55,184 INFO 56555 [egg-security] use csrf middleware
+2019-08-31 10:23:55,186 INFO 56555 [egg-security] use methodnoallow middleware
+2019-08-31 10:23:55,186 INFO 56555 [egg-security] use noopen middleware
+2019-08-31 10:23:55,188 INFO 56555 [egg-security] use nosniff middleware
+2019-08-31 10:23:55,188 INFO 56555 [egg-security] use xssProtection middleware
+2019-08-31 10:23:55,189 INFO 56555 [egg-security] use xframe middleware
+2019-08-31 10:23:55,189 INFO 56555 [egg-security] use dta middleware
+2019-08-31 10:23:55,189 INFO 56555 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:23:55,326 INFO 56555 [egg:core] dump config after load, 6ms
+2019-08-31 10:23:55,392 INFO 56555 [egg-watcher:application] watcher start success
+2019-08-31 10:23:55,401 INFO 56555 [egg:core] dump config after ready, 6ms
+2019-08-31 10:34:49,392 INFO 57414 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:34:49,433 INFO 57414 [egg-multipart] stream mode enable
+2019-08-31 10:34:49,536 INFO 57414 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:34:49,539 INFO 57414 [egg-security] use csrf middleware
+2019-08-31 10:34:49,540 INFO 57414 [egg-security] use methodnoallow middleware
+2019-08-31 10:34:49,541 INFO 57414 [egg-security] use noopen middleware
+2019-08-31 10:34:49,542 INFO 57414 [egg-security] use nosniff middleware
+2019-08-31 10:34:49,543 INFO 57414 [egg-security] use xssProtection middleware
+2019-08-31 10:34:49,543 INFO 57414 [egg-security] use xframe middleware
+2019-08-31 10:34:49,544 INFO 57414 [egg-security] use dta middleware
+2019-08-31 10:34:49,544 INFO 57414 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:34:49,572 INFO 57414 [egg:core] dump config after load, 5ms
+2019-08-31 10:34:49,584 INFO 57414 [egg-watcher:application] watcher start success
+2019-08-31 10:34:49,592 INFO 57414 [egg:core] dump config after ready, 6ms
+2019-08-31 10:35:21,163 INFO 57510 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:35:21,192 INFO 57510 [egg-multipart] stream mode enable
+2019-08-31 10:35:21,271 INFO 57510 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:35:21,274 INFO 57510 [egg-security] use csrf middleware
+2019-08-31 10:35:21,275 INFO 57510 [egg-security] use methodnoallow middleware
+2019-08-31 10:35:21,275 INFO 57510 [egg-security] use noopen middleware
+2019-08-31 10:35:21,276 INFO 57510 [egg-security] use nosniff middleware
+2019-08-31 10:35:21,276 INFO 57510 [egg-security] use xssProtection middleware
+2019-08-31 10:35:21,277 INFO 57510 [egg-security] use xframe middleware
+2019-08-31 10:35:21,277 INFO 57510 [egg-security] use dta middleware
+2019-08-31 10:35:21,277 INFO 57510 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:35:21,304 INFO 57510 [egg:core] dump config after load, 5ms
+2019-08-31 10:35:21,891 INFO 57510 [egg-watcher:application] watcher start success
+2019-08-31 10:35:21,899 INFO 57510 [egg:core] dump config after ready, 6ms
+2019-08-31 10:36:58,236 INFO 57746 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:36:58,271 INFO 57746 [egg-multipart] stream mode enable
+2019-08-31 10:36:58,353 INFO 57746 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:36:58,355 INFO 57746 [egg-security] use csrf middleware
+2019-08-31 10:36:58,356 INFO 57746 [egg-security] use methodnoallow middleware
+2019-08-31 10:36:58,356 INFO 57746 [egg-security] use noopen middleware
+2019-08-31 10:36:58,357 INFO 57746 [egg-security] use nosniff middleware
+2019-08-31 10:36:58,357 INFO 57746 [egg-security] use xssProtection middleware
+2019-08-31 10:36:58,358 INFO 57746 [egg-security] use xframe middleware
+2019-08-31 10:36:58,358 INFO 57746 [egg-security] use dta middleware
+2019-08-31 10:36:58,358 INFO 57746 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:36:58,385 INFO 57746 [egg:core] dump config after load, 6ms
+2019-08-31 10:36:58,398 INFO 57746 [egg-watcher:application] watcher start success
+2019-08-31 10:36:58,406 INFO 57746 [egg:core] dump config after ready, 5ms
+2019-08-31 10:41:33,223 INFO 57972 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:41:33,253 INFO 57972 [egg-multipart] stream mode enable
+2019-08-31 10:41:33,334 INFO 57972 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:41:33,338 INFO 57972 [egg-security] use csrf middleware
+2019-08-31 10:41:33,339 INFO 57972 [egg-security] use methodnoallow middleware
+2019-08-31 10:41:33,340 INFO 57972 [egg-security] use noopen middleware
+2019-08-31 10:41:33,340 INFO 57972 [egg-security] use nosniff middleware
+2019-08-31 10:41:33,341 INFO 57972 [egg-security] use xssProtection middleware
+2019-08-31 10:41:33,341 INFO 57972 [egg-security] use xframe middleware
+2019-08-31 10:41:33,342 INFO 57972 [egg-security] use dta middleware
+2019-08-31 10:41:33,342 INFO 57972 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:41:33,366 INFO 57972 [egg:core] dump config after load, 5ms
+2019-08-31 10:41:33,381 INFO 57972 [egg-watcher:application] watcher start success
+2019-08-31 10:41:33,389 INFO 57972 [egg:core] dump config after ready, 6ms
+2019-08-31 10:50:10,250 INFO 58551 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 10:50:10,279 INFO 58551 [egg-multipart] stream mode enable
+2019-08-31 10:50:10,386 INFO 58551 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 10:50:10,389 INFO 58551 [egg-security] use csrf middleware
+2019-08-31 10:50:10,391 INFO 58551 [egg-security] use methodnoallow middleware
+2019-08-31 10:50:10,392 INFO 58551 [egg-security] use noopen middleware
+2019-08-31 10:50:10,393 INFO 58551 [egg-security] use nosniff middleware
+2019-08-31 10:50:10,394 INFO 58551 [egg-security] use xssProtection middleware
+2019-08-31 10:50:10,395 INFO 58551 [egg-security] use xframe middleware
+2019-08-31 10:50:10,395 INFO 58551 [egg-security] use dta middleware
+2019-08-31 10:50:10,395 INFO 58551 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 10:50:10,442 INFO 58551 [egg:core] dump config after load, 7ms
+2019-08-31 10:50:10,770 INFO 58551 [egg-watcher:application] watcher start success
+2019-08-31 10:50:10,777 INFO 58551 [egg:core] dump config after ready, 5ms
+2019-08-31 11:09:16,379 INFO 59749 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:09:16,408 INFO 59749 [egg-multipart] stream mode enable
+2019-08-31 11:09:16,508 INFO 59749 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:09:16,512 INFO 59749 [egg-security] use csrf middleware
+2019-08-31 11:09:16,514 INFO 59749 [egg-security] use methodnoallow middleware
+2019-08-31 11:09:16,515 INFO 59749 [egg-security] use noopen middleware
+2019-08-31 11:09:16,517 INFO 59749 [egg-security] use nosniff middleware
+2019-08-31 11:09:16,518 INFO 59749 [egg-security] use xssProtection middleware
+2019-08-31 11:09:16,519 INFO 59749 [egg-security] use xframe middleware
+2019-08-31 11:09:16,520 INFO 59749 [egg-security] use dta middleware
+2019-08-31 11:09:16,520 INFO 59749 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:09:16,572 INFO 59749 [egg:core] dump config after load, 16ms
+2019-08-31 11:09:16,589 INFO 59749 [egg-watcher:application] watcher start success
+2019-08-31 11:09:16,595 INFO 59749 [egg:core] dump config after ready, 4ms
+2019-08-31 11:10:12,737 INFO 59793 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:10:12,766 INFO 59793 [egg-multipart] stream mode enable
+2019-08-31 11:10:12,845 INFO 59793 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:10:12,848 INFO 59793 [egg-security] use csrf middleware
+2019-08-31 11:10:12,849 INFO 59793 [egg-security] use methodnoallow middleware
+2019-08-31 11:10:12,849 INFO 59793 [egg-security] use noopen middleware
+2019-08-31 11:10:12,850 INFO 59793 [egg-security] use nosniff middleware
+2019-08-31 11:10:12,851 INFO 59793 [egg-security] use xssProtection middleware
+2019-08-31 11:10:12,851 INFO 59793 [egg-security] use xframe middleware
+2019-08-31 11:10:12,852 INFO 59793 [egg-security] use dta middleware
+2019-08-31 11:10:12,852 INFO 59793 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:10:12,880 INFO 59793 [egg:core] dump config after load, 6ms
+2019-08-31 11:10:12,909 INFO 59793 [egg-watcher:application] watcher start success
+2019-08-31 11:10:12,917 INFO 59793 [egg:core] dump config after ready, 5ms
+2019-08-31 11:11:25,581 INFO 59990 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:11:25,607 INFO 59990 [egg-multipart] stream mode enable
+2019-08-31 11:11:25,678 INFO 59990 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:11:25,682 INFO 59990 [egg-security] use csrf middleware
+2019-08-31 11:11:25,683 INFO 59990 [egg-security] use methodnoallow middleware
+2019-08-31 11:11:25,683 INFO 59990 [egg-security] use noopen middleware
+2019-08-31 11:11:25,684 INFO 59990 [egg-security] use nosniff middleware
+2019-08-31 11:11:25,684 INFO 59990 [egg-security] use xssProtection middleware
+2019-08-31 11:11:25,684 INFO 59990 [egg-security] use xframe middleware
+2019-08-31 11:11:25,685 INFO 59990 [egg-security] use dta middleware
+2019-08-31 11:11:25,685 INFO 59990 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:11:25,710 INFO 59990 [egg:core] dump config after load, 5ms
+2019-08-31 11:11:25,731 INFO 59990 [egg-watcher:application] watcher start success
+2019-08-31 11:11:25,747 INFO 59990 [egg:core] dump config after ready, 13ms
+2019-08-31 11:11:42,702 INFO 60025 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:11:42,729 INFO 60025 [egg-multipart] stream mode enable
+2019-08-31 11:11:42,804 INFO 60025 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:11:42,807 INFO 60025 [egg-security] use csrf middleware
+2019-08-31 11:11:42,808 INFO 60025 [egg-security] use methodnoallow middleware
+2019-08-31 11:11:42,808 INFO 60025 [egg-security] use noopen middleware
+2019-08-31 11:11:42,809 INFO 60025 [egg-security] use nosniff middleware
+2019-08-31 11:11:42,809 INFO 60025 [egg-security] use xssProtection middleware
+2019-08-31 11:11:42,809 INFO 60025 [egg-security] use xframe middleware
+2019-08-31 11:11:42,810 INFO 60025 [egg-security] use dta middleware
+2019-08-31 11:11:42,810 INFO 60025 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:11:42,840 INFO 60025 [egg:core] dump config after load, 7ms
+2019-08-31 11:11:43,533 INFO 60025 [egg-watcher:application] watcher start success
+2019-08-31 11:11:43,541 INFO 60025 [egg:core] dump config after ready, 6ms
+2019-08-31 11:12:03,869 INFO 60031 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:12:03,899 INFO 60031 [egg-multipart] stream mode enable
+2019-08-31 11:12:03,971 INFO 60031 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:12:03,974 INFO 60031 [egg-security] use csrf middleware
+2019-08-31 11:12:03,974 INFO 60031 [egg-security] use methodnoallow middleware
+2019-08-31 11:12:03,975 INFO 60031 [egg-security] use noopen middleware
+2019-08-31 11:12:03,975 INFO 60031 [egg-security] use nosniff middleware
+2019-08-31 11:12:03,976 INFO 60031 [egg-security] use xssProtection middleware
+2019-08-31 11:12:03,976 INFO 60031 [egg-security] use xframe middleware
+2019-08-31 11:12:03,976 INFO 60031 [egg-security] use dta middleware
+2019-08-31 11:12:03,976 INFO 60031 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:12:04,005 INFO 60031 [egg:core] dump config after load, 7ms
+2019-08-31 11:12:04,024 INFO 60031 [egg-watcher:application] watcher start success
+2019-08-31 11:12:04,034 INFO 60031 [egg:core] dump config after ready, 6ms
+2019-08-31 11:12:23,071 INFO 60062 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:12:23,097 INFO 60062 [egg-multipart] stream mode enable
+2019-08-31 11:12:23,167 INFO 60062 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:12:23,169 INFO 60062 [egg-security] use csrf middleware
+2019-08-31 11:12:23,170 INFO 60062 [egg-security] use methodnoallow middleware
+2019-08-31 11:12:23,170 INFO 60062 [egg-security] use noopen middleware
+2019-08-31 11:12:23,171 INFO 60062 [egg-security] use nosniff middleware
+2019-08-31 11:12:23,171 INFO 60062 [egg-security] use xssProtection middleware
+2019-08-31 11:12:23,172 INFO 60062 [egg-security] use xframe middleware
+2019-08-31 11:12:23,172 INFO 60062 [egg-security] use dta middleware
+2019-08-31 11:12:23,172 INFO 60062 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:12:23,197 INFO 60062 [egg:core] dump config after load, 5ms
+2019-08-31 11:12:23,872 INFO 60062 [egg-watcher:application] watcher start success
+2019-08-31 11:12:23,880 INFO 60062 [egg:core] dump config after ready, 6ms
+2019-08-31 11:13:40,730 INFO 60073 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:13:40,757 INFO 60073 [egg-multipart] stream mode enable
+2019-08-31 11:13:40,832 INFO 60073 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:13:40,834 INFO 60073 [egg-security] use csrf middleware
+2019-08-31 11:13:40,835 INFO 60073 [egg-security] use methodnoallow middleware
+2019-08-31 11:13:40,835 INFO 60073 [egg-security] use noopen middleware
+2019-08-31 11:13:40,836 INFO 60073 [egg-security] use nosniff middleware
+2019-08-31 11:13:40,836 INFO 60073 [egg-security] use xssProtection middleware
+2019-08-31 11:13:40,837 INFO 60073 [egg-security] use xframe middleware
+2019-08-31 11:13:40,837 INFO 60073 [egg-security] use dta middleware
+2019-08-31 11:13:40,837 INFO 60073 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:13:40,865 INFO 60073 [egg:core] dump config after load, 7ms
+2019-08-31 11:13:40,885 INFO 60073 [egg-watcher:application] watcher start success
+2019-08-31 11:13:40,899 INFO 60073 [egg:core] dump config after ready, 6ms
+2019-08-31 11:13:52,579 INFO 60097 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:13:52,608 INFO 60097 [egg-multipart] stream mode enable
+2019-08-31 11:13:52,690 INFO 60097 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:13:52,693 INFO 60097 [egg-security] use csrf middleware
+2019-08-31 11:13:52,694 INFO 60097 [egg-security] use methodnoallow middleware
+2019-08-31 11:13:52,695 INFO 60097 [egg-security] use noopen middleware
+2019-08-31 11:13:52,695 INFO 60097 [egg-security] use nosniff middleware
+2019-08-31 11:13:52,696 INFO 60097 [egg-security] use xssProtection middleware
+2019-08-31 11:13:52,696 INFO 60097 [egg-security] use xframe middleware
+2019-08-31 11:13:52,696 INFO 60097 [egg-security] use dta middleware
+2019-08-31 11:13:52,696 INFO 60097 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:13:52,725 INFO 60097 [egg:core] dump config after load, 7ms
+2019-08-31 11:13:52,748 INFO 60097 [egg-watcher:application] watcher start success
+2019-08-31 11:13:52,761 INFO 60097 [egg:core] dump config after ready, 5ms
+2019-08-31 11:14:05,838 INFO 60128 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:14:05,871 INFO 60128 [egg-multipart] stream mode enable
+2019-08-31 11:14:05,945 INFO 60128 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:14:05,947 INFO 60128 [egg-security] use csrf middleware
+2019-08-31 11:14:05,948 INFO 60128 [egg-security] use methodnoallow middleware
+2019-08-31 11:14:05,949 INFO 60128 [egg-security] use noopen middleware
+2019-08-31 11:14:05,950 INFO 60128 [egg-security] use nosniff middleware
+2019-08-31 11:14:05,950 INFO 60128 [egg-security] use xssProtection middleware
+2019-08-31 11:14:05,951 INFO 60128 [egg-security] use xframe middleware
+2019-08-31 11:14:05,951 INFO 60128 [egg-security] use dta middleware
+2019-08-31 11:14:05,951 INFO 60128 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:14:05,988 INFO 60128 [egg:core] dump config after load, 10ms
+2019-08-31 11:14:06,850 INFO 60128 [egg-watcher:application] watcher start success
+2019-08-31 11:14:06,858 INFO 60128 [egg:core] dump config after ready, 6ms
+2019-08-31 11:15:52,173 INFO 60215 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:15:52,209 INFO 60215 [egg-multipart] stream mode enable
+2019-08-31 11:15:52,311 INFO 60215 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:15:52,315 INFO 60215 [egg-security] use csrf middleware
+2019-08-31 11:15:52,316 INFO 60215 [egg-security] use methodnoallow middleware
+2019-08-31 11:15:52,316 INFO 60215 [egg-security] use noopen middleware
+2019-08-31 11:15:52,317 INFO 60215 [egg-security] use nosniff middleware
+2019-08-31 11:15:52,317 INFO 60215 [egg-security] use xssProtection middleware
+2019-08-31 11:15:52,318 INFO 60215 [egg-security] use xframe middleware
+2019-08-31 11:15:52,319 INFO 60215 [egg-security] use dta middleware
+2019-08-31 11:15:52,319 INFO 60215 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:15:52,356 INFO 60215 [egg:core] dump config after load, 10ms
+2019-08-31 11:15:53,228 INFO 60215 [egg-watcher:application] watcher start success
+2019-08-31 11:15:53,238 INFO 60215 [egg:core] dump config after ready, 8ms
+2019-08-31 11:16:29,287 INFO 60224 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:16:29,317 INFO 60224 [egg-multipart] stream mode enable
+2019-08-31 11:16:29,395 INFO 60224 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:16:29,397 INFO 60224 [egg-security] use csrf middleware
+2019-08-31 11:16:29,398 INFO 60224 [egg-security] use methodnoallow middleware
+2019-08-31 11:16:29,399 INFO 60224 [egg-security] use noopen middleware
+2019-08-31 11:16:29,399 INFO 60224 [egg-security] use nosniff middleware
+2019-08-31 11:16:29,400 INFO 60224 [egg-security] use xssProtection middleware
+2019-08-31 11:16:29,400 INFO 60224 [egg-security] use xframe middleware
+2019-08-31 11:16:29,400 INFO 60224 [egg-security] use dta middleware
+2019-08-31 11:16:29,400 INFO 60224 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:16:29,430 INFO 60224 [egg:core] dump config after load, 7ms
+2019-08-31 11:16:29,450 INFO 60224 [egg-watcher:application] watcher start success
+2019-08-31 11:16:29,463 INFO 60224 [egg:core] dump config after ready, 11ms
+2019-08-31 11:16:42,481 INFO 60254 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:16:42,510 INFO 60254 [egg-multipart] stream mode enable
+2019-08-31 11:16:42,595 INFO 60254 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:16:42,597 INFO 60254 [egg-security] use csrf middleware
+2019-08-31 11:16:42,598 INFO 60254 [egg-security] use methodnoallow middleware
+2019-08-31 11:16:42,599 INFO 60254 [egg-security] use noopen middleware
+2019-08-31 11:16:42,599 INFO 60254 [egg-security] use nosniff middleware
+2019-08-31 11:16:42,600 INFO 60254 [egg-security] use xssProtection middleware
+2019-08-31 11:16:42,600 INFO 60254 [egg-security] use xframe middleware
+2019-08-31 11:16:42,600 INFO 60254 [egg-security] use dta middleware
+2019-08-31 11:16:42,600 INFO 60254 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:16:42,632 INFO 60254 [egg:core] dump config after load, 9ms
+2019-08-31 11:16:43,354 INFO 60254 [egg-watcher:application] watcher start success
+2019-08-31 11:16:43,362 INFO 60254 [egg:core] dump config after ready, 6ms
+2019-08-31 11:16:56,295 INFO 60262 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:16:56,322 INFO 60262 [egg-multipart] stream mode enable
+2019-08-31 11:16:56,397 INFO 60262 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:16:56,400 INFO 60262 [egg-security] use csrf middleware
+2019-08-31 11:16:56,401 INFO 60262 [egg-security] use methodnoallow middleware
+2019-08-31 11:16:56,401 INFO 60262 [egg-security] use noopen middleware
+2019-08-31 11:16:56,402 INFO 60262 [egg-security] use nosniff middleware
+2019-08-31 11:16:56,402 INFO 60262 [egg-security] use xssProtection middleware
+2019-08-31 11:16:56,402 INFO 60262 [egg-security] use xframe middleware
+2019-08-31 11:16:56,403 INFO 60262 [egg-security] use dta middleware
+2019-08-31 11:16:56,403 INFO 60262 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:16:56,431 INFO 60262 [egg:core] dump config after load, 7ms
+2019-08-31 11:16:56,452 INFO 60262 [egg-watcher:application] watcher start success
+2019-08-31 11:16:56,468 INFO 60262 [egg:core] dump config after ready, 6ms
+2019-08-31 11:17:03,819 INFO 60286 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:17:03,848 INFO 60286 [egg-multipart] stream mode enable
+2019-08-31 11:17:03,925 INFO 60286 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:17:03,928 INFO 60286 [egg-security] use csrf middleware
+2019-08-31 11:17:03,928 INFO 60286 [egg-security] use methodnoallow middleware
+2019-08-31 11:17:03,929 INFO 60286 [egg-security] use noopen middleware
+2019-08-31 11:17:03,929 INFO 60286 [egg-security] use nosniff middleware
+2019-08-31 11:17:03,930 INFO 60286 [egg-security] use xssProtection middleware
+2019-08-31 11:17:03,930 INFO 60286 [egg-security] use xframe middleware
+2019-08-31 11:17:03,930 INFO 60286 [egg-security] use dta middleware
+2019-08-31 11:17:03,930 INFO 60286 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:17:03,958 INFO 60286 [egg:core] dump config after load, 7ms
+2019-08-31 11:17:03,979 INFO 60286 [egg-watcher:application] watcher start success
+2019-08-31 11:17:03,996 INFO 60286 [egg:core] dump config after ready, 13ms
+2019-08-31 11:17:20,793 INFO 60316 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:17:20,820 INFO 60316 [egg-multipart] stream mode enable
+2019-08-31 11:17:20,894 INFO 60316 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:17:20,897 INFO 60316 [egg-security] use csrf middleware
+2019-08-31 11:17:20,898 INFO 60316 [egg-security] use methodnoallow middleware
+2019-08-31 11:17:20,898 INFO 60316 [egg-security] use noopen middleware
+2019-08-31 11:17:20,899 INFO 60316 [egg-security] use nosniff middleware
+2019-08-31 11:17:20,899 INFO 60316 [egg-security] use xssProtection middleware
+2019-08-31 11:17:20,900 INFO 60316 [egg-security] use xframe middleware
+2019-08-31 11:17:20,900 INFO 60316 [egg-security] use dta middleware
+2019-08-31 11:17:20,900 INFO 60316 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:17:20,930 INFO 60316 [egg:core] dump config after load, 7ms
+2019-08-31 11:17:21,666 INFO 60316 [egg-watcher:application] watcher start success
+2019-08-31 11:17:21,673 INFO 60316 [egg:core] dump config after ready, 5ms
+2019-08-31 11:18:43,432 INFO 60362 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:18:43,432 INFO 60362 [egg:core] dump config after load, 10ms
+2019-08-31 11:18:44,395 INFO 60362 [egg:core] dump config after ready, 5ms
+2019-08-31 11:20:08,356 INFO 60424 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:20:08,356 INFO 60424 [egg:core] dump config after load, 9ms
+2019-08-31 11:20:09,286 INFO 60424 [egg:core] dump config after ready, 5ms
+2019-08-31 11:20:37,310 INFO 60442 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:20:37,310 INFO 60442 [egg:core] dump config after load, 9ms
+2019-08-31 11:20:38,195 INFO 60442 [egg:core] dump config after ready, 5ms
+2019-08-31 11:36:44,774 INFO 60809 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:36:44,805 INFO 60809 [egg-multipart] stream mode enable
+2019-08-31 11:36:44,907 INFO 60809 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:36:44,910 INFO 60809 [egg-security] use csrf middleware
+2019-08-31 11:36:44,912 INFO 60809 [egg-security] use methodnoallow middleware
+2019-08-31 11:36:44,912 INFO 60809 [egg-security] use noopen middleware
+2019-08-31 11:36:44,913 INFO 60809 [egg-security] use nosniff middleware
+2019-08-31 11:36:44,914 INFO 60809 [egg-security] use xssProtection middleware
+2019-08-31 11:36:44,914 INFO 60809 [egg-security] use xframe middleware
+2019-08-31 11:36:44,915 INFO 60809 [egg-security] use dta middleware
+2019-08-31 11:36:44,915 INFO 60809 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:36:44,958 INFO 60809 [egg:core] dump config after load, 6ms
+2019-08-31 11:36:45,759 INFO 60809 [egg-watcher:application] watcher start success
+2019-08-31 11:36:45,766 INFO 60809 [egg:core] dump config after ready, 5ms
+2019-08-31 11:38:59,901 INFO 60850 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:38:59,945 INFO 60850 [egg-multipart] stream mode enable
+2019-08-31 11:39:00,033 INFO 60850 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:39:00,036 INFO 60850 [egg-security] use csrf middleware
+2019-08-31 11:39:00,037 INFO 60850 [egg-security] use methodnoallow middleware
+2019-08-31 11:39:00,038 INFO 60850 [egg-security] use noopen middleware
+2019-08-31 11:39:00,039 INFO 60850 [egg-security] use nosniff middleware
+2019-08-31 11:39:00,039 INFO 60850 [egg-security] use xssProtection middleware
+2019-08-31 11:39:00,040 INFO 60850 [egg-security] use xframe middleware
+2019-08-31 11:39:00,040 INFO 60850 [egg-security] use dta middleware
+2019-08-31 11:39:00,040 INFO 60850 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:39:00,066 INFO 60850 [egg:core] dump config after load, 5ms
+2019-08-31 11:39:00,081 INFO 60850 [egg-watcher:application] watcher start success
+2019-08-31 11:39:00,088 INFO 60850 [egg:core] dump config after ready, 5ms
+2019-08-31 11:39:48,875 INFO 60954 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:39:48,903 INFO 60954 [egg-multipart] stream mode enable
+2019-08-31 11:39:49,000 INFO 60954 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:39:49,003 INFO 60954 [egg-security] use csrf middleware
+2019-08-31 11:39:49,005 INFO 60954 [egg-security] use methodnoallow middleware
+2019-08-31 11:39:49,005 INFO 60954 [egg-security] use noopen middleware
+2019-08-31 11:39:49,006 INFO 60954 [egg-security] use nosniff middleware
+2019-08-31 11:39:49,007 INFO 60954 [egg-security] use xssProtection middleware
+2019-08-31 11:39:49,007 INFO 60954 [egg-security] use xframe middleware
+2019-08-31 11:39:49,008 INFO 60954 [egg-security] use dta middleware
+2019-08-31 11:39:49,008 INFO 60954 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:39:49,053 INFO 60954 [egg:core] dump config after load, 14ms
+2019-08-31 11:39:49,665 INFO 60954 [egg-watcher:application] watcher start success
+2019-08-31 11:39:49,673 INFO 60954 [egg:core] dump config after ready, 6ms
+2019-08-31 11:40:36,548 INFO 60981 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:40:36,593 INFO 60981 [egg-multipart] stream mode enable
+2019-08-31 11:40:36,673 INFO 60981 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:40:36,677 INFO 60981 [egg-security] use csrf middleware
+2019-08-31 11:40:36,678 INFO 60981 [egg-security] use methodnoallow middleware
+2019-08-31 11:40:36,679 INFO 60981 [egg-security] use noopen middleware
+2019-08-31 11:40:36,680 INFO 60981 [egg-security] use nosniff middleware
+2019-08-31 11:40:36,681 INFO 60981 [egg-security] use xssProtection middleware
+2019-08-31 11:40:36,682 INFO 60981 [egg-security] use xframe middleware
+2019-08-31 11:40:36,683 INFO 60981 [egg-security] use dta middleware
+2019-08-31 11:40:36,683 INFO 60981 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:40:36,710 INFO 60981 [egg:core] dump config after load, 4ms
+2019-08-31 11:40:36,724 INFO 60981 [egg-watcher:application] watcher start success
+2019-08-31 11:40:36,731 INFO 60981 [egg:core] dump config after ready, 5ms
+2019-08-31 11:41:06,062 INFO 61094 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-31 11:41:06,090 INFO 61094 [egg-multipart] stream mode enable
+2019-08-31 11:41:06,169 INFO 61094 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-08-31 11:41:06,172 INFO 61094 [egg-security] use csrf middleware
+2019-08-31 11:41:06,173 INFO 61094 [egg-security] use methodnoallow middleware
+2019-08-31 11:41:06,173 INFO 61094 [egg-security] use noopen middleware
+2019-08-31 11:41:06,174 INFO 61094 [egg-security] use nosniff middleware
+2019-08-31 11:41:06,174 INFO 61094 [egg-security] use xssProtection middleware
+2019-08-31 11:41:06,175 INFO 61094 [egg-security] use xframe middleware
+2019-08-31 11:41:06,175 INFO 61094 [egg-security] use dta middleware
+2019-08-31 11:41:06,175 INFO 61094 [egg-security] compose 7 middlewares into one security middleware
+2019-08-31 11:41:06,204 INFO 61094 [egg:core] dump config after load, 6ms
+2019-08-31 11:41:06,907 INFO 61094 [egg-watcher:application] watcher start success
+2019-08-31 11:41:06,915 INFO 61094 [egg:core] dump config after ready, 6ms
+2019-08-31 12:03:15,574 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 12:50:18,255 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 13:46:59,915 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 14:51:07,533 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 14:51:07,534 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 15:43:57,196 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 15:43:57,196 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 16:47:26,467 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 16:47:26,467 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 17:49:32,818 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 18:44:41,062 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 18:44:41,063 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 19:44:07,723 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 20:47:22,351 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 21:44:32,884 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 22:18:12,965 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 22:18:12,965 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-31 23:45:46,554 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-31 23:45:46,554 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 00:47:33,146 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 00:47:33,147 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 01:45:39,152 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 01:45:39,152 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 02:50:31,748 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 03:50:52,349 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 03:50:52,350 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 04:44:05,853 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 04:44:05,854 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 05:44:46,950 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 05:44:46,950 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 06:45:58,570 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 06:45:58,570 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 08:45:50,944 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 08:45:50,944 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 09:50:55,530 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 09:50:55,531 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 10:46:33,929 WARN 61094 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 10:46:33,930 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 11:08:53,565 WARN 61094 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 11:20:55,732 INFO 61821 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:20:55,771 INFO 61821 [egg-multipart] stream mode enable
+2019-09-01 11:20:55,948 INFO 61821 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:20:55,952 INFO 61821 [egg-security] use csrf middleware
+2019-09-01 11:20:55,953 INFO 61821 [egg-security] use methodnoallow middleware
+2019-09-01 11:20:55,953 INFO 61821 [egg-security] use noopen middleware
+2019-09-01 11:20:55,954 INFO 61821 [egg-security] use nosniff middleware
+2019-09-01 11:20:55,955 INFO 61821 [egg-security] use xssProtection middleware
+2019-09-01 11:20:55,955 INFO 61821 [egg-security] use xframe middleware
+2019-09-01 11:20:55,956 INFO 61821 [egg-security] use dta middleware
+2019-09-01 11:20:55,956 INFO 61821 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:20:55,981 INFO 61821 [egg:core] dump config after load, 6ms
+2019-09-01 11:20:55,997 INFO 61821 [egg-watcher:application] watcher start success
+2019-09-01 11:20:56,006 INFO 61821 [egg:core] dump config after ready, 7ms
+2019-09-01 11:21:01,919 INFO 61847 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:21:01,952 INFO 61847 [egg-multipart] stream mode enable
+2019-09-01 11:21:02,127 INFO 61847 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:21:02,130 INFO 61847 [egg-security] use csrf middleware
+2019-09-01 11:21:02,131 INFO 61847 [egg-security] use methodnoallow middleware
+2019-09-01 11:21:02,131 INFO 61847 [egg-security] use noopen middleware
+2019-09-01 11:21:02,132 INFO 61847 [egg-security] use nosniff middleware
+2019-09-01 11:21:02,132 INFO 61847 [egg-security] use xssProtection middleware
+2019-09-01 11:21:02,133 INFO 61847 [egg-security] use xframe middleware
+2019-09-01 11:21:02,133 INFO 61847 [egg-security] use dta middleware
+2019-09-01 11:21:02,133 INFO 61847 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:21:02,155 INFO 61847 [egg:core] dump config after load, 5ms
+2019-09-01 11:21:02,170 INFO 61847 [egg-watcher:application] watcher start success
+2019-09-01 11:21:02,178 INFO 61847 [egg:core] dump config after ready, 6ms
+2019-09-01 11:22:34,030 INFO 61956 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:22:34,056 INFO 61956 [egg-multipart] stream mode enable
+2019-09-01 11:22:34,237 INFO 61956 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:22:34,240 INFO 61956 [egg-security] use csrf middleware
+2019-09-01 11:22:34,241 INFO 61956 [egg-security] use methodnoallow middleware
+2019-09-01 11:22:34,241 INFO 61956 [egg-security] use noopen middleware
+2019-09-01 11:22:34,242 INFO 61956 [egg-security] use nosniff middleware
+2019-09-01 11:22:34,242 INFO 61956 [egg-security] use xssProtection middleware
+2019-09-01 11:22:34,243 INFO 61956 [egg-security] use xframe middleware
+2019-09-01 11:22:34,243 INFO 61956 [egg-security] use dta middleware
+2019-09-01 11:22:34,243 INFO 61956 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:22:34,266 INFO 61956 [egg:core] dump config after load, 5ms
+2019-09-01 11:22:34,851 INFO 61956 [egg-watcher:application] watcher start success
+2019-09-01 11:22:34,859 INFO 61956 [egg:core] dump config after ready, 6ms
+2019-09-01 11:32:37,915 INFO 62332 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:32:37,973 INFO 62332 [egg-multipart] stream mode enable
+2019-09-01 11:32:38,124 INFO 62332 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:32:38,126 INFO 62332 [egg-security] use csrf middleware
+2019-09-01 11:32:38,127 INFO 62332 [egg-security] use methodnoallow middleware
+2019-09-01 11:32:38,128 INFO 62332 [egg-security] use noopen middleware
+2019-09-01 11:32:38,129 INFO 62332 [egg-security] use nosniff middleware
+2019-09-01 11:32:38,130 INFO 62332 [egg-security] use xssProtection middleware
+2019-09-01 11:32:38,130 INFO 62332 [egg-security] use xframe middleware
+2019-09-01 11:32:38,131 INFO 62332 [egg-security] use dta middleware
+2019-09-01 11:32:38,131 INFO 62332 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:32:38,157 INFO 62332 [egg:core] dump config after load, 6ms
+2019-09-01 11:32:38,858 INFO 62332 [egg-watcher:application] watcher start success
+2019-09-01 11:32:38,869 INFO 62332 [egg:core] dump config after ready, 8ms
+2019-09-01 11:32:39,086 INFO 62336 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:32:39,129 INFO 62336 [egg-multipart] stream mode enable
+2019-09-01 11:32:39,226 INFO 62336 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:32:39,229 INFO 62336 [egg-security] use csrf middleware
+2019-09-01 11:32:39,229 INFO 62336 [egg-security] use methodnoallow middleware
+2019-09-01 11:32:39,230 INFO 62336 [egg-security] use noopen middleware
+2019-09-01 11:32:39,231 INFO 62336 [egg-security] use nosniff middleware
+2019-09-01 11:32:39,231 INFO 62336 [egg-security] use xssProtection middleware
+2019-09-01 11:32:39,231 INFO 62336 [egg-security] use xframe middleware
+2019-09-01 11:32:39,232 INFO 62336 [egg-security] use dta middleware
+2019-09-01 11:32:39,232 INFO 62336 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:32:39,253 INFO 62336 [egg:core] dump config after load, 5ms
+2019-09-01 11:32:39,268 INFO 62336 [egg-watcher:application] watcher start success
+2019-09-01 11:32:39,276 INFO 62336 [egg:core] dump config after ready, 5ms
+2019-09-01 11:32:41,335 INFO 62406 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:32:41,374 INFO 62406 [egg-multipart] stream mode enable
+2019-09-01 11:32:41,466 INFO 62406 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:32:41,469 INFO 62406 [egg-security] use csrf middleware
+2019-09-01 11:32:41,470 INFO 62406 [egg-security] use methodnoallow middleware
+2019-09-01 11:32:41,470 INFO 62406 [egg-security] use noopen middleware
+2019-09-01 11:32:41,471 INFO 62406 [egg-security] use nosniff middleware
+2019-09-01 11:32:41,471 INFO 62406 [egg-security] use xssProtection middleware
+2019-09-01 11:32:41,471 INFO 62406 [egg-security] use xframe middleware
+2019-09-01 11:32:41,472 INFO 62406 [egg-security] use dta middleware
+2019-09-01 11:32:41,472 INFO 62406 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:32:41,494 INFO 62406 [egg:core] dump config after load, 5ms
+2019-09-01 11:32:41,509 INFO 62406 [egg-watcher:application] watcher start success
+2019-09-01 11:32:41,517 INFO 62406 [egg:core] dump config after ready, 7ms
+2019-09-01 11:44:00,848 INFO 62859 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 11:44:00,878 INFO 62859 [egg-multipart] stream mode enable
+2019-09-01 11:44:01,082 INFO 62859 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 11:44:01,085 INFO 62859 [egg-security] use csrf middleware
+2019-09-01 11:44:01,086 INFO 62859 [egg-security] use methodnoallow middleware
+2019-09-01 11:44:01,087 INFO 62859 [egg-security] use noopen middleware
+2019-09-01 11:44:01,088 INFO 62859 [egg-security] use nosniff middleware
+2019-09-01 11:44:01,088 INFO 62859 [egg-security] use xssProtection middleware
+2019-09-01 11:44:01,089 INFO 62859 [egg-security] use xframe middleware
+2019-09-01 11:44:01,089 INFO 62859 [egg-security] use dta middleware
+2019-09-01 11:44:01,089 INFO 62859 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 11:44:01,128 INFO 62859 [egg:core] dump config after load, 6ms
+2019-09-01 11:44:02,195 INFO 62859 [egg-watcher:application] watcher start success
+2019-09-01 11:44:02,203 INFO 62859 [egg:core] dump config after ready, 5ms
+2019-09-01 12:03:37,171 WARN 62859 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 12:29:03,724 WARN 62859 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 12:29:03,724 WARN 62859 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 12:53:11,001 INFO 63904 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 12:53:11,029 INFO 63904 [egg-multipart] stream mode enable
+2019-09-01 12:53:11,131 INFO 63904 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 12:53:11,135 INFO 63904 [egg-security] use csrf middleware
+2019-09-01 12:53:11,136 INFO 63904 [egg-security] use methodnoallow middleware
+2019-09-01 12:53:11,137 INFO 63904 [egg-security] use noopen middleware
+2019-09-01 12:53:11,138 INFO 63904 [egg-security] use nosniff middleware
+2019-09-01 12:53:11,138 INFO 63904 [egg-security] use xssProtection middleware
+2019-09-01 12:53:11,139 INFO 63904 [egg-security] use xframe middleware
+2019-09-01 12:53:11,139 INFO 63904 [egg-security] use dta middleware
+2019-09-01 12:53:11,139 INFO 63904 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 12:53:11,164 INFO 63904 [egg:core] dump config after load, 5ms
+2019-09-01 12:53:11,804 INFO 63904 [egg-watcher:application] watcher start success
+2019-09-01 12:53:11,814 INFO 63904 [egg:core] dump config after ready, 7ms
+2019-09-01 13:14:47,085 WARN 63904 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 13:50:53,692 WARN 63904 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 14:02:02,335 WARN 63904 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 14:15:36,984 INFO 64322 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:15:37,020 INFO 64322 [egg-multipart] stream mode enable
+2019-09-01 14:15:37,124 INFO 64322 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:15:37,127 INFO 64322 [egg-security] use csrf middleware
+2019-09-01 14:15:37,128 INFO 64322 [egg-security] use methodnoallow middleware
+2019-09-01 14:15:37,129 INFO 64322 [egg-security] use noopen middleware
+2019-09-01 14:15:37,129 INFO 64322 [egg-security] use nosniff middleware
+2019-09-01 14:15:37,130 INFO 64322 [egg-security] use xssProtection middleware
+2019-09-01 14:15:37,131 INFO 64322 [egg-security] use xframe middleware
+2019-09-01 14:15:37,131 INFO 64322 [egg-security] use dta middleware
+2019-09-01 14:15:37,131 INFO 64322 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:15:37,153 INFO 64322 [egg:core] dump config after load, 6ms
+2019-09-01 14:15:37,166 INFO 64322 [egg-watcher:application] watcher start success
+2019-09-01 14:15:37,173 INFO 64322 [egg:core] dump config after ready, 5ms
+2019-09-01 14:15:56,781 INFO 64348 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:15:56,781 INFO 64348 [egg:core] dump config after load, 11ms
+2019-09-01 14:15:57,960 INFO 64348 [egg:core] dump config after ready, 5ms
+2019-09-01 14:16:36,876 INFO 64428 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:16:36,876 INFO 64428 [egg:core] dump config after load, 9ms
+2019-09-01 14:16:37,790 INFO 64428 [egg:core] dump config after ready, 5ms
+2019-09-01 14:17:20,569 INFO 64506 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:17:20,569 INFO 64506 [egg:core] dump config after load, 10ms
+2019-09-01 14:17:21,462 INFO 64506 [egg:core] dump config after ready, 5ms
+2019-09-01 14:17:41,601 INFO 64522 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:17:41,601 INFO 64522 [egg:core] dump config after load, 11ms
+2019-09-01 14:17:42,487 INFO 64522 [egg:core] dump config after ready, 4ms
+2019-09-01 14:18:25,387 INFO 64642 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:18:25,387 INFO 64642 [egg:core] dump config after load, 10ms
+2019-09-01 14:18:26,365 INFO 64642 [egg:core] dump config after ready, 6ms
+2019-09-01 14:18:56,611 INFO 64659 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:18:56,611 INFO 64659 [egg:core] dump config after load, 12ms
+2019-09-01 14:18:57,460 INFO 64659 [egg:core] dump config after ready, 5ms
+2019-09-01 14:24:26,069 INFO 64984 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:24:26,101 INFO 64984 [egg-multipart] stream mode enable
+2019-09-01 14:24:26,225 INFO 64984 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:24:26,228 INFO 64984 [egg-security] use csrf middleware
+2019-09-01 14:24:26,229 INFO 64984 [egg-security] use methodnoallow middleware
+2019-09-01 14:24:26,229 INFO 64984 [egg-security] use noopen middleware
+2019-09-01 14:24:26,230 INFO 64984 [egg-security] use nosniff middleware
+2019-09-01 14:24:26,230 INFO 64984 [egg-security] use xssProtection middleware
+2019-09-01 14:24:26,231 INFO 64984 [egg-security] use xframe middleware
+2019-09-01 14:24:26,231 INFO 64984 [egg-security] use dta middleware
+2019-09-01 14:24:26,231 INFO 64984 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:24:26,257 INFO 64984 [egg:core] dump config after load, 5ms
+2019-09-01 14:24:26,279 INFO 64984 [egg-watcher:application] watcher start success
+2019-09-01 14:24:26,288 INFO 64984 [egg:core] dump config after ready, 7ms
+2019-09-01 14:28:52,848 INFO 65311 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:28:52,880 INFO 65311 [egg-multipart] stream mode enable
+2019-09-01 14:28:52,987 INFO 65311 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:28:52,990 INFO 65311 [egg-security] use csrf middleware
+2019-09-01 14:28:52,990 INFO 65311 [egg-security] use methodnoallow middleware
+2019-09-01 14:28:52,991 INFO 65311 [egg-security] use noopen middleware
+2019-09-01 14:28:52,991 INFO 65311 [egg-security] use nosniff middleware
+2019-09-01 14:28:52,992 INFO 65311 [egg-security] use xssProtection middleware
+2019-09-01 14:28:52,992 INFO 65311 [egg-security] use xframe middleware
+2019-09-01 14:28:52,992 INFO 65311 [egg-security] use dta middleware
+2019-09-01 14:28:52,992 INFO 65311 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:28:53,015 INFO 65311 [egg:core] dump config after load, 6ms
+2019-09-01 14:28:53,048 INFO 65311 [egg-watcher:application] watcher start success
+2019-09-01 14:28:53,055 INFO 65311 [egg:core] dump config after ready, 5ms
+2019-09-01 14:36:42,666 INFO 65493 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:36:42,700 INFO 65493 [egg-multipart] stream mode enable
+2019-09-01 14:36:42,793 INFO 65493 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:36:42,796 INFO 65493 [egg-security] use csrf middleware
+2019-09-01 14:36:42,797 INFO 65493 [egg-security] use methodnoallow middleware
+2019-09-01 14:36:42,797 INFO 65493 [egg-security] use noopen middleware
+2019-09-01 14:36:42,798 INFO 65493 [egg-security] use nosniff middleware
+2019-09-01 14:36:42,798 INFO 65493 [egg-security] use xssProtection middleware
+2019-09-01 14:36:42,799 INFO 65493 [egg-security] use xframe middleware
+2019-09-01 14:36:42,799 INFO 65493 [egg-security] use dta middleware
+2019-09-01 14:36:42,799 INFO 65493 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:36:42,822 INFO 65493 [egg:core] dump config after load, 5ms
+2019-09-01 14:36:42,837 INFO 65493 [egg-watcher:application] watcher start success
+2019-09-01 14:36:42,844 INFO 65493 [egg:core] dump config after ready, 5ms
+2019-09-01 14:38:48,861 INFO 65817 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:38:48,901 INFO 65817 [egg-multipart] stream mode enable
+2019-09-01 14:38:48,972 INFO 65817 [egg-static] starting static serve /build -> /Users/igola/Desktop/beidou-dva/build
+2019-09-01 14:38:48,975 INFO 65817 [egg-security] use csrf middleware
+2019-09-01 14:38:48,976 INFO 65817 [egg-security] use methodnoallow middleware
+2019-09-01 14:38:48,977 INFO 65817 [egg-security] use noopen middleware
+2019-09-01 14:38:48,977 INFO 65817 [egg-security] use nosniff middleware
+2019-09-01 14:38:48,978 INFO 65817 [egg-security] use xssProtection middleware
+2019-09-01 14:38:48,978 INFO 65817 [egg-security] use xframe middleware
+2019-09-01 14:38:48,979 INFO 65817 [egg-security] use dta middleware
+2019-09-01 14:38:48,979 INFO 65817 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:38:49,004 INFO 65817 [egg:core] dump config after load, 5ms
+2019-09-01 14:38:49,019 INFO 65817 [egg-watcher:application] watcher start success
+2019-09-01 14:38:49,027 INFO 65817 [egg:core] dump config after ready, 6ms
+2019-09-01 14:39:02,484 INFO 65838 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:39:02,512 INFO 65838 [egg-multipart] stream mode enable
+2019-09-01 14:39:02,593 INFO 65838 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:39:02,595 INFO 65838 [egg-security] use csrf middleware
+2019-09-01 14:39:02,596 INFO 65838 [egg-security] use methodnoallow middleware
+2019-09-01 14:39:02,596 INFO 65838 [egg-security] use noopen middleware
+2019-09-01 14:39:02,597 INFO 65838 [egg-security] use nosniff middleware
+2019-09-01 14:39:02,597 INFO 65838 [egg-security] use xssProtection middleware
+2019-09-01 14:39:02,597 INFO 65838 [egg-security] use xframe middleware
+2019-09-01 14:39:02,598 INFO 65838 [egg-security] use dta middleware
+2019-09-01 14:39:02,598 INFO 65838 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:39:02,617 INFO 65838 [egg:core] dump config after load, 4ms
+2019-09-01 14:39:02,640 INFO 65838 [egg-watcher:application] watcher start success
+2019-09-01 14:39:02,650 INFO 65838 [egg:core] dump config after ready, 6ms
+2019-09-01 14:40:34,403 INFO 65970 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:40:34,443 INFO 65970 [egg-multipart] stream mode enable
+2019-09-01 14:40:34,522 INFO 65970 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:40:34,526 INFO 65970 [egg-security] use csrf middleware
+2019-09-01 14:40:34,527 INFO 65970 [egg-security] use methodnoallow middleware
+2019-09-01 14:40:34,527 INFO 65970 [egg-security] use noopen middleware
+2019-09-01 14:40:34,528 INFO 65970 [egg-security] use nosniff middleware
+2019-09-01 14:40:34,528 INFO 65970 [egg-security] use xssProtection middleware
+2019-09-01 14:40:34,529 INFO 65970 [egg-security] use xframe middleware
+2019-09-01 14:40:34,529 INFO 65970 [egg-security] use dta middleware
+2019-09-01 14:40:34,529 INFO 65970 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:40:34,550 INFO 65970 [egg:core] dump config after load, 6ms
+2019-09-01 14:40:34,565 INFO 65970 [egg-watcher:application] watcher start success
+2019-09-01 14:40:34,573 INFO 65970 [egg:core] dump config after ready, 6ms
+2019-09-01 14:41:49,749 INFO 66060 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:41:49,781 INFO 66060 [egg-multipart] stream mode enable
+2019-09-01 14:41:49,867 INFO 66060 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:41:49,869 INFO 66060 [egg-security] use csrf middleware
+2019-09-01 14:41:49,871 INFO 66060 [egg-security] use methodnoallow middleware
+2019-09-01 14:41:49,871 INFO 66060 [egg-security] use noopen middleware
+2019-09-01 14:41:49,872 INFO 66060 [egg-security] use nosniff middleware
+2019-09-01 14:41:49,873 INFO 66060 [egg-security] use xssProtection middleware
+2019-09-01 14:41:49,873 INFO 66060 [egg-security] use xframe middleware
+2019-09-01 14:41:49,873 INFO 66060 [egg-security] use dta middleware
+2019-09-01 14:41:49,873 INFO 66060 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:41:49,895 INFO 66060 [egg:core] dump config after load, 6ms
+2019-09-01 14:41:49,909 INFO 66060 [egg-watcher:application] watcher start success
+2019-09-01 14:41:49,916 INFO 66060 [egg:core] dump config after ready, 5ms
+2019-09-01 14:42:12,375 INFO 66084 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:42:12,405 INFO 66084 [egg-multipart] stream mode enable
+2019-09-01 14:42:12,495 INFO 66084 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:42:12,498 INFO 66084 [egg-security] use csrf middleware
+2019-09-01 14:42:12,498 INFO 66084 [egg-security] use methodnoallow middleware
+2019-09-01 14:42:12,499 INFO 66084 [egg-security] use noopen middleware
+2019-09-01 14:42:12,499 INFO 66084 [egg-security] use nosniff middleware
+2019-09-01 14:42:12,500 INFO 66084 [egg-security] use xssProtection middleware
+2019-09-01 14:42:12,500 INFO 66084 [egg-security] use xframe middleware
+2019-09-01 14:42:12,500 INFO 66084 [egg-security] use dta middleware
+2019-09-01 14:42:12,500 INFO 66084 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:42:12,520 INFO 66084 [egg:core] dump config after load, 6ms
+2019-09-01 14:42:12,536 INFO 66084 [egg-watcher:application] watcher start success
+2019-09-01 14:42:12,544 INFO 66084 [egg:core] dump config after ready, 5ms
+2019-09-01 14:44:05,386 INFO 66198 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:44:05,423 INFO 66198 [egg-multipart] stream mode enable
+2019-09-01 14:44:05,510 INFO 66198 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:44:05,513 INFO 66198 [egg-security] use csrf middleware
+2019-09-01 14:44:05,514 INFO 66198 [egg-security] use methodnoallow middleware
+2019-09-01 14:44:05,514 INFO 66198 [egg-security] use noopen middleware
+2019-09-01 14:44:05,515 INFO 66198 [egg-security] use nosniff middleware
+2019-09-01 14:44:05,515 INFO 66198 [egg-security] use xssProtection middleware
+2019-09-01 14:44:05,516 INFO 66198 [egg-security] use xframe middleware
+2019-09-01 14:44:05,516 INFO 66198 [egg-security] use dta middleware
+2019-09-01 14:44:05,516 INFO 66198 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:44:05,542 INFO 66198 [egg:core] dump config after load, 9ms
+2019-09-01 14:44:05,555 INFO 66198 [egg-watcher:application] watcher start success
+2019-09-01 14:44:05,564 INFO 66198 [egg:core] dump config after ready, 6ms
+2019-09-01 14:44:08,408 INFO 66217 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:44:08,439 INFO 66217 [egg-multipart] stream mode enable
+2019-09-01 14:44:08,516 INFO 66217 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:44:08,519 INFO 66217 [egg-security] use csrf middleware
+2019-09-01 14:44:08,519 INFO 66217 [egg-security] use methodnoallow middleware
+2019-09-01 14:44:08,520 INFO 66217 [egg-security] use noopen middleware
+2019-09-01 14:44:08,520 INFO 66217 [egg-security] use nosniff middleware
+2019-09-01 14:44:08,521 INFO 66217 [egg-security] use xssProtection middleware
+2019-09-01 14:44:08,521 INFO 66217 [egg-security] use xframe middleware
+2019-09-01 14:44:08,521 INFO 66217 [egg-security] use dta middleware
+2019-09-01 14:44:08,521 INFO 66217 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:44:08,548 INFO 66217 [egg:core] dump config after load, 7ms
+2019-09-01 14:44:08,570 INFO 66217 [egg-watcher:application] watcher start success
+2019-09-01 14:44:08,583 INFO 66217 [egg:core] dump config after ready, 6ms
+2019-09-01 14:46:53,397 INFO 66318 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:46:53,422 INFO 66318 [egg-multipart] stream mode enable
+2019-09-01 14:46:53,507 INFO 66318 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:46:53,510 INFO 66318 [egg-security] use csrf middleware
+2019-09-01 14:46:53,511 INFO 66318 [egg-security] use methodnoallow middleware
+2019-09-01 14:46:53,511 INFO 66318 [egg-security] use noopen middleware
+2019-09-01 14:46:53,512 INFO 66318 [egg-security] use nosniff middleware
+2019-09-01 14:46:53,512 INFO 66318 [egg-security] use xssProtection middleware
+2019-09-01 14:46:53,512 INFO 66318 [egg-security] use xframe middleware
+2019-09-01 14:46:53,513 INFO 66318 [egg-security] use dta middleware
+2019-09-01 14:46:53,513 INFO 66318 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:46:53,537 INFO 66318 [egg:core] dump config after load, 6ms
+2019-09-01 14:46:53,564 INFO 66318 [egg-watcher:application] watcher start success
+2019-09-01 14:46:53,571 INFO 66318 [egg:core] dump config after ready, 5ms
+2019-09-01 14:47:22,488 INFO 66340 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:47:22,517 INFO 66340 [egg-multipart] stream mode enable
+2019-09-01 14:47:22,600 INFO 66340 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:47:22,603 INFO 66340 [egg-security] use csrf middleware
+2019-09-01 14:47:22,603 INFO 66340 [egg-security] use methodnoallow middleware
+2019-09-01 14:47:22,604 INFO 66340 [egg-security] use noopen middleware
+2019-09-01 14:47:22,604 INFO 66340 [egg-security] use nosniff middleware
+2019-09-01 14:47:22,605 INFO 66340 [egg-security] use xssProtection middleware
+2019-09-01 14:47:22,605 INFO 66340 [egg-security] use xframe middleware
+2019-09-01 14:47:22,606 INFO 66340 [egg-security] use dta middleware
+2019-09-01 14:47:22,606 INFO 66340 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:47:22,631 INFO 66340 [egg:core] dump config after load, 7ms
+2019-09-01 14:47:22,656 INFO 66340 [egg-watcher:application] watcher start success
+2019-09-01 14:47:22,664 INFO 66340 [egg:core] dump config after ready, 5ms
+2019-09-01 14:47:45,907 INFO 66371 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:47:45,907 INFO 66371 [egg:core] dump config after load, 10ms
+2019-09-01 14:47:46,791 INFO 66371 [egg:core] dump config after ready, 4ms
+2019-09-01 14:48:18,840 INFO 66446 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:48:18,870 INFO 66446 [egg-multipart] stream mode enable
+2019-09-01 14:48:18,967 INFO 66446 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:48:18,970 INFO 66446 [egg-security] use csrf middleware
+2019-09-01 14:48:18,971 INFO 66446 [egg-security] use methodnoallow middleware
+2019-09-01 14:48:18,972 INFO 66446 [egg-security] use noopen middleware
+2019-09-01 14:48:18,973 INFO 66446 [egg-security] use nosniff middleware
+2019-09-01 14:48:18,973 INFO 66446 [egg-security] use xssProtection middleware
+2019-09-01 14:48:18,973 INFO 66446 [egg-security] use xframe middleware
+2019-09-01 14:48:18,974 INFO 66446 [egg-security] use dta middleware
+2019-09-01 14:48:18,974 INFO 66446 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:48:18,998 INFO 66446 [egg:core] dump config after load, 5ms
+2019-09-01 14:48:19,685 INFO 66446 [egg-watcher:application] watcher start success
+2019-09-01 14:48:19,692 INFO 66446 [egg:core] dump config after ready, 5ms
+2019-09-01 14:49:14,860 INFO 66520 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:49:14,889 INFO 66520 [egg-multipart] stream mode enable
+2019-09-01 14:49:14,981 INFO 66520 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:49:14,983 INFO 66520 [egg-security] use csrf middleware
+2019-09-01 14:49:14,984 INFO 66520 [egg-security] use methodnoallow middleware
+2019-09-01 14:49:14,985 INFO 66520 [egg-security] use noopen middleware
+2019-09-01 14:49:14,985 INFO 66520 [egg-security] use nosniff middleware
+2019-09-01 14:49:14,986 INFO 66520 [egg-security] use xssProtection middleware
+2019-09-01 14:49:14,986 INFO 66520 [egg-security] use xframe middleware
+2019-09-01 14:49:14,986 INFO 66520 [egg-security] use dta middleware
+2019-09-01 14:49:14,986 INFO 66520 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:49:15,008 INFO 66520 [egg:core] dump config after load, 6ms
+2019-09-01 14:49:15,022 INFO 66520 [egg-watcher:application] watcher start success
+2019-09-01 14:49:15,029 INFO 66520 [egg:core] dump config after ready, 5ms
+2019-09-01 14:49:40,358 INFO 66563 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:49:40,358 INFO 66563 [egg:core] dump config after load, 10ms
+2019-09-01 14:49:41,315 INFO 66563 [egg:core] dump config after ready, 4ms
+2019-09-01 14:50:13,085 INFO 66638 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:50:13,085 INFO 66638 [egg:core] dump config after load, 10ms
+2019-09-01 14:50:14,087 INFO 66638 [egg:core] dump config after ready, 5ms
+2019-09-01 14:50:38,899 INFO 66687 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:50:38,924 INFO 66687 [egg-multipart] stream mode enable
+2019-09-01 14:50:39,005 INFO 66687 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:50:39,007 INFO 66687 [egg-security] use csrf middleware
+2019-09-01 14:50:39,008 INFO 66687 [egg-security] use methodnoallow middleware
+2019-09-01 14:50:39,009 INFO 66687 [egg-security] use noopen middleware
+2019-09-01 14:50:39,009 INFO 66687 [egg-security] use nosniff middleware
+2019-09-01 14:50:39,010 INFO 66687 [egg-security] use xssProtection middleware
+2019-09-01 14:50:39,010 INFO 66687 [egg-security] use xframe middleware
+2019-09-01 14:50:39,010 INFO 66687 [egg-security] use dta middleware
+2019-09-01 14:50:39,010 INFO 66687 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:50:39,035 INFO 66687 [egg:core] dump config after load, 6ms
+2019-09-01 14:50:39,731 INFO 66687 [egg-watcher:application] watcher start success
+2019-09-01 14:50:39,738 INFO 66687 [egg:core] dump config after ready, 5ms
+2019-09-01 14:52:26,560 INFO 66822 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:52:26,590 INFO 66822 [egg-multipart] stream mode enable
+2019-09-01 14:52:26,680 INFO 66822 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:52:26,682 INFO 66822 [egg-security] use csrf middleware
+2019-09-01 14:52:26,683 INFO 66822 [egg-security] use methodnoallow middleware
+2019-09-01 14:52:26,683 INFO 66822 [egg-security] use noopen middleware
+2019-09-01 14:52:26,684 INFO 66822 [egg-security] use nosniff middleware
+2019-09-01 14:52:26,684 INFO 66822 [egg-security] use xssProtection middleware
+2019-09-01 14:52:26,685 INFO 66822 [egg-security] use xframe middleware
+2019-09-01 14:52:26,685 INFO 66822 [egg-security] use dta middleware
+2019-09-01 14:52:26,685 INFO 66822 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:52:26,708 INFO 66822 [egg:core] dump config after load, 7ms
+2019-09-01 14:52:26,722 INFO 66822 [egg-watcher:application] watcher start success
+2019-09-01 14:52:26,729 INFO 66822 [egg:core] dump config after ready, 5ms
+2019-09-01 14:53:53,805 INFO 66971 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:53:53,829 INFO 66971 [egg-multipart] stream mode enable
+2019-09-01 14:53:53,916 INFO 66971 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:53:53,919 INFO 66971 [egg-security] use csrf middleware
+2019-09-01 14:53:53,919 INFO 66971 [egg-security] use methodnoallow middleware
+2019-09-01 14:53:53,920 INFO 66971 [egg-security] use noopen middleware
+2019-09-01 14:53:53,920 INFO 66971 [egg-security] use nosniff middleware
+2019-09-01 14:53:53,921 INFO 66971 [egg-security] use xssProtection middleware
+2019-09-01 14:53:53,921 INFO 66971 [egg-security] use xframe middleware
+2019-09-01 14:53:53,922 INFO 66971 [egg-security] use dta middleware
+2019-09-01 14:53:53,922 INFO 66971 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:53:53,950 INFO 66971 [egg:core] dump config after load, 8ms
+2019-09-01 14:53:53,972 INFO 66971 [egg-watcher:application] watcher start success
+2019-09-01 14:53:53,981 INFO 66971 [egg:core] dump config after ready, 7ms
+2019-09-01 14:54:03,567 INFO 66991 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:54:03,603 INFO 66991 [egg-multipart] stream mode enable
+2019-09-01 14:54:03,701 INFO 66991 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:54:03,703 INFO 66991 [egg-security] use csrf middleware
+2019-09-01 14:54:03,704 INFO 66991 [egg-security] use methodnoallow middleware
+2019-09-01 14:54:03,704 INFO 66991 [egg-security] use noopen middleware
+2019-09-01 14:54:03,705 INFO 66991 [egg-security] use nosniff middleware
+2019-09-01 14:54:03,705 INFO 66991 [egg-security] use xssProtection middleware
+2019-09-01 14:54:03,706 INFO 66991 [egg-security] use xframe middleware
+2019-09-01 14:54:03,706 INFO 66991 [egg-security] use dta middleware
+2019-09-01 14:54:03,706 INFO 66991 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:54:03,733 INFO 66991 [egg:core] dump config after load, 6ms
+2019-09-01 14:54:03,748 INFO 66991 [egg-watcher:application] watcher start success
+2019-09-01 14:54:03,755 INFO 66991 [egg:core] dump config after ready, 5ms
+2019-09-01 14:54:20,562 INFO 67021 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:54:20,593 INFO 67021 [egg-multipart] stream mode enable
+2019-09-01 14:54:20,689 INFO 67021 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:54:20,692 INFO 67021 [egg-security] use csrf middleware
+2019-09-01 14:54:20,692 INFO 67021 [egg-security] use methodnoallow middleware
+2019-09-01 14:54:20,693 INFO 67021 [egg-security] use noopen middleware
+2019-09-01 14:54:20,693 INFO 67021 [egg-security] use nosniff middleware
+2019-09-01 14:54:20,694 INFO 67021 [egg-security] use xssProtection middleware
+2019-09-01 14:54:20,694 INFO 67021 [egg-security] use xframe middleware
+2019-09-01 14:54:20,694 INFO 67021 [egg-security] use dta middleware
+2019-09-01 14:54:20,694 INFO 67021 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:54:20,715 INFO 67021 [egg:core] dump config after load, 5ms
+2019-09-01 14:54:21,377 INFO 67021 [egg-watcher:application] watcher start success
+2019-09-01 14:54:21,385 INFO 67021 [egg:core] dump config after ready, 5ms
+2019-09-01 14:54:56,975 INFO 67062 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:54:57,001 INFO 67062 [egg-multipart] stream mode enable
+2019-09-01 14:54:57,082 INFO 67062 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:54:57,085 INFO 67062 [egg-security] use csrf middleware
+2019-09-01 14:54:57,086 INFO 67062 [egg-security] use methodnoallow middleware
+2019-09-01 14:54:57,086 INFO 67062 [egg-security] use noopen middleware
+2019-09-01 14:54:57,087 INFO 67062 [egg-security] use nosniff middleware
+2019-09-01 14:54:57,087 INFO 67062 [egg-security] use xssProtection middleware
+2019-09-01 14:54:57,087 INFO 67062 [egg-security] use xframe middleware
+2019-09-01 14:54:57,088 INFO 67062 [egg-security] use dta middleware
+2019-09-01 14:54:57,088 INFO 67062 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:54:57,113 INFO 67062 [egg:core] dump config after load, 7ms
+2019-09-01 14:54:57,936 INFO 67062 [egg-watcher:application] watcher start success
+2019-09-01 14:54:57,945 INFO 67062 [egg:core] dump config after ready, 7ms
+2019-09-01 14:55:33,547 INFO 67138 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:55:33,576 INFO 67138 [egg-multipart] stream mode enable
+2019-09-01 14:55:33,674 INFO 67138 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:55:33,678 INFO 67138 [egg-security] use csrf middleware
+2019-09-01 14:55:33,679 INFO 67138 [egg-security] use methodnoallow middleware
+2019-09-01 14:55:33,680 INFO 67138 [egg-security] use noopen middleware
+2019-09-01 14:55:33,681 INFO 67138 [egg-security] use nosniff middleware
+2019-09-01 14:55:33,682 INFO 67138 [egg-security] use xssProtection middleware
+2019-09-01 14:55:33,683 INFO 67138 [egg-security] use xframe middleware
+2019-09-01 14:55:33,683 INFO 67138 [egg-security] use dta middleware
+2019-09-01 14:55:33,683 INFO 67138 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:55:33,732 INFO 67138 [egg:core] dump config after load, 8ms
+2019-09-01 14:55:34,609 INFO 67138 [egg-watcher:application] watcher start success
+2019-09-01 14:55:34,618 INFO 67138 [egg:core] dump config after ready, 6ms
+2019-09-01 14:55:55,657 INFO 67170 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:55:55,689 INFO 67170 [egg-multipart] stream mode enable
+2019-09-01 14:55:55,782 INFO 67170 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:55:55,784 INFO 67170 [egg-security] use csrf middleware
+2019-09-01 14:55:55,785 INFO 67170 [egg-security] use methodnoallow middleware
+2019-09-01 14:55:55,786 INFO 67170 [egg-security] use noopen middleware
+2019-09-01 14:55:55,786 INFO 67170 [egg-security] use nosniff middleware
+2019-09-01 14:55:55,787 INFO 67170 [egg-security] use xssProtection middleware
+2019-09-01 14:55:55,787 INFO 67170 [egg-security] use xframe middleware
+2019-09-01 14:55:55,787 INFO 67170 [egg-security] use dta middleware
+2019-09-01 14:55:55,787 INFO 67170 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:55:55,806 INFO 67170 [egg:core] dump config after load, 5ms
+2019-09-01 14:55:55,820 INFO 67170 [egg-watcher:application] watcher start success
+2019-09-01 14:55:55,827 INFO 67170 [egg:core] dump config after ready, 5ms
+2019-09-01 14:55:58,687 INFO 67189 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:55:58,716 INFO 67189 [egg-multipart] stream mode enable
+2019-09-01 14:55:58,798 INFO 67189 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:55:58,801 INFO 67189 [egg-security] use csrf middleware
+2019-09-01 14:55:58,801 INFO 67189 [egg-security] use methodnoallow middleware
+2019-09-01 14:55:58,802 INFO 67189 [egg-security] use noopen middleware
+2019-09-01 14:55:58,803 INFO 67189 [egg-security] use nosniff middleware
+2019-09-01 14:55:58,803 INFO 67189 [egg-security] use xssProtection middleware
+2019-09-01 14:55:58,803 INFO 67189 [egg-security] use xframe middleware
+2019-09-01 14:55:58,804 INFO 67189 [egg-security] use dta middleware
+2019-09-01 14:55:58,804 INFO 67189 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:55:58,827 INFO 67189 [egg:core] dump config after load, 6ms
+2019-09-01 14:55:58,847 INFO 67189 [egg-watcher:application] watcher start success
+2019-09-01 14:55:58,857 INFO 67189 [egg:core] dump config after ready, 6ms
+2019-09-01 14:56:08,305 INFO 67219 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:56:08,331 INFO 67219 [egg-multipart] stream mode enable
+2019-09-01 14:56:08,420 INFO 67219 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:56:08,423 INFO 67219 [egg-security] use csrf middleware
+2019-09-01 14:56:08,424 INFO 67219 [egg-security] use methodnoallow middleware
+2019-09-01 14:56:08,425 INFO 67219 [egg-security] use noopen middleware
+2019-09-01 14:56:08,426 INFO 67219 [egg-security] use nosniff middleware
+2019-09-01 14:56:08,426 INFO 67219 [egg-security] use xssProtection middleware
+2019-09-01 14:56:08,427 INFO 67219 [egg-security] use xframe middleware
+2019-09-01 14:56:08,427 INFO 67219 [egg-security] use dta middleware
+2019-09-01 14:56:08,427 INFO 67219 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:56:08,462 INFO 67219 [egg:core] dump config after load, 5ms
+2019-09-01 14:56:09,173 INFO 67219 [egg-watcher:application] watcher start success
+2019-09-01 14:56:09,180 INFO 67219 [egg:core] dump config after ready, 5ms
+2019-09-01 14:58:03,572 INFO 67318 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:58:03,619 INFO 67318 [egg-multipart] stream mode enable
+2019-09-01 14:58:03,706 INFO 67318 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:58:03,709 INFO 67318 [egg-security] use csrf middleware
+2019-09-01 14:58:03,710 INFO 67318 [egg-security] use methodnoallow middleware
+2019-09-01 14:58:03,710 INFO 67318 [egg-security] use noopen middleware
+2019-09-01 14:58:03,711 INFO 67318 [egg-security] use nosniff middleware
+2019-09-01 14:58:03,711 INFO 67318 [egg-security] use xssProtection middleware
+2019-09-01 14:58:03,711 INFO 67318 [egg-security] use xframe middleware
+2019-09-01 14:58:03,712 INFO 67318 [egg-security] use dta middleware
+2019-09-01 14:58:03,712 INFO 67318 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:58:03,733 INFO 67318 [egg:core] dump config after load, 5ms
+2019-09-01 14:58:03,747 INFO 67318 [egg-watcher:application] watcher start success
+2019-09-01 14:58:03,754 INFO 67318 [egg:core] dump config after ready, 5ms
+2019-09-01 14:58:34,668 INFO 67366 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:58:34,708 INFO 67366 [egg-multipart] stream mode enable
+2019-09-01 14:58:34,796 INFO 67366 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:58:34,798 INFO 67366 [egg-security] use csrf middleware
+2019-09-01 14:58:34,799 INFO 67366 [egg-security] use methodnoallow middleware
+2019-09-01 14:58:34,799 INFO 67366 [egg-security] use noopen middleware
+2019-09-01 14:58:34,800 INFO 67366 [egg-security] use nosniff middleware
+2019-09-01 14:58:34,800 INFO 67366 [egg-security] use xssProtection middleware
+2019-09-01 14:58:34,801 INFO 67366 [egg-security] use xframe middleware
+2019-09-01 14:58:34,801 INFO 67366 [egg-security] use dta middleware
+2019-09-01 14:58:34,801 INFO 67366 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:58:34,821 INFO 67366 [egg:core] dump config after load, 5ms
+2019-09-01 14:58:34,835 INFO 67366 [egg-watcher:application] watcher start success
+2019-09-01 14:58:34,842 INFO 67366 [egg:core] dump config after ready, 5ms
+2019-09-01 14:59:05,121 INFO 67398 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:59:05,152 INFO 67398 [egg-multipart] stream mode enable
+2019-09-01 14:59:05,245 INFO 67398 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 14:59:05,247 INFO 67398 [egg-security] use csrf middleware
+2019-09-01 14:59:05,248 INFO 67398 [egg-security] use methodnoallow middleware
+2019-09-01 14:59:05,248 INFO 67398 [egg-security] use noopen middleware
+2019-09-01 14:59:05,249 INFO 67398 [egg-security] use nosniff middleware
+2019-09-01 14:59:05,249 INFO 67398 [egg-security] use xssProtection middleware
+2019-09-01 14:59:05,250 INFO 67398 [egg-security] use xframe middleware
+2019-09-01 14:59:05,250 INFO 67398 [egg-security] use dta middleware
+2019-09-01 14:59:05,250 INFO 67398 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 14:59:05,271 INFO 67398 [egg:core] dump config after load, 6ms
+2019-09-01 14:59:05,985 INFO 67398 [egg-watcher:application] watcher start success
+2019-09-01 14:59:05,993 INFO 67398 [egg:core] dump config after ready, 6ms
+2019-09-01 14:59:51,150 INFO 67466 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 14:59:51,150 INFO 67466 [egg:core] dump config after load, 10ms
+2019-09-01 14:59:52,094 INFO 67466 [egg:core] dump config after ready, 5ms
+2019-09-01 15:00:19,162 INFO 67512 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 15:00:19,189 INFO 67512 [egg-multipart] stream mode enable
+2019-09-01 15:00:19,269 INFO 67512 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 15:00:19,272 INFO 67512 [egg-security] use csrf middleware
+2019-09-01 15:00:19,273 INFO 67512 [egg-security] use methodnoallow middleware
+2019-09-01 15:00:19,273 INFO 67512 [egg-security] use noopen middleware
+2019-09-01 15:00:19,274 INFO 67512 [egg-security] use nosniff middleware
+2019-09-01 15:00:19,274 INFO 67512 [egg-security] use xssProtection middleware
+2019-09-01 15:00:19,275 INFO 67512 [egg-security] use xframe middleware
+2019-09-01 15:00:19,275 INFO 67512 [egg-security] use dta middleware
+2019-09-01 15:00:19,275 INFO 67512 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 15:00:19,301 INFO 67512 [egg:core] dump config after load, 5ms
+2019-09-01 15:00:20,009 INFO 67512 [egg-watcher:application] watcher start success
+2019-09-01 15:00:20,016 INFO 67512 [egg:core] dump config after ready, 5ms
+2019-09-01 15:01:50,134 INFO 67643 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 15:01:50,134 INFO 67643 [egg:core] dump config after load, 9ms
+2019-09-01 15:01:51,050 INFO 67643 [egg:core] dump config after ready, 4ms
+2019-09-01 15:14:40,715 INFO 68609 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 15:14:40,748 INFO 68609 [egg-multipart] stream mode enable
+2019-09-01 15:14:40,863 INFO 68609 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 15:14:40,866 INFO 68609 [egg-security] use csrf middleware
+2019-09-01 15:14:40,867 INFO 68609 [egg-security] use methodnoallow middleware
+2019-09-01 15:14:40,867 INFO 68609 [egg-security] use noopen middleware
+2019-09-01 15:14:40,868 INFO 68609 [egg-security] use nosniff middleware
+2019-09-01 15:14:40,869 INFO 68609 [egg-security] use xssProtection middleware
+2019-09-01 15:14:40,869 INFO 68609 [egg-security] use xframe middleware
+2019-09-01 15:14:40,870 INFO 68609 [egg-security] use dta middleware
+2019-09-01 15:14:40,870 INFO 68609 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 15:14:40,892 INFO 68609 [egg:core] dump config after load, 5ms
+2019-09-01 15:14:41,717 INFO 68609 [egg-watcher:application] watcher start success
+2019-09-01 15:14:41,724 INFO 68609 [egg:core] dump config after ready, 5ms
+2019-09-01 15:16:01,693 INFO 68682 [egg:logger] init all loggers with options: {"dir":"/Users/igola/Desktop/beidou-dva/logs/beidou-dva","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"beidou-dva-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-01 15:16:01,723 INFO 68682 [egg-multipart] stream mode enable
+2019-09-01 15:16:01,802 INFO 68682 [egg-static] starting static serve /public/ -> /Users/igola/Desktop/beidou-dva/app/public
+2019-09-01 15:16:01,804 INFO 68682 [egg-security] use csrf middleware
+2019-09-01 15:16:01,805 INFO 68682 [egg-security] use methodnoallow middleware
+2019-09-01 15:16:01,805 INFO 68682 [egg-security] use noopen middleware
+2019-09-01 15:16:01,806 INFO 68682 [egg-security] use nosniff middleware
+2019-09-01 15:16:01,806 INFO 68682 [egg-security] use xssProtection middleware
+2019-09-01 15:16:01,807 INFO 68682 [egg-security] use xframe middleware
+2019-09-01 15:16:01,807 INFO 68682 [egg-security] use dta middleware
+2019-09-01 15:16:01,807 INFO 68682 [egg-security] compose 7 middlewares into one security middleware
+2019-09-01 15:16:01,826 INFO 68682 [egg:core] dump config after load, 5ms
+2019-09-01 15:16:01,840 INFO 68682 [egg-watcher:application] watcher start success
+2019-09-01 15:16:01,847 INFO 68682 [egg:core] dump config after ready, 5ms
+2019-09-01 16:21:29,538 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 16:40:52,182 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 16:51:55,811 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 16:51:55,812 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 17:45:22,477 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 17:45:22,477 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 18:50:56,911 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 18:50:56,912 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 19:53:18,399 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 20:53:11,766 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 20:53:11,766 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 21:53:22,403 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 21:53:22,404 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 22:25:36,904 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 22:25:36,904 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-01 23:53:31,537 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-01 23:53:31,538 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 00:51:19,185 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 01:46:14,786 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 02:47:35,252 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 03:46:47,852 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-02 03:46:47,852 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 04:45:32,537 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-02 04:45:32,538 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 05:49:02,949 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 06:52:00,017 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-02 06:52:00,017 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 07:43:41,528 WARN 68682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-02 07:43:41,529 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-02 08:44:58,944 WARN 68682 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -1,0 +1,356 @@
+{
+  "keys": "/Users/igola/Desktop/beidou-dva/config/config.default.js",
+  "version": "/Users/igola/Desktop/beidou-dva/config/config.default.js",
+  "react": {
+    "static": "/Users/igola/Desktop/beidou-dva/config/config.default.js",
+    "middlewares": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "beautify": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "cache": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.local.js",
+    "doctype": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "assetHost": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "assetPath": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "placeHolder": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js"
+  },
+  "middleware": "/Users/igola/Desktop/beidou-dva/config/config.default.js",
+  "gzip": {
+    "threshold": "/Users/igola/Desktop/beidou-dva/config/config.default.js"
+  },
+  "webpack": {
+    "resolve": {
+      "extensions": "/Users/igola/Desktop/beidou-dva/config/config.default.js",
+      "alias": {
+        "client": "/Users/igola/Desktop/beidou-dva/config/config.default.js"
+      }
+    },
+    "custom": {
+      "depth": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "cssExtract": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+    },
+    "mode": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+    "output": {
+      "path": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "filename": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "chunkFilename": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "publicPath": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+    },
+    "optimization": {
+      "splitChunks": {
+        "chunks": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+        "name": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+        "cacheGroups": {
+          "default": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+          "vendors": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+          "manifest": {
+            "test": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+          }
+        }
+      },
+      "noEmitOnErrors": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+    },
+    "devServer": {
+      "contentBase": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "port": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "noInfo": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "quiet": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "clientLogLevel": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "lazy": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "watchOptions": {
+        "aggregateTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+      },
+      "headers": {
+        "X-Custom-Header": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+      },
+      "stats": {
+        "colors": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+        "chunks": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+      },
+      "publicPath": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js",
+      "hot": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-webpack@2.2.1@beidou-webpack/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "type": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "useSession": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "cookieName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "sessionName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "headerName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "bodyName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "queryName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.local.js",
+      "maxAge": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "value": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "policy": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js",
+      "checkAddress": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-security@2.6.1@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "files": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-multipart@2.9.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "cache": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "defaultViewEngine": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view-react@2.1.1@beidou-view-react/config/config.default.js",
+    "mapping": "/Users/igola/Desktop/beidou-dva/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "useHashAsset": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view@2.1.1@beidou-view/config/config.default.js",
+    "hashAssetPath": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-view@2.1.1@beidou-view/config/config.default.js"
+  },
+  "isomorphic": {
+    "polyfill": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-isomorphic@2.0.1@beidou-isomorphic/config/config.default.js",
+    "universal": {
+      "assetsFilePath": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-isomorphic@2.0.1@beidou-isomorphic/config/config.default.js",
+      "assets": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-isomorphic@2.0.1@beidou-isomorphic/config/config.default.js"
+    },
+    "alias": {
+      "client": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-isomorphic@2.0.1@beidou-isomorphic/config/config.default.js"
+    }
+  },
+  "router": {
+    "root": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js",
+    "urlPrefix": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js",
+    "exclude": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js",
+    "mapping": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js",
+    "entry": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js",
+    "exts": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-router@2.0.1@beidou-router/config/config.default.js"
+  },
+  "env": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-core@2.2.1@beidou-core/config/config.default.js",
+  "name": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "proxy": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "version": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "description": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "debug": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "stop": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "dev": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "build": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "build:node": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "browserslist": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "license": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dependencies": {
+      "babel-polyfill": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "beidou": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "beidou-cli": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "dva": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "react": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "react-dom": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "antd-mobile": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "babel-plugin-import": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "react-intl": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "react-loadable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "koa-is-json": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "webpack-manifest-plugin": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "HOME": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "rundir": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-core@2.2.1@beidou-core/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "notFound": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "sitefile": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "middlewares": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "httpClient": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "formLimit": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "strict": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "depth": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "env": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "level": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "outputJSON": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "buffer": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "appLogName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "coreLogName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "agentLogName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "errorLogName": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "logging": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-core@2.2.1@beidou-core/config/config.default.js",
+  "workerStartTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "port": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "hostname": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/igola/Desktop/beidou-dva/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "client": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-core@2.2.1@beidou-core/config/config.default.js",
+  "core": {
+    "name": "/Users/igola/Desktop/beidou-dva/node_modules/_beidou-core@2.2.1@beidou-core/config/config.default.js"
+  }
+}
