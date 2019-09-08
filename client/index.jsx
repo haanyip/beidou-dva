@@ -2,7 +2,8 @@ import 'babel-polyfill';
 import React from 'react';
 import dva, { connect } from 'dva';
 import { memoryHistory, browserHistory } from 'dva/router';
-import router from './router';
+import { createBrowserHistory as createHistory } from 'history';
+import router from './router/router';
 
 function createApp(opts) {
   const app = dva(opts);
@@ -15,6 +16,7 @@ export default class Index extends React.Component {
     const app = createApp({
       history: memoryHistory,
       initialState: {
+
       },
     });
     return {
@@ -27,7 +29,7 @@ export default class Index extends React.Component {
     return (
       <html>
         <head>
-          <title>Beidou example with dva</title>
+          <title>dva </title>
         </head>
         <body>
           <div id="container" dangerouslySetInnerHTML={{ __html: html }} />
@@ -41,10 +43,9 @@ export default class Index extends React.Component {
 
 if (__CLIENT__) {
   const app = createApp({
-    history: browserHistory,
-    initialState: {},
+    history: createHistory(),
+    initialState: {
+    },
   });
-
-  // 5. Start
   app.start('#container');
 }

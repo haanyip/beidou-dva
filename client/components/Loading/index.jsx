@@ -8,6 +8,6 @@ export default function Loading(props) {
     } else if (props.pastDelay) {
         return <div>Loading...</div>;
     } else {
-        return <div>Loading...</div>
+      return <div>Loading...</div>;
     }
 }

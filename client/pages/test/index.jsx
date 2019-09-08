@@ -1,13 +1,7 @@
 import React, { PureComponent,Suspense } from "react";
 import { FormattedMessage } from 'react-intl';
 import { connect } from 'dva';
-
-
-// @connect(({ loading, home }) => ({
-//   test: home.test
-// }))
-
-class Home extends PureComponent {
+class Test extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -20,12 +14,11 @@ class Home extends PureComponent {
     return (
      
         <div>
-          aaa
-          <div>ssss</div>
+        test
         </div>
  
      
     );
   }
 }
-export default Home;
+export default Test;
