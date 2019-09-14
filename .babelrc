@@ -3,11 +3,11 @@
     [
       "import",
       { 
-        "libraryName": "antd",
+        "libraryName": "antd-mobile",
         "style": true
       }
     ],
-    "@babel/plugin-syntax-dynamic-import",
-    "react-loadable/babel"
+    // "@babel/plugin-syntax-dynamic-import",
+    // "react-loadable/babel"
   ]
 }
