@@ -10,10 +10,11 @@ function getMainfest() {
       return JSON.parse(raw);
     }
   } catch (e) {
+    console.dir('not read manifest.json')
     return {};
   }
 }
-console.dir(getMainfest())
+
 module.exports = {
   keys: 'secret',
   version: '1.0.0',
@@ -26,8 +27,21 @@ module.exports = {
   gzip: {
     threshold: 1024, // 小于 1k 的响应体不压缩
   },
-  view: {
-    defaultExtension: '.tsx'
+  // view: {
+  //   defaultExtension: '.tsx'
+  // },
+  // 七牛云服务配置
+  qiniu: {
+    ak: 'YGmMh1K9fVVf77Ry6RGKLajeqErxwcZyTR1AYHld',
+    sk: 'az5IPgfDJx2fQco5w5cvyKDPaRN86a4IrEwRtYyb',
+    bucket: 'igola-dev-files',
+    baseUrl: 'http://devcontent.igola.com',
+    zone: 'Zone_z0',
+    app: true,
+    agent: false,
+  },
+  security: {
+    csrf: false,
   },
   webpack: {
     custom: {

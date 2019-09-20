@@ -1,0 +1,91 @@
+Hash: e91bc8264a67e4204fd8
+Version: webpack 4.39.3
+Time: 9733ms
+Built at: 2019-09-14 12:25:45
+                           Asset       Size  Chunks                    Chunk Names
+                           3.css  148 bytes       3  [emitted]         
+       3.e91bc8264a67e4204fd8.js   12.7 KiB       3  [emitted]         
+             iconfont-31332.woff   24.3 KiB          [emitted]         
+              iconfont-4ab4e.ttf   39.7 KiB          [emitted]         
+              iconfont-8a758.svg    188 KiB          [emitted]         
+              iconfont-9a8f3.eot   39.9 KiB          [emitted]         
+                       index.css   35.4 KiB       1  [emitted]         index
+   index.e91bc8264a67e4204fd8.js   71.8 KiB       1  [emitted]         index
+ locales.e91bc8264a67e4204fd8.js   64.1 KiB       2  [emitted]         locales
+                    manifest.css   13.8 KiB       0  [emitted]         manifest
+manifest.e91bc8264a67e4204fd8.js    489 KiB       0  [emitted]  [big]  manifest
+                   manifest.json  341 bytes          [emitted]         
+Entrypoint index [big] = manifest.css manifest.e91bc8264a67e4204fd8.js index.css index.e91bc8264a67e4204fd8.js
+Entrypoint locales = locales.e91bc8264a67e4204fd8.js
+  [1] ./node_modules/_react@16.9.0@react/index.js 190 bytes {0} [built]
+ [15] ./node_modules/_history@4.9.0@history/esm/history.js + 1 modules 28.1 KiB {0} [built]
+      | ./node_modules/_history@4.9.0@history/esm/history.js 27.7 KiB [built]
+      | ./node_modules/_@babel_runtime@7.5.5@@babel/runtime/helpers/esm/extends.js 397 bytes [built]
+ [62] (webpack)/buildin/global.js 472 bytes {0} [built]
+ [92] ./client/locales/index.ts + 4 modules 66.4 KiB {1} {2} [built]
+      | ./client/locales/index.ts 624 bytes [built]
+      | ./client/locales/zh-TW.ts 1.01 KiB [built]
+      | ./client/locales/en-US.ts 1.01 KiB [built]
+      | ./client/locales/zh-TW/home.ts 31.5 KiB [built]
+      | ./client/locales/en-US/home.ts 32.3 KiB [built]
+ [93] ./node_modules/_dva@2.4.1@dva/router.js 106 bytes {0} [built]
+[121] ./node_modules/_tiny-invariant@1.0.6@tiny-invariant/dist/tiny-invariant.esm.js 317 bytes {0} [built]
+[172] ./node_modules/_resolve-pathname@2.2.0@resolve-pathname/index.js 1.75 KiB {0} [built]
+[173] ./node_modules/_value-equal@0.4.0@value-equal/index.js 1.11 KiB {0} [built]
+[213] ./node_modules/_dva@2.4.1@dva/index.js 92 bytes {0} [built]
+[231] ./node_modules/_tiny-warning@1.0.3@tiny-warning/dist/tiny-warning.esm.js 361 bytes {0} [built]
+[250] multi ./client/index.tsx 28 bytes {1} [built]
+[251] ./node_modules/_babel-polyfill@6.26.0@babel-polyfill/lib/index.js 833 bytes {0} [built]
+[556] ./client/index.less 39 bytes {1} [built]
+[557] multi ./client/locales/index.ts 28 bytes {2} [built]
+[581] ./client/index.tsx + 4 modules 8.71 KiB {1} [built]
+      | ./client/index.tsx 4.57 KiB [built]
+      | ./client/router/router.tsx 1.12 KiB [built]
+      | ./client/models/setting.ts 179 bytes [built]
+      | ./client/components/Loading/index.tsx 476 bytes [built]
+      | ./client/pages/test/index.tsx 2.33 KiB [built]
+    + 580 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  manifest.e91bc8264a67e4204fd8.js (489 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  index (610 KiB)
+      manifest.css
+      manifest.e91bc8264a67e4204fd8.js
+      index.css
+      index.e91bc8264a67e4204fd8.js
+
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--5-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_normalize.css@7.0.0@normalize.css/normalize.css:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader??ref--5-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_normalize.css@7.0.0@normalize.css/normalize.css 2.5 KiB {0} [built]
+    [1] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--7-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!client/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]
+    [1] ./client/assets/iconfont/iconfont.eot?t=1567155241992 64 bytes {0} [built]
+    [2] ./node_modules/_css-loader@0.28.11@css-loader??ref--7-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!./client/index.less 379 bytes {0} [built]
+    [3] ./node_modules/_css-loader@0.28.11@css-loader??ref--7-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./client/assets/iconfont/iconfont.css 36.3 KiB {0} [built]
+    [4] ./node_modules/_css-loader@0.28.11@css-loader/lib/url/escape.js 448 bytes {0} [built]
+    [5] ./client/assets/iconfont/iconfont.woff?t=1567155241992 65 bytes {0} [built]
+    [6] ./client/assets/iconfont/iconfont.ttf?t=1567155241992 64 bytes {0} [built]
+    [7] ./client/assets/iconfont/iconfont.svg?t=1567155241992 64 bytes {0} [built]
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--7-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!node_modules/_antd-mobile@2.3.1@antd-mobile/lib/button/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader??ref--7-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!./node_modules/_antd-mobile@2.3.1@antd-mobile/lib/button/style/index.less 4.74 KiB {0} [built]
+    [1] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--7-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!node_modules/_antd-mobile@2.3.1@antd-mobile/lib/icon/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader??ref--7-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!./node_modules/_antd-mobile@2.3.1@antd-mobile/lib/icon/style/index.less 724 bytes {0} [built]
+    [1] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--7-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!node_modules/_antd-mobile@2.3.1@antd-mobile/lib/style/index.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader??ref--7-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--7-3!./node_modules/_antd-mobile@2.3.1@antd-mobile/lib/style/index.less 6.5 KiB {0} [built]
+    [1] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/_css-loader@0.28.11@css-loader/index.js??ref--8-1!node_modules/_postcss-loader@2.1.6@postcss-loader/lib/index.js??postcss!node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--8-3!client/components/Header/index.module.less:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/_css-loader@0.28.11@css-loader??ref--8-1!./node_modules/_postcss-loader@2.1.6@postcss-loader/lib??postcss!./node_modules/_less-loader@4.1.0@less-loader/dist/cjs.js??ref--8-3!./client/components/Header/index.module.less 433 bytes {0} [built]
+    [1] ./node_modules/_css-loader@0.28.11@css-loader/lib/css-base.js 2.21 KiB {0} [built]

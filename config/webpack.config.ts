@@ -1,15 +1,22 @@
 
 const path = require('path');
 var ManifestPlugin = require('webpack-manifest-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = (app, defaultConfig) => {
-  defaultConfig.output.filename ='[name].[hash].js'
-  defaultConfig.output.chunkFilename ='[name].[hash].js'
-  defaultConfig.plugins.push(new ManifestPlugin({
-    fileName: 'manifest.json',
-    manifestVariable: "webpackManifest",
-    writeToFileEmit: true,
-    publicPath: '/'
-  }))
+  // defaultConfig.output.filename ='[name].[hash].js'
+  // defaultConfig.output.chunkFilename ='[name].[hash].js'
+  // defaultConfig.plugins.push(new ManifestPlugin({
+  //   fileName: 'manifest.json',
+  //   manifestVariable: "webpackManifest",
+  //   writeToFileEmit: true,
+  //   publicPath: '/'
+  // }))
+  // defaultConfig.plugins.push(new CopyWebpackPlugin([
+  //   {
+  //     from: path.join(__dirname, '../client/assets/ueditor'), 
+  //     to: path.join(__dirname, '../build')
+  //   }
+  // ]))
   return defaultConfig;
 }
 // import { Configuration } from 'webpack';
