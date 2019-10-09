@@ -35,6 +35,7 @@ declare var window: Window & {
 }
 
 
+const ref = React.createRef();
 
 class ReactUeditor extends React.Component<UeditorProps,UeditorState> {
   static defaultProps = {
@@ -134,7 +135,7 @@ class ReactUeditor extends React.Component<UeditorProps,UeditorState> {
       });
       if (render) {
         this.setState({
-          pluginsRender: [...this.state.pluginsRender, { name, ...plugin(ueditor) }]
+          pluginsRender: [...this.state.pluginsRender, { name, ...plugin(ueditor), ueditor:ueditor }]
         })
       }
       return btn
@@ -144,36 +145,15 @@ class ReactUeditor extends React.Component<UeditorProps,UeditorState> {
   getVisibleModalName = name => {
     return name + 'VisibleModal'
   }
-  registerImageUpload = () =>  this.registerUiPlugin(()=>({
-      title: '图片设置',
-      cssRules: 'background-position: -726px -77px;',
-      render: UploadImage
-  }))
   
   initEditor = () => {
     const {config, plugins, onChange, value, getRef, onReady} = this.props
-    // this.registerImageUpload()
-    this.registerUiPlugin((ueditor)=>({
-      title: '图片设置',
-      cssRules: 'background-position: -726px -77px;',
-      render: <UploadImage ueditor={ueditor}/>
-    }))
-    // this.registerUiPlugin((ueditor)=>({
-    //   name: 'test',
-    //   title: '测试插件',
-    //   cssRules: 'background-position: -504px 0px;',
-    //   onClick: ()=> { ueditor.focus() ; ueditor.execCommand('insertcode')}
-    // }))
     // 注册自定义插件
-    // if (plugins && Array.isArray(plugins)) {
-    //   plugins.forEach(plugin => {
-    //     if (typeof plugin === 'string') {
-    //       return this.registerInternalPlugin(plugin)
-    //     } else {
-    //       return this.registerUiPlugin(plugin)
-    //     }
-    //   })
-    // }
+    if (plugins && Array.isArray(plugins)) {
+      plugins.forEach(plugin => {
+        return this.registerUiPlugin(plugin)
+      })
+    }
     // 实例化ueditor
     this.ueditor = config ? window.UE.getEditor(this.containerID, config) : window.UE.getEditor(this.containerID)
     // 
@@ -187,36 +167,32 @@ class ReactUeditor extends React.Component<UeditorProps,UeditorState> {
         this.content = this.ueditor.getContent()
         onChange && onChange(this.content)
       })
-      // this.ueditor.addListener('afterpaste', () => {
-      //   this.handlePasteImage()
-      // })
       onReady && onReady()
     })
   }
   onModalClose=(name)=>{
     this.setState({[this.getVisibleModalName(name)]: false})
   }
-  onOk = (values) => {
-    console.dir(values)
+  onConfirm = (name)=> {
+    this.setState({[this.getVisibleModalName(name)]: false})
+
   }
   render() {
     let { pluginsRender } = this.state
     const pluginsModalRender =  pluginsRender.map( plugin => {
       const visible = this.state[this.getVisibleModalName(plugin.name)]
-      const C =  plugin.render
+      // const C =  plugin.render
         return (
           <Modal
             key={plugin.name}
             title={plugin.title}
             visible={visible}
-            // footer={null}
             okText="确认"
             cancelText="取消"
-            onCancel={()=>{this.onModalClose(plugin.name);plugin.onClose&&plugin.onClose() }}
-            onOk={plugin.onConfirm}
+            onCancel={()=>{this.onModalClose(plugin.name); plugin.onClose&&plugin.onClose() }}
+            onOk={()=>{this.onConfirm(plugin.name);plugin.onConfirm&&plugin.onConfirm()}}
           >
             {plugin.render}
-              {/* <C onOk={(values)=>{this.onOk(values); plugin.onConfirm&&plugin.onConfirm()}} onCancel={()=>{this.onModalClose(plugin.name);plugin.onClose&&plugin.onClose()}}/> */}
           </Modal>
         )
     })
@@ -225,13 +201,7 @@ class ReactUeditor extends React.Component<UeditorProps,UeditorState> {
     return (
       <div>
         <script id={this.containerID} name={this.containerID} type='text/plain'></script>
-        {/* <input type='file'
-          id={this.fileInputID}
-          onChange={this.uploadImage}
-          style={{visibility: 'hidden', width: 0, height: 0, margin: 0, padding: 0, fontSize: 0}}
-          multiple={multipleImagesUpload} /> */}
         { pluginsModalRender }
-        
       </div>
     )
   }

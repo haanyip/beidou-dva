@@ -11,23 +11,22 @@ interface UploadProps {
   ueditor:Ueditor
 };
 const UploadImage: React.FC<UploadProps> = (props: UploadProps) => {
+  console.dir(props)
   const [loading, setLoading] = useState(false);
   const [imageUrl, setImageUrl] = useState('');
-  const handleSubmit = e => {
-    e.preventDefault();
-    props.form.validateFields((err, values) => {
-      if (!err) {
-        console.log('Received values of form: ', values);
-        // props.onOk&&props.onOk(values)
-        props.ueditor.focus();
-        
-        props.ueditor.execCommand('inserthtml', )
-      }
-    });
-  };
-  const onClose = () =>{
-    props.onCancel&&props.onCancel()
-  }
+  // const handleSubmit = e => {
+  //   e.preventDefault();
+  //   props.form.validateFields((err, values) => {
+  //     if (!err) {
+  //       console.log('Received values of form: ', values);
+  //       const { file:{response:{data:{key}}} } = values.image
+  //       // props.onOk&&props.onOk(values)
+  //       props.ueditor.focus();
+  //     const html = `<img src="${key}" />`
+  //     //   props.ueditor.execCommand('inserthtml', )
+  //     }
+  //   });
+  // };
   const uploadButton = (
     <div>
       <Icon type={loading ? 'loading' : 'plus'} />
@@ -55,7 +54,7 @@ const UploadImage: React.FC<UploadProps> = (props: UploadProps) => {
     if (info.file.status === 'done') {
       const {url} = info.file.response.data
       setImageUrl(url)
-      props.form.setFieldsValue({image:url})
+      // props.form.setFieldsValue({image:url})
       setLoading(false)
     }
   };
@@ -71,7 +70,7 @@ const UploadImage: React.FC<UploadProps> = (props: UploadProps) => {
     },
   };
   return (
-    <Form onSubmit={handleSubmit} {...formItemLayout}>
+    <Form  {...formItemLayout}>
       <Form.Item label="上传图片:">
         {getFieldDecorator('image', {
           initialValue: imageUrl,
@@ -140,10 +139,6 @@ const UploadImage: React.FC<UploadProps> = (props: UploadProps) => {
         })(
           <Input />
         )}
-      </Form.Item>
-      <Form.Item >
-        <Button type="primary" htmlType="submit">确定</Button>
-        <Button type="primary" onClick={onClose}>取消</Button>
       </Form.Item>
     </Form>
   )

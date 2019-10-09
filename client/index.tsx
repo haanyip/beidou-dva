@@ -6,12 +6,14 @@ import { createBrowserHistory , createMemoryHistory } from 'history';
 // import { createMemoryHistory } from 'dva/router';
 import router from './router/router';
 import setting from './models/setting'
+import home from './models/home'
 import './index.less'
 function createApp(opts) {
   const app = dva(opts);
   app.model(setting)
+  app.model(home)
   app.router(router);
-
+  
   return app;
 };
 

@@ -1,133 +1,89 @@
-import React, { PureComponent, Suspense } from "react";
-import { FormattedMessage } from 'react-intl';
+import React, { PureComponent } from "react";
 import { Dispatch, AnyAction } from 'redux';
 import { connect } from 'dva';
-import { Button } from 'antd-mobile';
 import { ConnectState } from '../../models/connect'
 import { SettingModelState } from '../../models/setting'
+import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
+import  AddCom from './addCom'
+import { Layout, Button, Icon, Empty } from 'antd';
 import styles from './index.module.less'
-import Ueditor from '../../components/Ueditor'
+
 
 interface HomeProps {
   dispatch: Dispatch<AnyAction>;
   setting: SettingModelState;
+  home: HomeModelState;
 }
 interface HomeState {
-  show?: boolean,
-  testValue?: string
+  showAddCom: boolean
 }
-@connect(({ setting }: ConnectState) => ({
-  setting
+@connect(({ setting, home }: ConnectState) => ({
+  setting,
+  home
 }))
 class Home extends PureComponent <HomeProps, HomeState >{
   
-  private ueditorRef:any = null;
   constructor(props) {
     super(props);
     this.state= {
-      testValue: 'pppppp'
+      showAddCom: false
     }
   }
   componentDidMount(){
-    setTimeout(()=>{
-      // console.dir(this.ueditorRef.setContent('1111111'))
-      this.setState({
-        testValue: '2222222'
-      })
-    },3000)
+    
   }
-  uploadImage = e => {
-    return new Promise(function(resolve, reject) {
-      resolve(window.URL.createObjectURL(e.target.files[0]))
+  addClick=()=>{
+    this.setState({
+      showAddCom:true
     })
   }
-  getUeditor=(ref)=>{
-    this.ueditorRef = ref
-  }
-  pasteImageStart = imageAmount => {
-    console.log('paste start', 'image amount is ' + imageAmount)
-  }
   render() {
-    const modalContainerStyle = {
-      position: 'fixed',
-      top: 0,
-      bottom: 0,
-      left: 0,
-      right: 0,
-      background: 'rgba(0, 0, 0, .5)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }
-    
-    const modalStyle = {
-      width: 500,
-      height: 400,
-      background: '#fff',
-      borderRadius: 5,
-      padding: 20,
-    }
-    
-    const imageContainerStyle = {
-      marginTop: 20,
-    }
-    
-    const imageStyle = {
-      margin: 10,
-      width: 100,
-      height: 100,
-    }
-    const Modal = ({style, onSelectImage}) => {
-      let handleClick = e => {
-        onSelectImage(e.target.src)
-      }
-      return (
-        <div style={{...modalContainerStyle, ...style}}>
-          <div style={modalStyle}>
-            <div>请选择图片：</div>
-            <div style={imageContainerStyle} onClick={handleClick}>
-              <img style={imageStyle} src='https://cloud-minapp-7894.cloud.ifanrusercontent.com/1hGIy5OFK4JMKqxA.png' />
-              <img style={imageStyle} src='https://cloud-minapp-7894.cloud.ifanrusercontent.com/1gAVF3QpMa7cvWYz.jpg' />
-            </div>
+    const { navBanner, previewData:{ componentList } } = this.props.home
+    const { showAddCom } = this.state;
+    return (
+      <Layout className={styles['base-layout']}>
+        <Header />
+        <div className={styles['main-layout']}>
+          {showAddCom && <AddCom navBanner={navBanner}/>}
+          <div className={styles['content-layout']}>
+              <div className={styles['page-path-container']}>
+                <div className={styles['page-path']}>
+                  <div className={styles['url']}>
+                    <span>https://render.yunfengdie.cn/p/q/k0xfswgz/1569305241791.html</span>
+                    <Icon type="edit" className={styles['eidt']}/>
+                  </div>
+                  <div className={styles['share']}>
+                    <Icon type="share-alt" />
+                  </div>
+                </div>
+              </div>
+              <div className={styles['preview-box']}>
+                <div className={styles['preview-iframe']}>
+                  <div className={styles['preview-scroll']}>
+                    {
+                      componentList.length>0?'': 
+                      <Empty
+                        image="https://gw.alipayobjects.com/zos/rmsportal/vCbMpJlWAzfHGqOtzFCD.png"
+                        imageStyle={{
+                          height: 180,
+                        }}
+                        description=''
+                      >
+                        <Button type="primary" onClick={this.addClick}>请添加组件</Button>
+                      </Empty>
+                    }
+                    {/* <Spin tip="更新中..." spinning={this.state.loading} >
+                      <div className={styles['spin-container']}>
+                        <iframe src="https://xtech.antfin.com/"  style={{width:'375px',height: '100%'}}></iframe>
+                      </div>
+                    </Spin> */}
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
-      )
-    }
-    let uploadImagePlugin = function (ueditor) {
-      return {
-        menuText: '图片上传',
-        cssRules: 'background-position: -726px -73px;',
-        onIconClick: function () {console.log('imageUpload icon click')},
-        render: (visible, closeModal) => {
-          const handleSelectImage = (url) => {
-            ueditor.focus()
-            ueditor.execCommand('inserthtml', '<img src="' + url + '" />')
-            closeModal()
-          }
-          return <Modal style={{display: visible ? 'flex' : 'none'}} onSelectImage={handleSelectImage} />
-        }
-      }
-    }
-    
-    return (
-      <>
-        {/* <Header/> */}
-       {/* <Button type="primary">default</Button> */}
-       {/* {this.state.show && 
-                } */}
-                <Ueditor 
-                  value={this.state.testValue}
-                  getRef={this.getUeditor}
-                  plugins={['uploadImage', 'insertCode', 'uploadVideo', 'uploadAudio', 'insertLink',uploadImagePlugin]}
-
-                //  uploadImage={this.uploadImage}
-                    // ueditorPath='../../assets/ueditor'
-                            /> 
-        {/* <div>{this.state.test}</div>
-        <FormattedMessage id="please-wait" />
-        <div className={styles['test']}>ssss</div> */}
-      </>
+      </Layout>
     );
   }
 }
