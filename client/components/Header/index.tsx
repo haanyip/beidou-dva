@@ -3,7 +3,7 @@ import { Icon,Button } from 'antd';
 import styles from './index.module.less';
 
 interface HeaderProps {
-
+  onPreview?:()=>void;
 }
 const Header:  React.FC<HeaderProps> = ( props ) =>(
   <div className={styles['header']}>
@@ -17,7 +17,7 @@ const Header:  React.FC<HeaderProps> = ( props ) =>(
     </div>
     <div className={styles['action']}>
       <span className={styles['action-save-time']}>保存于: 14:35:56</span>
-      <span className={styles['action-preview']}>
+      <span className={styles['action-preview']} onClick={props.onPreview}>
         <Icon type="eye" />预览
       </span>
       <span className={styles['action-save']}>

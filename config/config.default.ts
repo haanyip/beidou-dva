@@ -32,10 +32,10 @@ module.exports = {
   // },
   // 七牛云服务配置
   qiniu: {
-    ak: 'YGmMh1K9fVVf77Ry6RGKLajeqErxwcZyTR1AYHld',
-    sk: 'az5IPgfDJx2fQco5w5cvyKDPaRN86a4IrEwRtYyb',
-    bucket: 'igola-dev-files',
-    baseUrl: 'http://devcontent.igola.com',
+    ak: 'lRE33crv3fQ4v3pZu4s3vAMA4i9nKk-B24G3JcBE',
+    sk: 'kuBNPz9V_yOWh4L1egS6TAAhrS2vI0nSzmWHnV9a',
+    bucket: 'files',
+    baseUrl: 'http://hudongliang.iok.la:31519',
     zone: 'Zone_z0',
     app: true,
     agent: false,

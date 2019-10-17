@@ -4,11 +4,18 @@ const { TabPane } = Tabs;
 import styles from './index.module.less'
 
 interface AddComProps{
-  navBanner: Array<any>
+  navBanner: Array<any>,
+  onClick: (index:number, idx:number )=>void
 }
 class AddCom extends PureComponent <AddComProps >{
   static defaultProps = {
     navBanner: []
+  }
+  selectCompent = (index,inx) => {
+    console.dir(index)
+    if(this.props.onClick){
+      this.props.onClick(index, inx)
+    }
   }
   render() {
     const { navBanner } = this.props;
@@ -26,7 +33,7 @@ class AddCom extends PureComponent <AddComProps >{
                       <TabPane tab={item.title} key={index.toString()}>
                         {
                           item.components.map((c,inx)=>(
-                            <div className={styles['dnd-draggable-wrapper']}>
+                            <div key={inx} className={styles['dnd-draggable-wrapper']} onClick={()=>this.selectCompent(index, inx)}>
                               <div>
                                 <span className={styles['item-image']}>
                                   <img src={c.img} width={280}/>

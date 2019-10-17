@@ -210,11 +210,32 @@
           background: #fff;
           height: 100%;
           .preview-scroll{
-            padding-right: 17px;
             width: 392px;
             height: 100%;
             overflow: hidden;
             overflow-y: scroll;
+            .fengdie-drop{
+              position: relative;
+              display: flex;
+              height: 135px;
+              width: 100%;
+              background: #F9F9F9;
+              justify-content: center;
+              align-items: center;
+              font-size: 16px;
+              color: rgba(0,0,0,.85);
+              &::after{
+                  content: '';
+                  position: absolute;
+                  top: 8px;
+                  right: 8px;
+                  bottom: 8px;
+                  left: 8px;
+                  border: 1px dashed rgba(0,0,0,.85);
+                  border-radius: 4px;
+              
+              }
+            }
             .spin-container{
               width: 375px;
               height: 100%;

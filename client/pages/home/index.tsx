@@ -1,12 +1,14 @@
 import React, { PureComponent } from "react";
 import { Dispatch, AnyAction } from 'redux';
 import { connect } from 'dva';
+import axios from 'axios';
 import { ConnectState } from '../../models/connect'
 import { SettingModelState } from '../../models/setting'
 import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
 import  AddCom from './addCom'
 import { Layout, Button, Icon, Empty } from 'antd';
+import Banner from '../../components/Carousel';
 import styles from './index.module.less'
 
 
@@ -38,14 +40,30 @@ class Home extends PureComponent <HomeProps, HomeState >{
       showAddCom:true
     })
   }
+  bannerClick = (index, idx) => {
+    console.dir(index)
+    console.dir(idx)
+
+    
+  }
+  onPreview = () => {
+    console.dir('onpreview')
+    axios.post('/api/preview', {
+      preview:[
+        {
+          compent: 'components/banner/index',
+        }
+      ]
+    })
+  }
   render() {
     const { navBanner, previewData:{ componentList } } = this.props.home
     const { showAddCom } = this.state;
     return (
       <Layout className={styles['base-layout']}>
-        <Header />
+        <Header onPreview={this.onPreview}/>
         <div className={styles['main-layout']}>
-          {showAddCom && <AddCom navBanner={navBanner}/>}
+          {showAddCom && <AddCom navBanner={navBanner} onClick={this.bannerClick}/>}
           <div className={styles['content-layout']}>
               <div className={styles['page-path-container']}>
                 <div className={styles['page-path']}>
@@ -62,7 +80,17 @@ class Home extends PureComponent <HomeProps, HomeState >{
                 <div className={styles['preview-iframe']}>
                   <div className={styles['preview-scroll']}>
                     {
-                      componentList.length>0?'': 
+                     showAddCom || componentList.length>0?
+                     <>
+                      {/* {
+                        componentList.map((item,index)=>(
+                          <div>sss</div>    
+                        ))
+                      } */}
+                      <Banner/>
+                      <div className={styles['fengdie-drop']}>添加至此处</div>
+                     </>
+                      : 
                       <Empty
                         image="https://gw.alipayobjects.com/zos/rmsportal/vCbMpJlWAzfHGqOtzFCD.png"
                         imageStyle={{
