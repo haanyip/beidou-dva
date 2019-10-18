@@ -49,6 +49,7 @@ class Home extends PureComponent <HomeProps, HomeState >{
   onPreview = () => {
     console.dir('onpreview')
     axios.post('/api/preview', {
+      mobile: true,
       preview:[
         {
           compent: 'components/banner/index',
