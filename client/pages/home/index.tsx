@@ -43,8 +43,7 @@ class Home extends PureComponent <HomeProps, HomeState >{
   bannerClick = (index, idx) => {
     console.dir(index)
     console.dir(idx)
-
-    
+    // const { dispatch } = this.props;
   }
   onPreview = () => {
     console.dir('onpreview')
