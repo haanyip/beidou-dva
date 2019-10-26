@@ -8,7 +8,6 @@ import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
 import  AddCom from './addCom'
 import { Layout, Button, Icon, Empty } from 'antd';
-import Banner from '../../components/Carousel';
 import styles from './index.module.less'
 
 
@@ -41,19 +40,24 @@ class Home extends PureComponent <HomeProps, HomeState >{
     })
   }
   bannerClick = (index, idx) => {
-    console.dir(index)
-    console.dir(idx)
-    // const { dispatch } = this.props;
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'home/addComp',
+      payload: [index, idx]
+    })
   }
   onPreview = () => {
-    console.dir('onpreview')
+    const {  previewData: { componentList } } = this.props.home
     axios.post('/api/preview', {
       mobile: true,
-      preview:[
-        {
-          compent: 'components/banner/index',
-        }
-      ]
+      previewData:componentList
+    })
+  }
+  renderComponent = () => {
+    const {  previewData: { componentList } } = this.props.home
+    return componentList.map((item, index) => {
+      const Component = require(`../../components/mobile/${item.comp}`).default
+      return <Component {...item} key={index} />
     })
   }
   render() {
@@ -82,12 +86,9 @@ class Home extends PureComponent <HomeProps, HomeState >{
                     {
                      showAddCom || componentList.length>0?
                      <>
-                      {/* {
-                        componentList.map((item,index)=>(
-                          <div>sss</div>    
-                        ))
-                      } */}
-                      <Banner/>
+                      {
+                        this.renderComponent()
+                      }
                       <div className={styles['fengdie-drop']}>添加至此处</div>
                      </>
                       : 

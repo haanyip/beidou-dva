@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './index.module.less';
+
 
 interface NormalPadProps {
   img?: string;
@@ -17,7 +17,7 @@ const NormalPad: React.FC<NormalPadProps> = (props) => {
 
   }
   return (
-    <div className={styles['normal-pad']} onClick={link}>
+    <div onClick={link}>
       <img src={props.img} />
     </div>
   )

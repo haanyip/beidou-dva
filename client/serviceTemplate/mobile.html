@@ -20,6 +20,10 @@
     <!-- QQ应用模式 -->
     <meta name="x5-page-mode" content="app"/>
 </head>
+<script> 
+    var componentList = <%= htmlWebpackPlugin.options.componentList %>
+    window.componentList =JSON.parse(componentList)  
+</script>
 <script>
     !function (e) {
         function t(a) {

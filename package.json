@@ -33,10 +33,11 @@
     "immutable": "^4.0.0-rc.12",
     "antd": "^3.23.3",
     "axios": "^0.19.0",
-    "egg-qiniu-uploader": "^1.1.1",
+    "egg-qiniu-uploader": "^1.1.2",
     "antd-mobile": "^2.3.1",
     "ts-loader": "^6.2.0",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "@loadable/component": "^5.10.3"
   },
   "theme":{
     "hd": "2px",

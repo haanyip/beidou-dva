@@ -1,12 +1,4 @@
 import { Controller } from 'egg';
-import path from 'path';
-import webpack from 'webpack';
-import moment from 'moment';
-const tsImportPluginFactory = require('ts-import-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const autoprefixer = require('autoprefixer');
-const pxtorem = require('postcss-pxtorem');
 class PreviewController extends Controller {
   constructor(ctx) {
     super(ctx);
@@ -14,11 +6,11 @@ class PreviewController extends Controller {
 
   async index() {
     const { ctx, service } = this;
-    const { mobile } = ctx.request.body;
+    const { mobile, previewData } = ctx.request.body;
     if(mobile) {
-      service.preview.previewMobile()
+      service.preview.previewMobile(previewData)
     }else{
-      service.preview.previewPc()
+      service.preview.previewPc(previewData)
     }
     ctx.body ={
       code: 200

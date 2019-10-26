@@ -14,11 +14,11 @@ class PreviewService extends Service {
   constructor(props) {
     super(props);
   }
-  previewMobile() {
-    this.webpackCompiler(true);
+  previewMobile(previewData) {
+    this.webpackCompiler(true, previewData);
   }
-  previewPc() {
-    this.webpackCompiler(false);
+  previewPc(previewData) {
+    this.webpackCompiler(false, previewData);
   }
   getRules(isMobile:boolean = true) {
     const postcssOpts = isMobile? {
@@ -78,7 +78,7 @@ class PreviewService extends Service {
             },
           },
           { loader: 'postcss-loader', options: postcssOpts }, 
-          'less-loader'
+          {loader: 'less-loader', options: {modifyVars: {hd: '2px'}}},
         ] 
       },
       {
@@ -96,7 +96,7 @@ class PreviewService extends Service {
             },
           },
           { loader: 'postcss-loader', options: postcssOpts }, 
-          'less-loader'
+          { loader: 'less-loader', options: {modifyVars: {hd: '2px'}} },
         ] 
       },
       {
@@ -117,9 +117,9 @@ class PreviewService extends Service {
       }
     ]
   }
-  async webpackCompiler(isMobile:boolean = true) {
+  async webpackCompiler(isMobile:boolean = true, previewData) {
     const entry  = isMobile ? '../../client/serviceTemplate/mobile.tsx': '../../client/serviceTemplate/pc.tsx'
-    const outputPath = isMobile ? '../public/dist/mobile/': '../public/dist/pc/';
+    const outputPath = isMobile ? '../public/dist/mobile': '../public/dist/pc';
     const template = isMobile ? '../../client/serviceTemplate/mobile.html': '../../client/serviceTemplate/pc.html';
     const rules = this.getRules(isMobile);
      
@@ -157,6 +157,7 @@ class PreviewService extends Service {
         plugins: [
           // 指定一个html模版，
           new HtmlWebpackPlugin({
+            componentList: JSON.stringify(previewData),
             template: path.join(__dirname, template),
             filename: 'index.html',
             minify: { // 压缩HTML文件
@@ -172,17 +173,22 @@ class PreviewService extends Service {
             chunkFilename: '[name].[hash].css',
           }),
           new webpack.optimize.ModuleConcatenationPlugin(),
-          // new CleanWebpackPlugin()
+          new CleanWebpackPlugin(),
         ],
       }, (err, stats) => {
         if (err) {
           reject(err);
         }
+        // console.log(stats.toString({
+        //   chunks: false,  // 使构建过程更静默无输出
+        //   colors: true    // 在控制台展示颜色
+        // }));
         resolve(stats)
       })
     })
     const res = fs.readdirSync(path.join(__dirname, outputPath));
     const uploadList = []
+    console.dir(res)
     res.map(item=>{
       uploadList.push(this.app.qiniu.putFile(path.join(__dirname, outputPath, item), { filename: item, dir: 'pc/' , uuid: false }))
     })

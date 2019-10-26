@@ -1,10 +1,9 @@
 import * as React from 'react';
 import * as ReactDom from 'react-dom';
-import Banner from 'client/components/Carousel/index';
-
+import App from './app';
 ReactDom.render(
   <div>
-   <Banner/>
+    <App/>
   </div>,
   document.getElementById('root') as HTMLElement,
 );
