@@ -14,6 +14,7 @@
     "normal-pad": "normal-pad_29A39"
   },
   "client\\index.less": {},
+  "client\\pages\\home\\index.less": {},
   "client\\pages\\home\\index.module.less": {
     "base-layout": "base-layout_27OlI",
     "main-layout": "main-layout_3H8fV",

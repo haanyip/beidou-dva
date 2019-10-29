@@ -7,7 +7,8 @@ import { SettingModelState } from '../../models/setting'
 import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
 import  AddCom from './addCom'
-import { Layout, Button, Icon, Empty } from 'antd';
+import PreView from './preview'
+import { Layout, Button, Icon, Empty, Spin, Progress } from 'antd';
 import styles from './index.module.less'
 
 
@@ -17,7 +18,10 @@ interface HomeProps {
   home: HomeModelState;
 }
 interface HomeState {
-  showAddCom: boolean
+  showAddCom: boolean,
+  spinning: boolean,
+  previewUrl: string,
+  showPreviewModal: boolean;
 }
 @connect(({ setting, home }: ConnectState) => ({
   setting,
@@ -28,7 +32,10 @@ class Home extends PureComponent <HomeProps, HomeState >{
   constructor(props) {
     super(props);
     this.state= {
-      showAddCom: false
+      showAddCom: false,
+      spinning: false,
+      previewUrl: '',
+      showPreviewModal: false,
     }
   }
   componentDidMount(){
@@ -46,11 +53,25 @@ class Home extends PureComponent <HomeProps, HomeState >{
       payload: [index, idx]
     })
   }
-  onPreview = () => {
+  async onPreview() {
     const {  previewData: { componentList } } = this.props.home
-    axios.post('/api/preview', {
+    this.setState({
+      spinning: true,
+      showPreviewModal: true
+    })
+    const res = await axios.post('/api/preview', {
       mobile: true,
       previewData:componentList
+    })
+    console.dir(res)
+    this.setState({
+      spinning: false,
+      previewUrl: res.data.data
+    })
+  }
+  cancelPreView = () => {
+    this.setState({
+      showPreviewModal: false
     })
   }
   renderComponent = () => {
@@ -62,10 +83,10 @@ class Home extends PureComponent <HomeProps, HomeState >{
   }
   render() {
     const { navBanner, previewData:{ componentList } } = this.props.home
-    const { showAddCom } = this.state;
+    const { showAddCom, spinning, previewUrl, showPreviewModal } = this.state;
     return (
       <Layout className={styles['base-layout']}>
-        <Header onPreview={this.onPreview}/>
+        <Header onPreview={()=>this.onPreview()}/>
         <div className={styles['main-layout']}>
           {showAddCom && <AddCom navBanner={navBanner} onClick={this.bannerClick}/>}
           <div className={styles['content-layout']}>
@@ -112,6 +133,7 @@ class Home extends PureComponent <HomeProps, HomeState >{
               </div>
           </div>
         </div>
+        <PreView visible={showPreviewModal} onCancel={this.cancelPreView} url={previewUrl} spinning={spinning}/>    
       </Layout>
     );
   }

@@ -2,6 +2,7 @@ import { Service } from 'egg';
 import path from 'path';
 import webpack from 'webpack';
 import moment from 'moment';
+import UUid from 'uuid';
 const tsImportPluginFactory = require('ts-import-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -15,10 +16,10 @@ class PreviewService extends Service {
     super(props);
   }
   previewMobile(previewData) {
-    this.webpackCompiler(true, previewData);
-  }
+    return this.webpackCompiler(true, previewData);
+  } 
   previewPc(previewData) {
-    this.webpackCompiler(false, previewData);
+    return this.webpackCompiler(false, previewData);
   }
   getRules(isMobile:boolean = true) {
     const postcssOpts = isMobile? {
@@ -118,8 +119,9 @@ class PreviewService extends Service {
     ]
   }
   async webpackCompiler(isMobile:boolean = true, previewData) {
+    const uid = UUid.v1();
     const entry  = isMobile ? '../../client/serviceTemplate/mobile.tsx': '../../client/serviceTemplate/pc.tsx'
-    const outputPath = isMobile ? '../public/dist/mobile': '../public/dist/pc';
+    const outputPath = isMobile ? `../public/dist/mobile/${uid}`: `../public/dist/pc/${uid}`;
     const template = isMobile ? '../../client/serviceTemplate/mobile.html': '../../client/serviceTemplate/pc.html';
     const rules = this.getRules(isMobile);
      
@@ -188,11 +190,10 @@ class PreviewService extends Service {
     })
     const res = fs.readdirSync(path.join(__dirname, outputPath));
     const uploadList = []
-    console.dir(res)
     res.map(item=>{
-      uploadList.push(this.app.qiniu.putFile(path.join(__dirname, outputPath, item), { filename: item, dir: 'pc/' , uuid: false }))
+      uploadList.push(this.app.qiniu.putFile(path.join(__dirname, outputPath, item), { filename: item, dir: isMobile?`mobile/${uid}/`:`pc/${uid}/` , uuid: false }))
     })
-    Promise.all(uploadList).then(res=>{ console.dir(res);});
+    return Promise.all(uploadList);
    
   }
 }

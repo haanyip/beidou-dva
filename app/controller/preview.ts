@@ -7,13 +7,16 @@ class PreviewController extends Controller {
   async index() {
     const { ctx, service } = this;
     const { mobile, previewData } = ctx.request.body;
+    let res: any[] = [];
     if(mobile) {
-      service.preview.previewMobile(previewData)
+      res = await service.preview.previewMobile(previewData)
     }else{
-      service.preview.previewPc(previewData)
+      res = await service.preview.previewPc(previewData)
     }
+    const data = res.find(item=>item.url.includes('index.html'))
     ctx.body ={
-      code: 200
+      code: 200,
+      data: data.url
     }
   }
 }

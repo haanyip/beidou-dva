@@ -1,0 +1,95 @@
+.preview-modal{
+  .ant-modal{
+    width: 100% !important;
+    height: 100%;
+    top: 0px;
+    padding-bottom: 0px;
+    .ant-modal-content{
+      border-radius: 0px;
+      height: 100% !important;
+    }
+    .ant-modal-body{
+      height: 100%;
+    }
+  }
+  
+  .spl-view{
+    margin: 0 auto;
+    width: 545px;
+    padding-top: 40px;
+    height: 100%;
+    background: url(https://gw.alipayobjects.com/zos/rmsportal/FymmugeGFRUmRVIjPyZH.png) no-repeat 50% 46px;
+    background-size: 414px auto;
+    overflow: hidden;
+    .spl-view-iframe{
+      position: relative;
+      margin: 0 auto;
+      width: 407px;
+      padding: 70px 10px;
+      height: calc(~"100% - 30px");
+      border-radius: 56px;
+      border: 6px solid #dadada;
+      box-shadow: 0 10px 32px 0 rgba(0,0,0,.1);
+      overflow: hidden;
+      &::after{
+        content: "";
+        position: absolute;
+        bottom: 11px;
+        left: 50%;
+        margin-left: -24px;
+        width: 48px;
+        height: 48px;
+        border-radius: 100%;
+        border: 2px solid #dadada;
+    }
+      .fdAnt-spin-nested-loading{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .fdAnt-spin-container{
+          width: 100%;
+          height: 100%;
+          &::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 10;
+            display: none\9;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            opacity: 0;
+            transition: all .3s;
+            content: "";
+            pointer-events: none;
+          }
+          .spl-view-title{
+            padding-top: 20px;
+            height: 64px;
+            line-height: 44px;
+            text-align: center;
+            font-size: 17px;
+            border: 1px solid #979797;
+            border-bottom: 0;
+            color: rgba(0,0,0,.85);
+          
+          }
+        }
+      }
+    }
+  }
+  .spl-view-main{
+    width: 375px;
+    border: 1px solid #979797;
+    border-top: 0;
+    height: calc(~"100% - 64px");
+    overflow: hidden;
+  }
+  iframe {
+    border: 0;
+    width: 375px;
+    height: 100%;
+  }
+}
