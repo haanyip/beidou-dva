@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Beidou example with dva",
   "scripts": {
-    "start": "beidou start",
-    "debug": "beidou debug",
-    "stop": "beidou stop",
+    "start": "beidou start --port=7001 --daemon --workers=1 --title=egg-server-showcase",
+    "debug": "beidou debug", 
+    "stop": "beidou stop --title=egg-server-showcase",
     "dev": "beidou dev",
     "build": "beidou build",
     "build:node": "beidou build --target=node"
