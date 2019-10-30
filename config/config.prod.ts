@@ -1,35 +1,15 @@
 'use strict';
 
-import path from 'path';
-import  fs  from 'fs';
+const path = require('path');
 
-function getMainfest() {
-  try {
-    const mainfestFile = path.join(__dirname, '../build/manifest.json');
-    if (fs.existsSync(mainfestFile)) {
-      const raw = fs.readFileSync(mainfestFile);
-      return JSON.parse(raw);
-    }
-  } catch (e) {
-    return {};
-  }
-}
-module.exports = {
-  // keys: 'secret',
-  // manifest: getMainfest(),
+module.exports = appInfo => ({
+  keys: 'key',
   static: {
-    prefix: '/build',
-    dir: path.join(__dirname, '../build'),
+    dir: [
+      {
+        prefix: '/build',
+        dir: path.join(appInfo.baseDir, '/build'),
+      },
+    ],
   },
-  // webpack: {
-  //   custom: {
-  //     configPath: path.resolve(__dirname, './webpack.pro.config.js'),
-  //   },
-  //   resolve: {
-  //     extensions: ['.json', '.js', '.jsx', '.ts', '.tsx'],
-  //     alias: {
-  //       client: path.join(__dirname, '../client')
-  //     },
-  //   },
-  // }
-};
+});

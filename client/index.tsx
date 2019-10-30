@@ -2,8 +2,8 @@ import 'babel-polyfill';
 import { ViewProps } from 'beidou';
 import React from 'react';
 import dva from 'dva';
-import { createBrowserHistory , createMemoryHistory } from 'history';
-// import { createMemoryHistory } from 'dva/router';
+// import { createBrowserHistory , createMemoryHistory } from 'history';
+import { memoryHistory, browserHistory } from 'dva/router';
 import router from './router/router';
 import setting from './models/setting'
 import home from './models/home'
@@ -22,7 +22,7 @@ export default class Index extends React.Component<ViewProps> {
 
   static getPartial(props) {
     const app = createApp({
-      history: createMemoryHistory(),
+      history: memoryHistory,
       initialState: {
       },
     });
@@ -31,7 +31,7 @@ export default class Index extends React.Component<ViewProps> {
     };
   }
   render() {
-    const { html, helper, lang } = this.props;
+    const { html, helper } = this.props;
     return (
       <html>
         <head>
@@ -52,7 +52,7 @@ export default class Index extends React.Component<ViewProps> {
 
 if (__CLIENT__) {
   const app = createApp({
-    history: createBrowserHistory(),
+    history: browserHistory,
     initialState: {
     },
   });

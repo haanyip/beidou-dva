@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Beidou example with dva",
   "scripts": {
-    "start": "beidou start --port=7001 --daemon --workers=1 --title=egg-server-showcase",
+    "start": "beidou start --port=7001 --ignore-stderr  --workers=1 --title=egg-server-showcase",
     "debug": "beidou debug", 
     "stop": "beidou stop --title=egg-server-showcase",
     "dev": "beidou dev",

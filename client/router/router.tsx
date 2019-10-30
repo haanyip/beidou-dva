@@ -1,23 +1,21 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { Switch, Route, routerRedux } from 'dva/router';
 import Loading from '../components/Loading'
 import Loadable from 'react-loadable';
-import { IntlProvider } from 'react-intl';
-import  queryString   from 'query-string';
+// import { IntlProvider } from 'react-intl';
+// import  queryString   from 'query-string';
 const { ConnectedRouter } = routerRedux; 
-import { getLanguage, chooseLocale } from '../locales/index'
+// import { getLanguage, chooseLocale } from '../locales/index'
 // import BaseLayout from '../layouts/basicLayout'
 const Home = Loadable({
   loader: () => import('../pages/home'),
   loading: Loading
 });
-import Test from '../pages/test'
-// import { getRoutes } from './router.config'
 const Routers = ({ history, app }) => {
 
-  const { lang } : { lang?: string } =  queryString.parse(history.location.search)
-  const defaultLang:string = getLanguage(lang)
-  const messages : Record<string, any> = chooseLocale(lang)
+  // const { lang } : { lang?: string } =  queryString.parse(history.location.search)
+  // const defaultLang:string = getLanguage(lang)
+  // const messages : Record<string, any> = chooseLocale(lang)
   // const routeList = getRoutes(app);
 
   return (
@@ -25,15 +23,14 @@ const Routers = ({ history, app }) => {
       {/* <Switch>
         <Route path="/" render={props=> <BaseLayout {...props} app={app}/> } />
       </Switch> */}
-      <IntlProvider locale={defaultLang} messages={messages}>
+      {/* <IntlProvider locale={defaultLang} messages={messages}> */}
         <Switch>
           <Route path="/"  component={Home} />
-          <Route path="/test"  exact component={Test} />
           {/* {routeList.map(({path,component:Component},index) => (
             <Route path={path} key={index} exact render={props => <Component {...props}  /> }/>
           ))} */}
         </Switch>
-      </IntlProvider>
+      {/* </IntlProvider> */}
     </ConnectedRouter>
   );
 };

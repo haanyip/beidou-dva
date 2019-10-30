@@ -2,18 +2,18 @@
 import path from 'path';
 import  fs  from 'fs';
 
-function getMainfest() {
-  try {
-    const mainfestFile = path.join(__dirname, '../build/manifest.json');
-    if (fs.existsSync(mainfestFile)) {
-      const raw = fs.readFileSync(mainfestFile);
-      return JSON.parse(raw);
-    }
-  } catch (e) {
-    console.dir('not read manifest.json')
-    return {};
-  }
-}
+// function getMainfest() {
+//   try {
+//     const mainfestFile = path.join(__dirname, '../build/manifest.json');
+//     if (fs.existsSync(mainfestFile)) {
+//       const raw = fs.readFileSync(mainfestFile);
+//       return JSON.parse(raw);
+//     }
+//   } catch (e) {
+//     console.dir('not read manifest.json')
+//     return {};
+//   }
+// }
 
 module.exports = {
   keys: 'secret',
@@ -21,15 +21,15 @@ module.exports = {
   react: {
     static: true,
   },
-  manifest: getMainfest(),
+  // manifest: getMainfest(),
   middleware: [ 'gzip' ],
   // 配置 gzip 中间件的配置
   gzip: {
     threshold: 1024, // 小于 1k 的响应体不压缩
   },
-  // view: {
-  //   defaultExtension: '.tsx'
-  // },
+  view: {
+    defaultExtension: '.tsx'
+  },
   // 七牛云服务配置
   qiniu: {
     ak: 'YGmMh1K9fVVf77Ry6RGKLajeqErxwcZyTR1AYHld',
@@ -44,9 +44,9 @@ module.exports = {
     csrf: false,
   },
   webpack: {
-    custom: {
-      configPath:require.resolve(path.resolve(__dirname, './webpack.config'))
-    },
+    // custom: {
+    //   configPath:require.resolve(path.resolve(__dirname, './webpack.config'))
+    // },
     resolve: {
       extensions: ['.json', '.js', '.jsx', '.ts', '.tsx'],
       alias: {
