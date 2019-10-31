@@ -7,10 +7,11 @@ import Loadable from 'react-loadable';
 const { ConnectedRouter } = routerRedux; 
 // import { getLanguage, chooseLocale } from '../locales/index'
 // import BaseLayout from '../layouts/basicLayout'
-const Home = Loadable({
-  loader: () => import('../pages/home'),
-  loading: Loading
-});
+// const Home = Loadable({
+//   loader: () => import('../pages/home'),
+//   loading: Loading
+// });
+import Home from '../pages/home'
 const Routers = ({ history, app }) => {
 
   // const { lang } : { lang?: string } =  queryString.parse(history.location.search)
