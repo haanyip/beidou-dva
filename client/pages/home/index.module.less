@@ -37,11 +37,21 @@
       }
     }
     .site-panel{
-     
+      width: 490px;
+      height: 100%;
       z-index: 1;
       top: 72px;
       bottom: 0;
       left: 0;
+      .se-editor{
+        height: 100%;
+        font-size: 14px;
+        box-shadow: 3px 0 16px rgba(0,0,0,.06);
+        overflow: hidden;
+      }
+      .schema-editor-scroll{
+        height: calc(~'100% - 88px');
+      }
       .page-container{
         height: 100%;
         background: #fff;
@@ -118,6 +128,45 @@
               }
            }
          }
+      }
+      .ui-label{
+        display: flex;
+        max-height: 22px;
+        line-height: 22px;
+        margin-bottom: 8px;
+        color: rgba(0,0,0,.85);
+        justify-content: space-between;
+        .ui-label-title{
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding-right: 8px;
+        }
+      }
+      .ui-content{
+        .item-image-preview{
+          position: relative;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          padding: 8px;
+          border: 1px solid rgba(0,0,0,.1);
+          height: 58px;
+          border-radius: 3px;
+          background: #fff;
+          overflow: hidden;
+          .item-image-preview-url{
+            width: 280px;
+            padding-right: 10px;
+            height: 40px;
+            line-height: 40px;
+            color: #6a6a6a;
+            word-break: break-all;
+            font-weight: 400;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
       }
     }
     .content-layout{

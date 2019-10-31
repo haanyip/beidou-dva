@@ -20,7 +20,7 @@ class AddCom extends PureComponent <AddComProps >{
   render() {
     const { navBanner } = this.props;
     return (
-        <div className={styles['site-panel']} style={{width:'490px'}}>
+        <div className={styles['site-panel']}>
             <div className={styles['page-container']}>
               <h3>
                 添加组件

@@ -8,6 +8,7 @@ import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
 import AddCom from './addCom'
 import PreView from './preview'
+import EidtCom from './eidtCom'
 import ViewActive from '../../components/ViewActive'
 import { Layout, Button, Icon, Empty, Spin, Progress } from 'antd';
 import styles from './index.module.less'
@@ -23,6 +24,7 @@ interface HomeState {
   spinning: boolean,
   previewUrl: string,
   showPreviewModal: boolean;
+  showEidtCom: boolean;
 }
 @connect(({ setting, home }: ConnectState) => ({
   setting,
@@ -37,6 +39,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
       spinning: false,
       previewUrl: '',
       showPreviewModal: false,
+      showEidtCom: false,
     }
   }
   componentDidMount() {
@@ -79,11 +82,21 @@ class Home extends PureComponent<HomeProps, HomeState>{
       showPreviewModal: false
     })
   }
+  editComClose = () => {
+    this.setState({
+      showEidtCom: false
+    })
+  }
   // 点击组件显示编辑
   eidtCompoent = (data) => {
     console.log('eidtCompoent')
     console.dir(data)
+    this.setState({
+      showAddCom: false,
+      showEidtCom: true
+    })
   }
+  
   // 增加组件
   addTopCom = (data) => {
     const { dispatch } = this.props;
@@ -125,12 +138,15 @@ class Home extends PureComponent<HomeProps, HomeState>{
   }
   render() {
     const { navBanner, previewData: { componentList } } = this.props.home
-    const { showAddCom, spinning, previewUrl, showPreviewModal } = this.state;
+    const { showAddCom, spinning, previewUrl, showPreviewModal, showEidtCom } = this.state;
     return (
       <Layout className={styles['base-layout']}>
         <Header onPreview={() => this.onPreview()} />
         <div className={styles['main-layout']}>
-          {showAddCom && <AddCom navBanner={navBanner} onClick={this.bannerClick} />}
+          {
+            showAddCom ? <AddCom navBanner={navBanner} onClick={this.bannerClick} />:
+            showEidtCom? <EidtCom onClose={this.editComClose}/>: ''
+          }
           <div className={styles['content-layout']}>
             <div className={styles['page-path-container']}>
               <div className={styles['page-path']}>

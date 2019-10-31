@@ -1,7 +1,6 @@
 'use strict';
 import path from 'path';
-import  fs  from 'fs';
-
+// import  fs  from 'fs';
 // function getMainfest() {
 //   try {
 //     const mainfestFile = path.join(__dirname, '../build/manifest.json');
