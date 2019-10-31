@@ -20,16 +20,14 @@ const Auto: React.FC<AutoProps> = (props) => {
   return (
     <div className={styles['banner-auto']}>
       <Carousel 
-        vertical
         autoplay
-        infinite
-        speed={200}
-        autoplayInterval={300}
       >
         <a className={styles['images']}>
           <img src='https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'/>
         </a>
-        
+        <a className={styles['images']}>
+          <img src='https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'/>
+        </a>
       </Carousel>
     </div>
   )
