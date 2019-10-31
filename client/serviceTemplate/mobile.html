@@ -22,7 +22,7 @@
 </head>
 <script> 
     var componentList = <%= htmlWebpackPlugin.options.componentList %>
-    window.componentList =JSON.parse(componentList)  
+    window.componentList = typeof componentList === 'string'? JSON.parse(componentList): componentList
 </script>
 <script>
     !function (e) {
