@@ -97,7 +97,7 @@ class PreviewService extends Service {
             },
           },
           { loader: 'postcss-loader', options: postcssOpts }, 
-          { loader: 'less-loader', options: {modifyVars: {hd: '2px'}} },
+          { loader: 'less-loader', options: {modifyVars: {'@hd': '2px'}} },
         ] 
       },
       {
