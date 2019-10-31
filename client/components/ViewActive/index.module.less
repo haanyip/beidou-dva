@@ -1,0 +1,78 @@
+.se-preview-container{
+  position: relative;
+  cursor: pointer;
+  &:hover{
+    .tools-item-top{
+      display: block;
+    }
+    .tools-item-bottom{
+      display: block;
+    }
+    .se-view-tools{
+      display: block;
+    }
+  }
+  .tools-item-top{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    background-image: url(https://gw.alipayobjects.com/zos/rmsportal/hFqqxsTSSoDRDpVDnWqj.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 50% 50%;
+    overflow: hidden;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.1);
+    pointer-events: auto;
+    transform: translateY(-20px);
+    z-index: 1;
+  }
+  .tools-item-bottom{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    background-image: url(https://gw.alipayobjects.com/zos/rmsportal/hFqqxsTSSoDRDpVDnWqj.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 50% 50%;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 0 3px 16px 0 rgba(0,0,0,0.1);
+    pointer-events: auto;
+    bottom: 0;
+    transform: translateY(20px);
+  }
+  .se-view-tools{
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    display: none;
+    width: 40px;
+    top: 8px;
+    top: 0;
+    .sev-tools-move{
+      position: relative;
+      padding: 6px 0;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 16px;
+      border-radius: 40px;
+      font-size: 20px;
+      background: #fff;
+      box-shadow: 0 3px 16px 0 rgba(0,0,0,.04);
+    }
+  }
+}

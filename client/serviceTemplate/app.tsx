@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import loadable from '@loadable/component'
+import './mobile.less'
 
 declare global {
   interface Window {

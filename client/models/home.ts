@@ -26,6 +26,7 @@ const inintState = {
     },{
       componentId: '',
       title: '自动轮播 Banner',
+      comp: "banner/Auto",
       img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh0hqm/4582999c-1330-49e8-b809-8f459410ed9e.cms/images/785bb68f-d5b0-44c1-967d-7b2e6cfeead9.png?x-oss-process=image/resize,w_560/crop,h_560'
     }]
   },{
@@ -76,7 +77,14 @@ export default {
   reducers: {
     addComp(state, { payload }) {
       const compData = state.navBanner[payload[0]].components[payload[1]];
-      state.previewData.componentList.push(compData)
+      let { componentList } =  state.previewData;
+      componentList = componentList.filter(item=>item.comp!=='');
+      componentList.push(compData)
+      state.previewData.componentList = componentList;
+      return fromJS(state).toJS()
+    },
+    addPlaceholderComp(state, { payload }) {
+      state.previewData.componentList.splice(payload,0,{comp: '',componentId:''})
       return fromJS(state).toJS()
     }
   },

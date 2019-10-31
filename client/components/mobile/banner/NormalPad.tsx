@@ -4,17 +4,13 @@ import styles from './index.module.less';
 interface NormalPadProps {
   img?: string;
   link?: string;
-  onClick?: () => void;
+  isPreview?: boolean;
 }
 const NormalPad: React.FC<NormalPadProps> = (props) => {
-  console.dir(props)
   const link = () => {
-    if (props.onClick) {
-      props.onClick();
-    } else {
+    if (!props.isPreview) {
       location.href = props.link;
     }
-
   }
   return (
     <div className={styles['normal-pad']} onClick={link}>
