@@ -1,7 +1,9 @@
 import { fromJS } from 'immutable';
 export interface HomeModelState{
   navBanner?: Array<any>;
-  previewData?: {componentList: Array<any>}
+  previewData?: {componentList: Array<any>};
+  menuModal?: boolean;
+  componentModal?: boolean;
 }
 const inintState = {
   previewData:{
@@ -66,7 +68,9 @@ const inintState = {
   },{
     title: '步骤',
     components:[]
-  }]
+  }],
+  menuModal: false, //控制显示组件列表
+  componentModal: false, //控制编辑组件详情页
 }
 export default {
   namespace: 'home',
@@ -75,17 +79,34 @@ export default {
     
   },
   reducers: {
-    addComp(state, { payload }) {
-      const compData = state.navBanner[payload[0]].components[payload[1]];
+    // 新增组件 
+    addComponent(state, { payload }) {
+      const changeComponent = state.navBanner[payload[0]].components[payload[1]];
       let { componentList } =  state.previewData;
       componentList = componentList.filter(item=>item.comp!=='');
-      componentList.push(compData)
-      state.previewData.componentList = componentList;
+      state.previewData.componentList = [...componentList, changeComponent];
       return fromJS(state).toJS()
     },
-    addPlaceholderComp(state, { payload }) {
-      state.previewData.componentList.splice(payload,0,{comp: '',componentId:''})
+    // 清空占位组件
+    filterFigureComponent(state, { payload }) {
+      let { componentList } =  state.previewData;
+      state.previewData.componentList = componentList.filter(item=>item.comp!=='');
       return fromJS(state).toJS()
+    },
+    // 增加占位组件
+    addFigure(state, { payload }) {
+      state.previewData.componentList.splice(payload,0,{comp: '',componentId:''});
+      return fromJS(state).toJS();
+    },
+    // 控制组件列表显示和隐藏函数
+    changeMenuModalStatus(state, { payload }) {
+      state.menuModal = payload;
+      return fromJS(state).toJS();
+    },
+    // 控制组件编辑界面
+    changeComponentModalStatus(state, {payload}) {
+      state.componentModal = payload;
+      return fromJS(state).toJS();
     }
   },
 };

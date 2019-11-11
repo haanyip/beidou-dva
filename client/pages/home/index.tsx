@@ -6,9 +6,9 @@ import { ConnectState } from '../../models/connect'
 import { SettingModelState } from '../../models/setting'
 import { HomeModelState } from '../../models/home'
 import Header from '../../components/Header'
-import AddCom from './addCom'
+import Menu from './menu'
 import PreView from './preview'
-import EidtCom from './eidtCom'
+import Component from './component'
 import ViewActive from '../../components/ViewActive'
 import { Layout, Button, Icon, Empty, Spin, Progress } from 'antd';
 import styles from './index.module.less'
@@ -20,11 +20,9 @@ interface HomeProps {
   home: HomeModelState;
 }
 interface HomeState {
-  showAddCom: boolean,
   spinning: boolean,
   previewUrl: string,
   showPreviewModal: boolean;
-  showEidtCom: boolean;
 }
 @connect(({ setting, home }: ConnectState) => ({
   setting,
@@ -35,33 +33,25 @@ class Home extends PureComponent<HomeProps, HomeState>{
   constructor(props) {
     super(props);
     this.state = {
-      showAddCom: false,
       spinning: false,
       previewUrl: '',
       showPreviewModal: false,
-      showEidtCom: false,
     }
   }
   componentDidMount() {
 
   }
-  addClick = () => {
+  // 选中菜单中某个组件
+  menuComponentChange = (index, idx) => {
     const { dispatch } = this.props;
     dispatch({
-      type: 'home/addPlaceholderComp',
-      payload: 0
-    })
-    this.setState({
-      showAddCom: true,
-    })
-  }
-  bannerClick = (index, idx) => {
-    const { dispatch } = this.props;
-    dispatch({
-      type: 'home/addComp',
+      type: 'home/addComponent',
       payload: [index, idx]
-    })
+    });
+    this.changeMenuModalStatus(false);
+    this.changeComponentModalStatus(true);
   }
+  // 预览
   async onPreview() {
     const { previewData: { componentList } } = this.props.home
     this.setState({
@@ -82,70 +72,118 @@ class Home extends PureComponent<HomeProps, HomeState>{
       showPreviewModal: false
     })
   }
-  editComClose = () => {
-    this.setState({
-      showEidtCom: false
+  // 关闭组件弹框
+  componnetClose = () => {
+    this.closeModal();
+  }
+   // 关闭菜单栏组件弹框
+   menuClose = () => {
+    this.closeModal();
+  }
+  // 关闭弹框统一处理
+  closeModal() {
+    this.changeMenuModalStatus(false);
+    this.changeComponentModalStatus(false);
+    this.filterFigureComponent()
+  }
+  // 点击组件面板 弹窗编辑组件界面
+  clickPreviewPanelComponent = () => {
+    this.changeComponentModalStatus(true)
+  }
+ 
+  // 空界面点击事件
+  clickEmpty = () => {
+    this.addFigure({ direction: 'top', index: 0 })
+  }
+  // 控制组件编辑界面
+  changeComponentModalStatus(status: boolean) {
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'home/changeComponentModalStatus',
+      payload: status
     })
   }
-  // 点击组件显示编辑
-  eidtCompoent = (data) => {
-    console.log('eidtCompoent')
-    console.dir(data)
-    this.setState({
-      showAddCom: false,
-      showEidtCom: true
+  // 去除占位组件 ，用于点击了关闭事件
+  filterFigureComponent() {
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'home/filterFigureComponent',
+      payload: ''
     })
   }
-  
-  // 增加组件
-  addTopCom = (data) => {
+  // 控制menu 菜单显示
+  changeMenuModalStatus(status: boolean) {
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'home/changeMenuModalStatus',
+      payload: status
+    })
+  }
+  // 增加占位组件事件
+  addFigure = (data) => {
+    if (data.direction === 'top') {
+      this.addFigureToTop(data)
+    } else {
+      this.addFigureToBottom(data)
+    }
+    // 本来可以将这块业务写到 addFigure 业务里面，但是个人感觉一个业务函数里面应该只有改业务的代码
+    this.changeMenuModalStatus(true)
+  }
+  // 当前组件上面增加一个组件占位图
+  addFigureToTop = (data) => {
     const { dispatch } = this.props;
     const { index } = data;
     dispatch({
-      type: 'home/addPlaceholderComp',
+      type: 'home/addFigure',
       payload: index
     })
   }
-  // 增加组件
-  addBottomCom = (data) => {
+  // 当前组件下面面增加一个组件占位图
+  addFigureToBottom = (data) => {
     const { dispatch } = this.props;
     const { index } = data;
     dispatch({
-      type: 'home/addPlaceholderComp',
-      payload: index==0?1:index
+      type: 'home/addFigure',
+      payload: index == 0 ? 1 : index
     })
   }
-  renderComponent = () => {
+  // 动态生成组件模块
+  renderPreviewPanel = () => {
     const { previewData: { componentList } } = this.props.home
+    // 判断组件列表是否有增加模块  增加模块只能存在一个
+    const hasPlaceHoldCom = componentList.find(item => item.comp === '')
     return componentList.map((item, index) => {
       if (item.comp) {
         const Component = require(`../../components/mobile/${item.comp}`).default
-        return (
-          <ViewActive
-            onClick={this.eidtCompoent}
-            data={Object.assign({}, item, { index })}
-            addTopCom={this.addTopCom}
-            addBottomCom={this.addBottomCom}
-            key={index}
-          >
-            <Component {...item} key={index} isPreview={true} />
-          </ViewActive>
-        )
+        if (hasPlaceHoldCom) {
+          return <Component {...item} key={index} isPreview={true} />
+        } else {
+          return (
+            <ViewActive
+              onClick={() => this.clickPreviewPanelComponent()}
+              data={Object.assign({}, item, { index })}
+              addFigure={this.addFigure}
+              key={index}
+            >
+              <Component {...item} key={index} isPreview={true} />
+            </ViewActive>
+          )
+        }
       } else {
         return <div className={styles['fengdie-drop']} key={index}>添加至此处</div>
       }
     })
   }
   render() {
-    const { navBanner, previewData: { componentList } } = this.props.home
-    const { showAddCom, spinning, previewUrl, showPreviewModal, showEidtCom } = this.state;
+    const { navBanner, previewData: { componentList }, menuModal, componentModal } = this.props.home
+    const { spinning, previewUrl, showPreviewModal } = this.state;
     return (
       <Layout className={styles['base-layout']}>
         <Header onPreview={() => this.onPreview()} />
         <div className={styles['main-layout']}>
           {
-            showAddCom ? <AddCom navBanner={navBanner} onClick={this.bannerClick} />:
-            showEidtCom? <EidtCom onClose={this.editComClose}/>: ''
+            menuModal ? <Menu navBanner={navBanner} onClose={this.menuClose} onClick={this.menuComponentChange} /> :
+            componentModal ? <Component onClose={this.componnetClose} /> : ''
           }
           <div className={styles['content-layout']}>
             <div className={styles['page-path-container']}>
@@ -164,7 +202,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
                 <div className={styles['preview-scroll']}>
                   {
                     componentList.length > 0 ?
-                      this.renderComponent()
+                      this.renderPreviewPanel()
                       :
                       <Empty
                         image="https://gw.alipayobjects.com/zos/rmsportal/vCbMpJlWAzfHGqOtzFCD.png"
@@ -173,14 +211,9 @@ class Home extends PureComponent<HomeProps, HomeState>{
                         }}
                         description=''
                       >
-                        <Button type="primary" onClick={this.addClick}>请添加组件</Button>
+                        <Button type="primary" onClick={this.clickEmpty}>请添加组件</Button>
                       </Empty>
                   }
-                  {/* <Spin tip="更新中..." spinning={this.state.loading} >
-                      <div className={styles['spin-container']}>
-                        <iframe src="https://xtech.antfin.com/"  style={{width:'375px',height: '100%'}}></iframe>
-                      </div>
-                    </Spin> */}
                 </div>
               </div>
             </div>

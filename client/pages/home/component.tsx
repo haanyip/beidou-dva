@@ -1,10 +1,10 @@
 import React from 'react';
 import { Icon, Avatar } from 'antd';
 import styles from './index.module.less'
-interface EidtComProps {
+interface ComponentProps {
   onClose:()=> void;
 }
-const EidtCom: React.FC<EidtComProps> = (props) => {
+const Component: React.FC<ComponentProps> = (props) => {
   const { onClose } = props;
   return (
     <div>
@@ -34,4 +34,4 @@ const EidtCom: React.FC<EidtComProps> = (props) => {
     </div>
   )
 }
-export default EidtCom;
+export default Component;

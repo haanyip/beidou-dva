@@ -6,26 +6,25 @@ interface ViewActiveProps {
   children?: any;
   data?: object;
   onClick?: any;
-  addTopCom?: any;
-  addBottomCom?: any;
+  addFigure:(data:object)=> void;
 }
 const ViewActive:  React.FC<ViewActiveProps> = ( props ) =>{
-  const { children, onClick, data, addTopCom, addBottomCom } = props;
+  const { children, onClick, data, addFigure  } = props;
   const onViewClick = (e) => {
     e.preventDefault();
     onClick(data)
   }
-  const onTopClick = (e) => {
+  const addTop = (e) => {
     e.preventDefault();
-    addTopCom(data)
+    addFigure({...data, direction: 'top'})
   }
-  const onBottomClick = (e) => {
+  const addBottom = (e) => {
     e.preventDefault();
-    addBottomCom(data);
+    addFigure({...data, direction: 'bottom'})
   }
   return (
     <div className={styles['se-preview-container']} >
-      <div className={styles['tools-item-top']} onClick={onTopClick}></div>
+      <div className={styles['tools-item-top']} onClick={addTop}></div>
       <div>
         <div onClick={onViewClick}>{children}</div>
       </div>
@@ -37,7 +36,7 @@ const ViewActive:  React.FC<ViewActiveProps> = ( props ) =>{
         <div className={styles['sev-tools-copy']}></div>
         <div className={styles['sev-tools-delete']}></div>
       </div>
-      <div className={styles['tools-item-bottom']} onClick={onBottomClick}></div>
+      <div className={styles['tools-item-bottom']} onClick={addBottom}></div>
     </div>
   )
 }
