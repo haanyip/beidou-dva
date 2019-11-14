@@ -1,36 +1,47 @@
 import React from 'react';
-import { Icon, Avatar } from 'antd';
+import { Icon } from 'antd';
 import styles from './index.module.less'
 interface ComponentProps {
-  onClose:()=> void;
+  onClose: () => void;
+  data?: { data?: any, json?: any };
+  selectIndex: number;
 }
 const Component: React.FC<ComponentProps> = (props) => {
-  const { onClose } = props;
+  const { onClose, selectIndex } = props;
+  const { data, json } = props.data;
+  const onUpload = (url) => {
+    console.dir(url)
+  }
+  const renderItem = () => {
+    return Object.values(json.properties).map((item:any, index) => {
+      const C = require(`../../components/modal/${item.type}`).default;
+      const itemData = json.type === 'object'?Object.assign({},item, data):Object.assign({},item, data[index])
+      return <C 
+        data={itemData} 
+        key={index}
+        upload={onUpload}
+      />
+    })
+  }
   return (
     <div>
-       <div className={styles['site-panel']}>
+      <div className={styles['site-panel']}>
         <div className={styles['se-editor']}>
           <div className={styles['page-container']}>
             <h3>
-              banner
-              <Icon type="close" className={styles['close']} onClick={onClose}/>
+              {json.description}
+              <Icon type="close" className={styles['close']} onClick={onClose} />
             </h3>
             <div className={styles['schema-editor-scroll']}>
-              <div className={styles['ui-label']}>
-                <span className={styles['ui-label-title']}>图片</span>
-                <span>建议尺寸: 750*280</span>
-                <span>选择图片</span>
-              </div>
-              <div className={styles['ui-content']}>
-                <div className={styles['item-image-preview']}>
-                  <Avatar shape="square" size={64} icon="user" />
-                  <span className={styles['item-image-preview-url']}>JRmzNcWymcwpVRSISlbM.png</span>
-                </div>
+              <div className={styles['schema-editor-container']}>
+                {
+                  renderItem()
+                }
               </div>
             </div>
           </div>
         </div>
-       </div>
+      </div>
     </div>
   )
 }

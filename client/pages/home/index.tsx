@@ -9,8 +9,8 @@ import Header from '../../components/Header'
 import Menu from './menu'
 import PreView from './preview'
 import Component from './component'
-import ViewActive from '../../components/ViewActive'
-import { Layout, Button, Icon, Empty, Spin, Progress } from 'antd';
+import ViewActive from '../../components/viewActive'
+import { Layout, Button, Icon, Empty } from 'antd';
 import styles from './index.module.less'
 
 
@@ -76,21 +76,28 @@ class Home extends PureComponent<HomeProps, HomeState>{
   componnetClose = () => {
     this.closeModal();
   }
-   // 关闭菜单栏组件弹框
-   menuClose = () => {
+  // 关闭菜单栏组件弹框
+  menuClose = () => {
     this.closeModal();
   }
   // 关闭弹框统一处理
   closeModal() {
     this.changeMenuModalStatus(false);
     this.changeComponentModalStatus(false);
-    this.filterFigureComponent()
+    this.filterFigureComponent();
   }
   // 点击组件面板 弹窗编辑组件界面
-  clickPreviewPanelComponent = () => {
-    this.changeComponentModalStatus(true)
+  clickPreviewPanelComponent = (index) => {
+    this.changeComponentModalStatus(true);
+    this.setChangeComponnetData(index);
   }
- 
+  setChangeComponnetData(index) {
+    const { dispatch } = this.props;
+    dispatch({
+      type: 'home/setSelectComponnetIndex',
+      payload: index
+    })
+  }
   // 空界面点击事件
   clickEmpty = () => {
     this.addFigure({ direction: 'top', index: 0 })
@@ -160,7 +167,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
         } else {
           return (
             <ViewActive
-              onClick={() => this.clickPreviewPanelComponent()}
+              onClick={() => this.clickPreviewPanelComponent(index)}
               data={Object.assign({}, item, { index })}
               addFigure={this.addFigure}
               key={index}
@@ -175,7 +182,8 @@ class Home extends PureComponent<HomeProps, HomeState>{
     })
   }
   render() {
-    const { navBanner, previewData: { componentList }, menuModal, componentModal } = this.props.home
+    const { navBanner, previewData: { componentList }, menuModal, componentModal, selectComponentIndex } = this.props.home
+    const changeComponentData = componentList[selectComponentIndex]
     const { spinning, previewUrl, showPreviewModal } = this.state;
     return (
       <Layout className={styles['base-layout']}>
@@ -183,7 +191,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
         <div className={styles['main-layout']}>
           {
             menuModal ? <Menu navBanner={navBanner} onClose={this.menuClose} onClick={this.menuComponentChange} /> :
-            componentModal ? <Component onClose={this.componnetClose} /> : ''
+              componentModal ? <Component selectIndex = {selectComponentIndex} onClose={this.componnetClose} data={changeComponentData} /> : ''
           }
           <div className={styles['content-layout']}>
             <div className={styles['page-path-container']}>

@@ -38,7 +38,8 @@
     "ts-loader": "^6.2.0",
     "moment": "^2.24.0",
     "@loadable/component": "^5.10.3",
-    "qrcode.react": "^0.9.3"
+    "qrcode.react": "^0.9.3",
+    "react-color": "^2.17.3"
   },
   "theme":{
     "hd": "2px",

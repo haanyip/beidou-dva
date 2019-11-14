@@ -4,6 +4,8 @@ export interface HomeModelState{
   previewData?: {componentList: Array<any>};
   menuModal?: boolean;
   componentModal?: boolean;
+  changeComponentData?: any;
+  selectComponentIndex?: number;
 }
 const inintState = {
   previewData:{
@@ -15,7 +17,29 @@ const inintState = {
       componentId: '',
       title: '非通栏 Banner - 1',
       comp: "banner/NormalPad",
-      data: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh10g7/0993e70d-7d4f-4e65-86d6-dfbb14a7da05.cms/images/0178ff2a-35ba-4c8c-9b54-29df6688b0c4.png?x-oss-process=image/resize,w_560/crop,h_560',
+      data: {
+        data: {
+          img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
+          link: ""
+        },
+        json: {
+          description: 'Banner',
+          properties: {
+            img: {
+              description: '图片',
+              meta: {
+                description: '建议尺寸：686*220'
+              },
+              type: 'image'
+            },
+            link: {
+              description: '链接',
+              type: 'url'
+            }
+          },
+          type: 'object'
+        }
+      },
       img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh10g7/0993e70d-7d4f-4e65-86d6-dfbb14a7da05.cms/images/0178ff2a-35ba-4c8c-9b54-29df6688b0c4.png?x-oss-process=image/resize,w_560/crop,h_560'
     },{
       componentId: '',
@@ -71,6 +95,7 @@ const inintState = {
   }],
   menuModal: false, //控制显示组件列表
   componentModal: false, //控制编辑组件详情页
+  selectComponentIndex: 0, //编辑选中组件索引值
 }
 export default {
   namespace: 'home',
@@ -85,7 +110,12 @@ export default {
       let { componentList } =  state.previewData;
       componentList = componentList.filter(item=>item.comp!=='');
       state.previewData.componentList = [...componentList, changeComponent];
+      state.selectComponentIndex = state.previewData.componentList.length-1;
       return fromJS(state).toJS()
+    },
+    setSelectComponnetIndex(state, { payload }) {
+      state.selectComponentIndex = payload;
+      return fromJS(state).toJS();
     },
     // 清空占位组件
     filterFigureComponent(state, { payload }) {

@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'path';
 const Controller = require('egg').Controller;
 
 class UploadController extends Controller {
@@ -14,9 +14,8 @@ class UploadController extends Controller {
     const stream = await ctx.getFileStream();
     const filename = path.basename(stream.filename); // 文件名称
     const payload = ctx.request.body || {};
-    const dir = `/igola-link/flow/`;
+    const dir = `upload/images/`;
     const res = await app.qiniu.put(payload.file, { filename, dir , uuid: true })
-    console.dir(res)
     // 设置响应内容和响应状态码
     ctx.helper.success({ res });
   }
