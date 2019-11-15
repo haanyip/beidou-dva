@@ -181,17 +181,29 @@ class Home extends PureComponent<HomeProps, HomeState>{
       }
     })
   }
+  upData = (data) => {
+    const { dispatch } = this.props;
+    console.dir(data)
+    dispatch({
+      type: 'home/updata',
+      payload: data
+    })
+  }
   render() {
     const { navBanner, previewData: { componentList }, menuModal, componentModal, selectComponentIndex } = this.props.home
-    const changeComponentData = componentList[selectComponentIndex]
+    const changeComponentData = componentList[selectComponentIndex]&&componentList[selectComponentIndex].data;
     const { spinning, previewUrl, showPreviewModal } = this.state;
+    console.dir(componentList)
     return (
       <Layout className={styles['base-layout']}>
         <Header onPreview={() => this.onPreview()} />
         <div className={styles['main-layout']}>
           {
             menuModal ? <Menu navBanner={navBanner} onClose={this.menuClose} onClick={this.menuComponentChange} /> :
-              componentModal ? <Component selectIndex = {selectComponentIndex} onClose={this.componnetClose} data={changeComponentData} /> : ''
+              componentModal ? <Component 
+                upChangeData ={this.upData}
+                onClose={this.componnetClose} 
+                data={changeComponentData} /> : ''
           }
           <div className={styles['content-layout']}>
             <div className={styles['page-path-container']}>

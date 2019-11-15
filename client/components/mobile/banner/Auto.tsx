@@ -9,6 +9,7 @@ interface AutoProps {
 }
 const Auto: React.FC<AutoProps> = (props) => {
   console.dir(props)
+  const { data } = props.data;
   const link = () => {
     if (props.onClick) {
       props.onClick();
@@ -22,12 +23,25 @@ const Auto: React.FC<AutoProps> = (props) => {
       <Carousel 
         autoplay
       >
-        <a className={styles['images']}>
-          <img src='https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'/>
-        </a>
-        <a className={styles['images']}>
-          <img src='https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'/>
-        </a>
+        {
+          data.map((item, index) => (
+            <a
+              key={index}
+              href={item.link}
+            >
+              <img
+                src={`https://zos.alipayobjects.com/rmsportal/${val}.png`}
+                alt=""
+                style={{ width: '100%', verticalAlign: 'top' }}
+                onLoad={() => {
+                  // fire window resize event to change height
+                  window.dispatchEvent(new Event('resize'));
+                  this.setState({ imgHeight: 'auto' });
+                }}
+              />
+            </a>
+          ))
+        }
       </Carousel>
     </div>
   )

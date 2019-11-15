@@ -1,25 +1,53 @@
 import React from 'react';
 import { Icon } from 'antd';
+import List from '../../components/modal/list'
 import styles from './index.module.less'
 interface ComponentProps {
   onClose: () => void;
   data?: { data?: any, json?: any };
-  selectIndex: number;
+  upChangeData: (data)=> void;
 }
 const Component: React.FC<ComponentProps> = (props) => {
-  const { onClose, selectIndex } = props;
+  const { onClose, upChangeData } = props;
   const { data, json } = props.data;
-  const onUpload = (url) => {
-    console.dir(url)
+  // 图片改变
+  const onUpload = (url, index) => {
+    if(json.type === 'object'){
+      data.img = url
+    }else{
+      data[index].img = url
+    }
+    upChangeData(data)
   }
-  const renderItem = () => {
+  // URL 事件
+  const onUrlBlur = (e,index) => {
+    console.dir(e)
+    if(json.type === 'object'){
+      data.link = e.target.value
+    }else{
+      data[index].link = e.target.value
+    }
+    upChangeData(data)
+  }
+  const renderList = (values: any) => {
+    if(json.type === 'object'){
+      return renderItem(values)
+    }else{
+     return values.map((item,index)=>(
+        <List key={index}>
+          {renderItem(item)}
+        </List>
+      ))
+    }
+  }
+  const renderItem = (value) => {
     return Object.values(json.properties).map((item:any, index) => {
       const C = require(`../../components/modal/${item.type}`).default;
-      const itemData = json.type === 'object'?Object.assign({},item, data):Object.assign({},item, data[index])
       return <C 
-        data={itemData} 
+        data={Object.assign({},item, value)} 
         key={index}
-        upload={onUpload}
+        upload={(url)=>onUpload(url, index)}
+        onUrlBlur={(link)=>onUrlBlur(link, index)}
       />
     })
   }
@@ -35,7 +63,7 @@ const Component: React.FC<ComponentProps> = (props) => {
             <div className={styles['schema-editor-scroll']}>
               <div className={styles['schema-editor-container']}>
                 {
-                  renderItem()
+                  renderList(data)
                 }
               </div>
             </div>

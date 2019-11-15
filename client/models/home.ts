@@ -53,6 +53,35 @@ const inintState = {
       componentId: '',
       title: '自动轮播 Banner',
       comp: "banner/Auto",
+      data: {
+        data: [
+          {
+            img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
+            link: ""
+          },
+          {
+            img: "http://img1.imgtn.bdimg.com/it/u=1411728850,1869975885&fm=26&gp=0.jpg",
+            link: ""
+          },
+        ],
+        json: {
+          description: 'Banner',
+          properties: {
+            img: {
+              description: '图片',
+              meta: {
+                description: '建议尺寸：750*280'
+              },
+              type: 'image'
+            },
+            link: {
+              description: '链接',
+              type: 'url'
+            }
+          },
+          type: 'array'
+        }
+      },
       img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh0hqm/4582999c-1330-49e8-b809-8f459410ed9e.cms/images/785bb68f-d5b0-44c1-967d-7b2e6cfeead9.png?x-oss-process=image/resize,w_560/crop,h_560'
     }]
   },{
@@ -136,6 +165,12 @@ export default {
     // 控制组件编辑界面
     changeComponentModalStatus(state, {payload}) {
       state.componentModal = payload;
+      return fromJS(state).toJS();
+    },
+    // 更新数据
+    updata(state, {payload}) {
+      const { selectComponentIndex } = state;
+      state.previewData.componentList[selectComponentIndex].data.data = payload;
       return fromJS(state).toJS();
     }
   },
