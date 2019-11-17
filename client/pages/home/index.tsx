@@ -191,7 +191,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
   }
   render() {
     const { navBanner, previewData: { componentList }, menuModal, componentModal, selectComponentIndex } = this.props.home
-    const changeComponentData = componentList[selectComponentIndex]&&componentList[selectComponentIndex].data;
+    const changeComponentData = componentList[selectComponentIndex] && componentList[selectComponentIndex].data;
     const { spinning, previewUrl, showPreviewModal } = this.state;
     console.dir(componentList)
     return (
@@ -200,9 +200,9 @@ class Home extends PureComponent<HomeProps, HomeState>{
         <div className={styles['main-layout']}>
           {
             menuModal ? <Menu navBanner={navBanner} onClose={this.menuClose} onClick={this.menuComponentChange} /> :
-              componentModal ? <Component 
-                upChangeData ={this.upData}
-                onClose={this.componnetClose} 
+              componentModal ? <Component
+                upChangeData={this.upData}
+                onClose={this.componnetClose}
                 data={changeComponentData} /> : ''
           }
           <div className={styles['content-layout']}>
