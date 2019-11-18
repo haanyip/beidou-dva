@@ -21,7 +21,6 @@ const Component: React.FC<ComponentProps> = (props) => {
   }
   // URL 事件
   const onUrlBlur = (e,index) => {
-    console.dir(e)
     if(json.type === 'object'){
       data.link = e.target.value
     }else{
@@ -31,23 +30,23 @@ const Component: React.FC<ComponentProps> = (props) => {
   }
   const renderList = (values: any) => {
     if(json.type === 'object'){
-      return renderItem(values)
+      return renderItem(values, 0)
     }else{
      return values.map((item,index)=>(
         <List key={index}>
-          {renderItem(item)}
+          {renderItem(item, index)}
         </List>
       ))
     }
   }
-  const renderItem = (value) => {
+  const renderItem = (value, currentIndex) => {
     return Object.values(json.properties).map((item:any, index) => {
       const C = require(`../../components/modal/${item.type}`).default;
       return <C 
         data={Object.assign({},item, value)} 
         key={index}
-        upload={(url)=>onUpload(url, index)}
-        onUrlBlur={(link)=>onUrlBlur(link, index)}
+        upload={(url)=>onUpload(url, currentIndex)}
+        onUrlBlur={(link)=>onUrlBlur(link, currentIndex)}
       />
     })
   }

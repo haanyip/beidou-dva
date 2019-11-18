@@ -137,13 +137,28 @@ export default {
     addComponent(state, { payload }) {
       const changeComponent = state.navBanner[payload[0]].components[payload[1]];
       let { componentList } =  state.previewData;
-      componentList = componentList.filter(item=>item.comp!=='');
-      state.previewData.componentList = [...componentList, changeComponent];
-      state.selectComponentIndex = state.previewData.componentList.length-1;
+      // componentList = componentList.filter(item=>item.comp!=='');
+      console.dir(state.selectComponentIndex)
+      // state.previewData.componentList = [...componentList, changeComponent];
+      componentList[state.selectComponentIndex] = changeComponent
       return fromJS(state).toJS()
     },
+    // 选中组件 清空占位图片
     setSelectComponnetIndex(state, { payload }) {
       state.selectComponentIndex = payload;
+      let { componentList } =  state.previewData;
+      componentList.map((item)=> {
+        if(item.comp==''){
+          if(state.selectComponentIndex<payload){
+            state.selectComponentIndex = payload-1>0?payload-1:0;
+          }
+        }
+      })
+      
+      componentList = componentList.filter(item=>item.comp!=='');
+      console.dir(componentList)
+      console.dir(state.selectComponentIndex)
+      state.previewData.componentList = componentList;
       return fromJS(state).toJS();
     },
     // 清空占位组件
@@ -154,6 +169,7 @@ export default {
     },
     // 增加占位组件
     addFigure(state, { payload }) {
+      state.selectComponentIndex = payload;
       state.previewData.componentList.splice(payload,0,{comp: '',componentId:''});
       return fromJS(state).toJS();
     },

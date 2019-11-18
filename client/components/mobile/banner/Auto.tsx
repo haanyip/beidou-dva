@@ -4,16 +4,17 @@ import styles from './index.module.less';
 interface AutoProps {
   data: any[],
   onClick?: () => void;
+  isPreview?: any;
 }
 const Auto: React.FC<AutoProps> = (props) => {
   const { data } = props.data;
   const link = (item) => {
-    if (props.onClick) {
-      props.onClick();
-    } else {
+    if (!props.isPreview) {
       location.href = item.link;
     }
-
+    if(props.onClick){
+      props.onClick()
+    }
   }
   return (
     <div className={styles['banner-auto']}>
@@ -22,21 +23,19 @@ const Auto: React.FC<AutoProps> = (props) => {
       >
         {
           data.map((item, index) => (
-            <a
+            <div
               key={index}
-              href={item.link}
               className={styles['images-item']}
               onClick={(item)=>link(item)}
             >
               <img
-                src={`https://zos.alipayobjects.com/rmsportal/${item.img}.png`}
+                src={item.img}
                 alt=""
-                style={{ width: '100%', verticalAlign: 'top' }}
-                onLoad={() => {
-                  window.dispatchEvent(new Event('resize'));
-                }}
+                // onLoad={() => {
+                //   window.dispatchEvent(new Event('resize'));
+                // }}
               />
-            </a>
+            </div>
           ))
         }
       </Carousel>

@@ -88,7 +88,9 @@ class Home extends PureComponent<HomeProps, HomeState>{
   }
   // 点击组件面板 弹窗编辑组件界面
   clickPreviewPanelComponent = (index) => {
+    console.dir(index)
     this.changeComponentModalStatus(true);
+    this.changeMenuModalStatus(false);
     this.setChangeComponnetData(index);
   }
   setChangeComponnetData(index) {
@@ -149,9 +151,10 @@ class Home extends PureComponent<HomeProps, HomeState>{
   addFigureToBottom = (data) => {
     const { dispatch } = this.props;
     const { index } = data;
+    console.dir(data)
     dispatch({
       type: 'home/addFigure',
-      payload: index == 0 ? 1 : index
+      payload: index == 0 ? 1 : index+1
     })
   }
   // 动态生成组件模块
@@ -163,7 +166,10 @@ class Home extends PureComponent<HomeProps, HomeState>{
       if (item.comp) {
         const Component = require(`../../components/mobile/${item.comp}`).default
         if (hasPlaceHoldCom) {
-          return <Component {...item} key={index} isPreview={true} />
+          return <Component {...item} 
+            onClick={() => this.clickPreviewPanelComponent(index)}
+            key={index} 
+            isPreview={true} />
         } else {
           return (
             <ViewActive
@@ -172,7 +178,7 @@ class Home extends PureComponent<HomeProps, HomeState>{
               addFigure={this.addFigure}
               key={index}
             >
-              <Component {...item} key={index} isPreview={true} />
+              <Component {...item} key={index} isPreview={true}  />
             </ViewActive>
           )
         }
@@ -193,7 +199,6 @@ class Home extends PureComponent<HomeProps, HomeState>{
     const { navBanner, previewData: { componentList }, menuModal, componentModal, selectComponentIndex } = this.props.home
     const changeComponentData = componentList[selectComponentIndex] && componentList[selectComponentIndex].data;
     const { spinning, previewUrl, showPreviewModal } = this.state;
-    console.dir(componentList)
     return (
       <Layout className={styles['base-layout']}>
         <Header onPreview={() => this.onPreview()} />
