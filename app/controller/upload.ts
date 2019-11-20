@@ -1,6 +1,4 @@
-import path from 'path';
-const Controller = require('egg').Controller;
-
+import { Controller } from 'egg';
 class UploadController extends Controller {
   constructor(ctx) {
     super(ctx);
@@ -8,16 +6,11 @@ class UploadController extends Controller {
 
   // 上传单个文件
   async create() {
-    
     const { ctx, app } = this;
-    // 上传七牛
+    // 上传腾讯云
     const stream = await ctx.getFileStream();
-    const filename = path.basename(stream.filename); // 文件名称
-    const payload = ctx.request.body || {};
-    const dir = `upload/images/`;
-    const res = await app.qiniu.put(payload.file, { filename, dir , uuid: true })
-    // 设置响应内容和响应状态码
-    ctx.helper.success({ res });
+    const res = await app.cos.putFile({dir: 'upload/images/', stream, uuid: true})
+    ctx.helper.success({ res: `https://${res}` });
   }
 }
 

@@ -5,6 +5,10 @@
     color: #408bf5;
     cursor: pointer;
   }
+
+  .ant-upload-list {
+    display: none;
+  }
 }
 
 .field-image {
@@ -15,7 +19,7 @@
     max-height: 22px;
     line-height: 22px;
     margin-bottom: 8px;
-    color: rgba(0, 0, 0, .85);
+    color: rgba(0, 0, 0, 0.85);
     justify-content: space-between;
 
     .ui-label-title {
@@ -28,7 +32,7 @@
       p {
         display: inline;
         margin: 0 0 0 8px;
-        color: rgba(0, 0, 0, .45);
+        color: rgba(0, 0, 0, 0.45);
       }
     }
   }
@@ -40,7 +44,7 @@
       justify-content: flex-start;
       align-items: center;
       padding: 8px;
-      border: 1px solid rgba(0, 0, 0, .1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
       border-radius: 3px;
       background: #fff;
       overflow: hidden;
@@ -70,16 +74,15 @@
       border-radius: 3px;
       height: 36px;
       padding: 0 11px;
-      border: 1px solid rgba(0, 0, 0, .1);
+      border: 1px solid rgba(0, 0, 0, 0.1);
       cursor: pointer;
       width: 200px;
-      transition: all .3s;
+      transition: all 0.3s;
     }
 
     .popover-view {
       display: flex;
       align-items: center;
-
     }
 
     .color {
@@ -89,65 +92,9 @@
       border-radius: 2px;
     }
 
-    .row {
-      position: relative;
-
-      .title {
-        &:hover {
-          background: rgba(0, 0, 0, .02);
-
-          .row-options {
-            display: flex !important;
-          }
-        }
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 0;
-        padding-left: 15px;
-        height: 38px;
-        border-bottom: 1px solid #f0f0f0;
-        overflow: hidden;
-
-        .row-title {
-          margin-right: 20px;
-          line-height: 48px;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          display: flex;
-          width: 300px;
-          align-items: center;
-
-          .title-name {
-            margin-left: 12px;
-          }
-        }
-
-        .row-options {
-
-          justify-content: flex-end;
-          align-items: center;
-          height: 20px;
-          display: none;
-          font-size: 14px;
-
-          .row-item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 10px;
-            width: 16px;
-            height: 16px;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-    .results{
+    .results {
       padding: 15px;
-      background: rgba(0, 0, 0, .02);
+      background: rgba(0, 0, 0, 0.02);
     }
   }
 }

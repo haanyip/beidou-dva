@@ -1,16 +1,17 @@
 import React from 'react';
+import { IComponentData } from '../../../interface'
 import styles from './index.module.less';
 
 interface NormalPadProps {
-  img?: string;
-  link?: string;
+  data?: IComponentData;
   isPreview?: boolean;
   onClick?: ()=> void;
 }
 const NormalPad: React.FC<NormalPadProps> = (props) => {
+  const { data} = props;
   const link = () => {
     if (!props.isPreview) {
-      location.href = props.link;
+      location.href = data.data.link;
     }
     if(props.onClick){
       props.onClick()
@@ -18,7 +19,7 @@ const NormalPad: React.FC<NormalPadProps> = (props) => {
   }
   return (
     <div className={styles['normal-pad']} onClick={link}>
-      <img src={props.img} />
+      <img src={ data.data.img } />
     </div>
   )
 }

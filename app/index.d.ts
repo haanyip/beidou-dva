@@ -3,6 +3,7 @@ declare module 'egg' {
  
   interface Application {
     qiniu?: any;
+    cos?: any;
   }
 
 }

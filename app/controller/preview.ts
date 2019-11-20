@@ -13,10 +13,10 @@ class PreviewController extends Controller {
     }else{
       res = await service.preview.previewPc(previewData)
     }
-    const data = res.find(item=>item.url.includes('index.html'))
+    const data = res.find(item=>item.includes('index.html'))
     ctx.body ={
       code: 200,
-      data: data.url
+      data: `https://${data}`
     }
   }
 }

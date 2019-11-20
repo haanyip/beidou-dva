@@ -1,8 +1,9 @@
 import React from 'react';
 import { Carousel } from 'antd-mobile';
+import { IComponentData } from '../../../interface'
 import styles from './index.module.less';
 interface AutoProps {
-  data: any[],
+  data: IComponentData,
   onClick?: () => void;
   isPreview?: any;
 }

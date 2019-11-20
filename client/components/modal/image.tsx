@@ -9,8 +9,7 @@ const Image: React.FC<ImageProps> = (props) => {
   const { description, meta, img} = props.data;
   const onChange = (info) => {
     if (info.file.status === 'done') {
-      console.log(info)
-      props.upload(info.file.response.data.url)
+      props.upload(info.file.response.data)
     }
   }
   return (

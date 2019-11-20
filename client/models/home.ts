@@ -20,7 +20,8 @@ const inintState = {
       data: {
         data: {
           img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
-          link: ""
+          link: "",
+          title: 'https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'
         },
         json: {
           description: 'Banner',
@@ -57,11 +58,13 @@ const inintState = {
         data: [
           {
             img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
-            link: ""
+            link: "",
+            title: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png"
           },
           {
             img: "http://img1.imgtn.bdimg.com/it/u=1411728850,1869975885&fm=26&gp=0.jpg",
-            link: ""
+            link: "",
+            title: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png"
           },
         ],
         json: {
@@ -187,6 +190,40 @@ export default {
     updata(state, {payload}) {
       const { selectComponentIndex } = state;
       state.previewData.componentList[selectComponentIndex].data.data = payload;
+      return fromJS(state).toJS();
+    },
+    // 上移动
+    moveUp(state, {payload}){
+      const { previewData:{ componentList } } = state;
+      componentList.splice(payload,1,...componentList.splice(payload-1, 1 , componentList[payload]));
+      state.previewData.componentList = componentList;
+      state.selectComponentIndex = payload-1;
+      return fromJS(state).toJS();
+    },
+    // 下移动
+    moveDown(state, {payload}) {
+      const { previewData:{ componentList } } = state;
+      componentList.splice(payload,1,...componentList.splice(payload+1, 1 , componentList[payload]));
+      state.previewData.componentList = componentList;
+      state.selectComponentIndex = payload+1;
+      return fromJS(state).toJS();
+    },
+    // 复制
+    copy(state, {payload}) {
+      let { previewData:{ componentList } } = state;
+      componentList.push(componentList[payload])
+      state.previewData.componentList = componentList;
+      state.selectComponentIndex = componentList.length-1;
+      return fromJS(state).toJS();
+    },
+    // 删除
+    delete(state, {payload}) {
+      let { previewData:{ componentList }, selectComponentIndex } = state;
+      componentList.splice(payload,1)
+      if(payload === selectComponentIndex ){
+        state.menuModal = false;
+        state.componentModal = false
+      }
       return fromJS(state).toJS();
     }
   },

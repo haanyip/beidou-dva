@@ -4,35 +4,35 @@ import './mobile.less'
 
 declare global {
   interface Window {
-    componentList: {comp?: string}[]
+    componentList: { comp?: string }[]
   }
 }
 
 class App extends PureComponent {
-  
+
   constructor(props) {
     super(props);
-    this.state= {
+    this.state = {
 
     }
   }
-  componentDidMount(){
-    
+  componentDidMount() {
+
   }
   renderComponent = () => {
-    const {  componentList  } = window;
+    const { componentList } = window;
     return componentList.map((item, index) => {
-      const Component = loadable(() => import(`../components/mobile/${item.comp}`)) 
-      return <Component {...item} key={index} />
+      const Component = loadable(() => import(`../components/mobile/${item.comp}`))
+      return <Component {...item} key={index} isPreview={false} />
     })
   }
   render() {
     return (
-     <div>
-       {
-         this.renderComponent()
-       }
-     </div>
+      <div>
+        {
+          this.renderComponent()
+        }
+      </div>
     );
   }
 }

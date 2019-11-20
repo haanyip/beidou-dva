@@ -191,7 +191,7 @@ class PreviewService extends Service {
     const res = fs.readdirSync(path.join(__dirname, outputPath));
     const uploadList = []
     res.map(item=>{
-      uploadList.push(this.app.qiniu.putFile(path.join(__dirname, outputPath, item), { filename: item, dir: isMobile?`mobile/${uid}/`:`pc/${uid}/` , uuid: false }))
+      uploadList.push(this.app.cos.putFile({dir: isMobile?`mobile/${uid}/`:`pc/${uid}/`, file: path.join(__dirname, outputPath, item)}))
     })
     return Promise.all(uploadList);
    

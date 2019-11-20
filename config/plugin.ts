@@ -1,4 +1,5 @@
-exports.qiniu = {
+
+exports.cos = {
   enable: true,
-  package: 'egg-qiniu-uploader',
+  package: 'egg-cos-upload',
 };

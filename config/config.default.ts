@@ -30,14 +30,11 @@ module.exports = {
     defaultExtension: '.tsx'
   },
   // 七牛云服务配置
-  qiniu: {
-    ak: 'YGmMh1K9fVVf77Ry6RGKLajeqErxwcZyTR1AYHld',
-    sk: 'az5IPgfDJx2fQco5w5cvyKDPaRN86a4IrEwRtYyb',
-    bucket: 'igola-dev-files',
-    baseUrl: 'http://devcontent.igola.com',
-    zone: 'Zone_z0',
-    app: true,
-    agent: false,
+  cos: {
+    secretId: "AKID81e7j5L0ZrXJ1dwC9xfbJo8E7k9Ju1Z0", //用户的 SecretId
+    secretKey: "LjvvgEYfbKoFUVN2TcWAbnkU0O2YyHLK", //用户的 SecretKey
+    bucket: "h5-1257626720", // 存储桶的名称，命名规则为 BucketName-APPID，此处填写的存储桶名称必须为此格式
+    region: "ap-guangzhou"
   },
   security: {
     csrf: false,

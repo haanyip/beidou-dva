@@ -1,52 +1,73 @@
 import React from 'react';
-import { Icon } from 'antd';
-import List from '../../components/modal/list'
+import { Icon, Collapse } from 'antd';
 import styles from './index.module.less'
+const { Panel } = Collapse;
 interface ComponentProps {
   onClose: () => void;
   data?: { data?: any, json?: any };
-  upChangeData: (data)=> void;
+  upChangeData: (data) => void;
 }
 const Component: React.FC<ComponentProps> = (props) => {
   const { onClose, upChangeData } = props;
   const { data, json } = props.data;
   // 图片改变
   const onUpload = (url, index) => {
-    if(json.type === 'object'){
+    if (json.type === 'object') {
       data.img = url
-    }else{
+    } else {
       data[index].img = url
     }
     upChangeData(data)
   }
   // URL 事件
-  const onUrlBlur = (e,index) => {
-    if(json.type === 'object'){
+  const onUrlBlur = (e, index) => {
+    if (json.type === 'object') {
       data.link = e.target.value
-    }else{
+    } else {
       data[index].link = e.target.value
     }
     upChangeData(data)
   }
+  // 操作栏
+  const genExtra = () => {
+    return (
+      <div className={styles['row-options']}>
+        <div className={styles['row-item']}>
+          <Icon type="edit" />
+        </div>
+        <div className={styles['row-item']}>
+          <Icon type="copy" />
+        </div>
+        <div className={styles['row-item']}>
+          <Icon type="delete" />
+        </div>
+      </div>)
+  }
   const renderList = (values: any) => {
-    if(json.type === 'object'){
+    if (json.type === 'object') {
       return renderItem(values, 0)
-    }else{
-     return values.map((item,index)=>(
-        <List key={index}>
-          {renderItem(item, index)}
-        </List>
-      ))
+    } else {
+      return (
+      <Collapse>
+        {
+          values.map((item, index) => (
+            <Panel header={<div className={styles['panel-title']}>{item.title}</div>} className={styles['panel']} extra={genExtra()}>
+              {renderItem(item, index)}
+            </Panel>
+          ))
+        }
+      </Collapse>)
+
     }
   }
   const renderItem = (value, currentIndex) => {
-    return Object.values(json.properties).map((item:any, index) => {
+    return Object.values(json.properties).map((item: any, index) => {
       const C = require(`../../components/modal/${item.type}`).default;
-      return <C 
-        data={Object.assign({},item, value)} 
+      return <C
+        data={Object.assign({}, item, value)}
         key={index}
-        upload={(url)=>onUpload(url, currentIndex)}
-        onUrlBlur={(link)=>onUrlBlur(link, currentIndex)}
+        upload={(url) => onUpload(url, currentIndex)}
+        onUrlBlur={(link) => onUrlBlur(link, currentIndex)}
       />
     })
   }

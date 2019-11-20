@@ -9,9 +9,43 @@
   .ant-tabs-tab{
     text-align: center;
   }
-  
+  .ant-collapse-header{
+    display: flex;
+  }
 }
-
+.panel{
+  // background: '#f7f7f7';
+  border: 0px;
+  overflow: hidden;
+  &:hover {
+    .row-options {
+      display: flex !important;
+    }
+  }
+  .panel-title{
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .row-options {
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    display: none;
+    font-size: 14px;
+    margin-right: 20px;
+    .row-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 10px;
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+}
 .base-layout{
   height: 100%;
   width: 100%;

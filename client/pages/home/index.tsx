@@ -88,7 +88,6 @@ class Home extends PureComponent<HomeProps, HomeState>{
   }
   // 点击组件面板 弹窗编辑组件界面
   clickPreviewPanelComponent = (index) => {
-    console.dir(index)
     this.changeComponentModalStatus(true);
     this.changeMenuModalStatus(false);
     this.setChangeComponnetData(index);
@@ -151,10 +150,42 @@ class Home extends PureComponent<HomeProps, HomeState>{
   addFigureToBottom = (data) => {
     const { dispatch } = this.props;
     const { index } = data;
-    console.dir(data)
     dispatch({
       type: 'home/addFigure',
       payload: index == 0 ? 1 : index+1
+    })
+  }
+  // 组件上移动 array.splice(index2,1,...array.splice(index1, 1 , array[index2]));
+  moveUp =(data)=> {
+    const { dispatch } = this.props;
+    const { index } = data;
+    dispatch({
+      type: 'home/moveUp',
+      payload: index
+    })
+  }
+  moveDown = (data) => {
+    const { dispatch } = this.props;
+    const { index } = data;
+    dispatch({
+      type: 'home/moveDown',
+      payload: index
+    })
+  }
+  copy = (data) => {
+    const { dispatch } = this.props;
+    const { index } = data;
+    dispatch({
+      type: 'home/copy',
+      payload: index
+    })
+  }
+  delete = (data) => {
+    const { dispatch } = this.props;
+    const { index } = data;
+    dispatch({
+      type: 'home/delete',
+      payload: index
     })
   }
   // 动态生成组件模块
@@ -166,7 +197,8 @@ class Home extends PureComponent<HomeProps, HomeState>{
       if (item.comp) {
         const Component = require(`../../components/mobile/${item.comp}`).default
         if (hasPlaceHoldCom) {
-          return <Component {...item} 
+          return <Component 
+            {...item} 
             onClick={() => this.clickPreviewPanelComponent(index)}
             key={index} 
             isPreview={true} />
@@ -174,8 +206,12 @@ class Home extends PureComponent<HomeProps, HomeState>{
           return (
             <ViewActive
               onClick={() => this.clickPreviewPanelComponent(index)}
-              data={Object.assign({}, item, { index })}
+              data={Object.assign({}, item, { index, listLength: componentList.length })}
               addFigure={this.addFigure}
+              onMoveUp={this.moveUp}
+              onMoveDown={this.moveDown}
+              onCopy={this.copy}
+              onDelete={this.delete}
               key={index}
             >
               <Component {...item} key={index} isPreview={true}  />
@@ -189,7 +225,6 @@ class Home extends PureComponent<HomeProps, HomeState>{
   }
   upData = (data) => {
     const { dispatch } = this.props;
-    console.dir(data)
     dispatch({
       type: 'home/updata',
       payload: data
