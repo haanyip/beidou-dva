@@ -10,7 +10,7 @@ interface NormalPadProps {
 const NormalPad: React.FC<NormalPadProps> = (props) => {
   const { data} = props;
   const link = () => {
-    if (!props.isPreview) {
+    if (!props.isPreview && data.data.link) {
       location.href = data.data.link;
     }
     if(props.onClick){

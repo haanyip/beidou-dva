@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Icon, Collapse } from 'antd';
 import styles from './index.module.less'
 const { Panel } = Collapse;
@@ -10,6 +10,7 @@ interface ComponentProps {
 const Component: React.FC<ComponentProps> = (props) => {
   const { onClose, upChangeData } = props;
   const { data, json } = props.data;
+  const [ activeKey, setActiveKey ] = useState()
   // 图片改变
   const onUpload = (url, index) => {
     if (json.type === 'object') {
@@ -28,30 +29,47 @@ const Component: React.FC<ComponentProps> = (props) => {
     }
     upChangeData(data)
   }
+  // 
+  const copyItem =(index,e) => {
+    e.stopPropagation();
+    data.push(data[index])
+    upChangeData(data)
+  }
+  const deleteItem=(index,e)=>{
+    e.stopPropagation();
+    data.splice(index,1)
+    upChangeData(data)
+  }
   // 操作栏
-  const genExtra = () => {
+  const genExtra = (index) => {
     return (
       <div className={styles['row-options']}>
         <div className={styles['row-item']}>
           <Icon type="edit" />
         </div>
-        <div className={styles['row-item']}>
-          <Icon type="copy" />
+        <div className={styles['row-item']} >
+          <Icon type="copy" onClick={(e)=>copyItem(index,e)}/>
         </div>
-        <div className={styles['row-item']}>
-          <Icon type="delete" />
+        <div className={styles['row-item']} >
+          <Icon type="delete" onClick={(e)=>deleteItem(index,e)}/>
         </div>
       </div>)
   }
+
   const renderList = (values: any) => {
     if (json.type === 'object') {
       return renderItem(values, 0)
     } else {
+      console.dir(values)
       return (
-      <Collapse>
+      <Collapse
+        activeKey={activeKey}
+        onChange={(value)=>setActiveKey(value)}
+        accordion={true}
+      >
         {
           values.map((item, index) => (
-            <Panel header={<div className={styles['panel-title']}>{item.title}</div>} className={styles['panel']} extra={genExtra()}>
+            <Panel header={<div className={styles['panel-title']}>{item.title}</div>} className={styles['panel']} extra={genExtra(index)}>
               {renderItem(item, index)}
             </Panel>
           ))

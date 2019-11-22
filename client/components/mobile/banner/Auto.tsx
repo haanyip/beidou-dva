@@ -10,7 +10,7 @@ interface AutoProps {
 const Auto: React.FC<AutoProps> = (props) => {
   const { data } = props.data;
   const link = (item) => {
-    if (!props.isPreview) {
+    if (!props.isPreview && item.link) {
       location.href = item.link;
     }
     if(props.onClick){
@@ -21,6 +21,7 @@ const Auto: React.FC<AutoProps> = (props) => {
     <div className={styles['banner-auto']}>
       <Carousel 
         autoplay
+        infinite
       >
         {
           data.map((item, index) => (
@@ -32,9 +33,6 @@ const Auto: React.FC<AutoProps> = (props) => {
               <img
                 src={item.img}
                 alt=""
-                // onLoad={() => {
-                //   window.dispatchEvent(new Event('resize'));
-                // }}
               />
             </div>
           ))
