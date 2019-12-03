@@ -23,6 +23,11 @@ const inintState = {
           link: "",
           title: 'https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'
         },
+        defaultData:{
+          img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
+          link: "",
+          title: 'https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'
+        },
         json: {
           description: 'Banner',
           properties: {
@@ -69,6 +74,11 @@ const inintState = {
             title: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png"
           },
         ],
+        defaultData: {
+          img: "http://img1.imgtn.bdimg.com/it/u=1411728850,1869975885&fm=26&gp=0.jpg",
+          link: "",
+          title: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png"
+        },
         json: {
           description: 'Banner',
           properties: {
@@ -92,44 +102,79 @@ const inintState = {
   },
   {
     title: 'TAB',
-    components:[{
-      componentId: '',
-      title: '左右滑动 Tab',
-      img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh9wkr/46a6fec3-8b6a-4dc1-8aea-50df95bac390.cms/images/4c8abcb4-8b6e-4753-895b-648253b0648b.png?x-oss-process=image/resize,w_560/crop,h_560'
-    }]
+    components:[
+    //   {
+    //   componentId: '',
+    //   title: '左右滑动 Tab',
+    //   img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh9wkr/46a6fec3-8b6a-4dc1-8aea-50df95bac390.cms/images/4c8abcb4-8b6e-4753-895b-648253b0648b.png?x-oss-process=image/resize,w_560/crop,h_560'
+    // }
+  ]
   }
   ,{
     title: '列表',
-    components:[{
-      componentId: '',
-      title: '普通列表',
-      comp: "list/Normal",
-      data: {
-        data: {
-          img: "https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png",
-          link: "",
-          title: 'https://gw.alipayobjects.com/zos/rmsportal/JRmzNcWymcwpVRSISlbM.png'
-        },
-        json: {
-          description: 'Banner',
-          properties: {
-            img: {
-              description: '图片',
-              meta: {
-                description: '建议尺寸：686*220'
-              },
-              type: 'image'
-            },
-            link: {
-              description: '链接',
-              type: 'url'
-            }
-          },
-          type: 'object'
-        }
-      },
-      img: 'https://gw.alipayobjects.com/os/q/cms/images/jnlh10g7/0993e70d-7d4f-4e65-86d6-dfbb14a7da05.cms/images/0178ff2a-35ba-4c8c-9b54-29df6688b0c4.png?x-oss-process=image/resize,w_560/crop,h_560'
-    }]
+    components:[
+    //   {
+    //   componentId: '',
+    //   title: '普通列表',
+    //   comp: "list/Normal",
+    //   data: {
+    //     data: [{
+    //       img: "https://gw.alipayobjects.com/zos/rmsportal/qnMZzTAViDGQHHjgyICm.png",
+    //       tags: [{
+    //         title: '市场'
+    //       },{
+    //         title: '第一财经'
+    //       }],
+    //       title: '为什么这么多大企业都是云凤蝶的忠实用户？'
+    //     }],
+    //     defaultData:{
+    //       img: "https://gw.alipayobjects.com/zos/rmsportal/qnMZzTAViDGQHHjgyICm.png",
+    //       tags: [{
+    //         title: '市场'
+    //       },{
+    //         title: '第一财经'
+    //       }],
+    //       title: '为什么这么多大企业都是云凤蝶的忠实用户？'
+    //     },
+    //     json: {
+    //       description: '列表',
+    //       properties: {
+    //         img: {
+    //           description: '封面',
+    //           meta: {
+    //             description: '建议尺寸：144*144'
+    //           },
+    //           type: 'image'
+    //         },
+    //         link: {
+    //           description: '链接',
+    //           type: 'url'
+    //         },
+    //         title: {
+    //           description: "标题",
+    //           type: 'text'
+    //         },
+    //         tags: {
+    //           description: '标签列表',
+    //           properties: {
+    //             color: {
+    //               description: '颜色',
+    //               type: 'color'
+    //             },
+    //             text: {
+    //               description: '文字',
+    //               type: 'text'
+    //             }
+    //           },
+    //           type: 'array'
+    //         },
+    //       },
+    //       type: 'array'
+    //     }
+    //   },
+    //   img: 'https://gw.alipayobjects.com/os/q/cms/images/jq3ga5vw/94c09180-f5a9-40d2-bc14-a40f2bc47555.cms/images/c9f74a8f-e605-4db8-924d-e4a663cc55c5.png?x-oss-process=image/resize,w_560/crop,h_560'
+    // }
+  ]
   },{
     title: '标题',
     components:[]
@@ -192,8 +237,6 @@ export default {
       })
       
       componentList = componentList.filter(item=>item.comp!=='');
-      console.dir(componentList)
-      console.dir(state.selectComponentIndex)
       state.previewData.componentList = componentList;
       return fromJS(state).toJS();
     },
@@ -257,6 +300,7 @@ export default {
         state.menuModal = false;
         state.componentModal = false
       }
+      selectComponentIndex = selectComponentIndex-1
       return fromJS(state).toJS();
     }
   },

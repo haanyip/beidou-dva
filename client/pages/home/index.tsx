@@ -234,6 +234,8 @@ class Home extends PureComponent<HomeProps, HomeState>{
     const { navBanner, previewData: { componentList }, menuModal, componentModal, selectComponentIndex } = this.props.home
     const changeComponentData = componentList[selectComponentIndex] && componentList[selectComponentIndex].data;
     const { spinning, previewUrl, showPreviewModal } = this.state;
+    console.dir(componentList)
+    console.dir(selectComponentIndex)
     return (
       <Layout className={styles['base-layout']}>
         <Header onPreview={() => this.onPreview()} />

@@ -3,15 +3,18 @@ import styles from './index.module.less';
 import { Input } from 'antd';
 const { TextArea } = Input;
 interface TextProps {
-  
+  data: {
+    description: string;
+  };
 }
 const Text: React.FC<TextProps> = (props) => {
+  const { description } = props.data;
   return (
     <div className={styles['field-image']}>
       <div className={styles['item-image']}>
         <div className={styles['ui-label']}>
           <div className={styles['ui-label-title']}>
-            文案
+            {description}
           </div>
         </div>
         <div className={styles['ui-content']}>
