@@ -9,7 +9,7 @@ import Header from '../../components/Header'
 import Menu from './menu'
 import PreView from './preview'
 import Component from './component'
-import ViewActive from '../../components/viewActive'
+import ViewActive from '../../components/ViewActive'
 import { Layout, Button, Icon, Empty } from 'antd';
 import styles from './index.module.less'
 
