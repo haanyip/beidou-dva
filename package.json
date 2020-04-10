@@ -4,7 +4,7 @@
   "description": "Beidou example with dva",
   "scripts": {
     "start": "beidou start --port=7001  --daemon --ignore-stderr  --workers=1 --title=egg-server-showcase",
-    "debug": "beidou debug", 
+    "debug": "beidou debug",
     "stop": "beidou stop --title=egg-server-showcase",
     "dev": "beidou dev",
     "build": "beidou build",
@@ -43,10 +43,9 @@
     "cos-nodejs-sdk-v5": "^2.5.14",
     "egg-cos-upload": "^1.0.6"
   },
-  "theme":{
+  "theme": {
     "hd": "2px",
     "brand-primary": "red"
-
   },
   "devDependencies": {
     "babel-plugin-import": "^1.12.0",

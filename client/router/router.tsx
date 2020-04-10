@@ -1,10 +1,10 @@
 import React from 'react';
-import { Switch, Route, routerRedux } from 'dva/router';
+import { Switch, Route, routerRedux, Redirect } from 'dva/router';
 import Loading from '../components/Loading'
 import Loadable from 'react-loadable';
 // import { IntlProvider } from 'react-intl';
 // import  queryString   from 'query-string';
-const { ConnectedRouter } = routerRedux; 
+const { ConnectedRouter } = routerRedux;
 // import { getLanguage, chooseLocale } from '../locales/index'
 // import BaseLayout from '../layouts/basicLayout'
 // const Home = Loadable({
@@ -12,6 +12,7 @@ const { ConnectedRouter } = routerRedux;
 //   loading: Loading
 // });
 import Home from '../pages/home'
+import Test from '../pages/test'
 const Routers = ({ history, app }) => {
 
   // const { lang } : { lang?: string } =  queryString.parse(history.location.search)
@@ -26,7 +27,8 @@ const Routers = ({ history, app }) => {
       </Switch> */}
       {/* <IntlProvider locale={defaultLang} messages={messages}> */}
         <Switch>
-          <Route path="/"  component={Home} />
+          <Route exact path="/" component={Home} render={() => (<Redirect to="/" />)} />
+          <Route path="/test"  component={Test} />
           {/* {routeList.map(({path,component:Component},index) => (
             <Route path={path} key={index} exact render={props => <Component {...props}  /> }/>
           ))} */}
