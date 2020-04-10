@@ -12,7 +12,8 @@ const { ConnectedRouter } = routerRedux;
 //   loading: Loading
 // });
 import Home from '../pages/home'
-import Test from '../pages/test'
+import Luxus from '../pages/luxus'
+import List from '../pages/list'
 const Routers = ({ history, app }) => {
 
   // const { lang } : { lang?: string } =  queryString.parse(history.location.search)
@@ -28,7 +29,8 @@ const Routers = ({ history, app }) => {
       {/* <IntlProvider locale={defaultLang} messages={messages}> */}
         <Switch>
           <Route exact path="/" component={Home} render={() => (<Redirect to="/" />)} />
-          <Route path="/test"  component={Test} />
+          <Route path="/luxus"  component={Luxus} />
+          <Route path="/list"  component={List} />
           {/* {routeList.map(({path,component:Component},index) => (
             <Route path={path} key={index} exact render={props => <Component {...props}  /> }/>
           ))} */}
