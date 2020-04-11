@@ -28,8 +28,8 @@ const Routers = ({ history, app }) => {
       </Switch> */}
       {/* <IntlProvider locale={defaultLang} messages={messages}> */}
         <Switch>
-          <Route exact path="/" component={Home} render={() => (<Redirect to="/" />)} />
-          <Route path="/luxus"  component={Luxus} />
+          <Route exact path="/" component={Luxus} render={() => (<Redirect to="/" />)} />
+          <Route path="/home"  component={Home} />
           <Route path="/list"  component={List} />
           {/* {routeList.map(({path,component:Component},index) => (
             <Route path={path} key={index} exact render={props => <Component {...props}  /> }/>
