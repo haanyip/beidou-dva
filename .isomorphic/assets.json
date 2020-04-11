@@ -1,4 +1,10 @@
 {
+  "client/assets/images/c.jpg": "/build/c-e4f9f.jpg",
+  "client/assets/images/d.jpg": "/build/d-dc0dd.jpg",
+  "client/assets/images/m.jpg": "/build/m-3e59d.jpg",
+  "client/assets/images/new.jpg": "/build/new-e58ee.jpg",
+  "client/assets/images/p.jpg": "/build/p-e9bbd.jpg",
+  "client/assets/images/u.jpg": "/build/u-834a8.jpg",
   "client/components/Header/index.module.less": {
     "header": "header_2LZ-e",
     "nav": "nav_3EtGV",

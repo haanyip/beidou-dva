@@ -2,6 +2,12 @@ import React, { PureComponent, Suspense, Component } from "react"
 import { FormattedMessage } from 'react-intl'
 import { connect } from 'dva'
 import { TabBar, Grid } from 'antd-mobile'
+import newImg from '../../assets/images/new.jpg'
+import cImg from '../../assets/images/c.jpg'
+import mImg from '../../assets/images/m.jpg'
+import dImg from '../../assets/images/d.jpg'
+import pImg from '../../assets/images/p.jpg'
+import uImg from '../../assets/images/u.jpg'
 
 class Luxus extends Component {
     constructor(props) {
@@ -17,27 +23,27 @@ class Luxus extends Component {
 
         const data = [
             {
-              icon: 'http://www.luxuschair.com/4.3.9/static/P-8890.582a82a5.jpg',
+              icon: newImg,
               text: '2019新品',
             },
             {
-                icon: 'http://www.luxuschair.com/4.3.9/static/c-2017.6616b96e.jpg',
+                icon: cImg,
                 text: '职员椅(C系列)',
             },
             {
-                icon: 'http://www.luxuschair.com/4.3.9/static/m-57280gae.73d99fe5.jpg',
+                icon: mImg,
                 text: '主管椅(M系列)',
             },
             {
-                icon: 'http://www.luxuschair.com/4.3.9/static/D-739.f3b50c7d.jpg',
+                icon: dImg,
                 text: '经理椅(D系列)',
             },
             {
-                icon: 'http://www.luxuschair.com/4.3.9/static/p-8590.9888f3d8.jpg',
+                icon: pImg,
                 text: '大班椅(P系列)',
             },
             {
-                icon: 'http://www.luxuschair.com/4.3.9/static/u-9389.cdb39995.jpg',
+                icon: uImg,
                 text: '培训椅(U系列)',
             },
         ]
