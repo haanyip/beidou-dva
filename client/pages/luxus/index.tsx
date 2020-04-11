@@ -1,43 +1,49 @@
 import React, { PureComponent, Suspense, Component } from "react"
 import { FormattedMessage } from 'react-intl'
 import { connect } from 'dva'
-import { TabBar } from 'antd-mobile'
+import { TabBar, Grid } from 'antd-mobile'
 
 class Luxus extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            selectedTab: 'redTab',
+            selectedTab: 'blueTab',
             hidden: false,
             fullScreen: true,
         };
     }
 
     renderContent(pageText) {
+
+        const data = [
+            {
+              icon: 'http://www.luxuschair.com/4.3.9/static/P-8890.582a82a5.jpg',
+              text: '2019新品',
+            },
+            {
+                icon: 'http://www.luxuschair.com/4.3.9/static/c-2017.6616b96e.jpg',
+                text: '职员椅(C系列)',
+            },
+            {
+                icon: 'http://www.luxuschair.com/4.3.9/static/m-57280gae.73d99fe5.jpg',
+                text: '主管椅(M系列)',
+            },
+            {
+                icon: 'http://www.luxuschair.com/4.3.9/static/D-739.f3b50c7d.jpg',
+                text: '经理椅(D系列)',
+            },
+            {
+                icon: 'http://www.luxuschair.com/4.3.9/static/p-8590.9888f3d8.jpg',
+                text: '大班椅(P系列)',
+            },
+            {
+                icon: 'http://www.luxuschair.com/4.3.9/static/u-9389.cdb39995.jpg',
+                text: '培训椅(U系列)',
+            },
+        ]
+
         return (
-            <div style={{backgroundColor: 'white', height: '100%', textAlign: 'center'}}>
-                <div style={{paddingTop: 60}}>Clicked “{pageText}” tab， show “{pageText}” information</div>
-                <a style={{display: 'block', marginTop: 40, marginBottom: 20, color: '#108ee9'}}
-                   onClick={(e) => {
-                       e.preventDefault();
-                       this.setState({
-                           hidden: !this.state.hidden,
-                       });
-                   }}
-                >
-                    Click to show/hide tab-bar
-                </a>
-                <a style={{display: 'block', marginBottom: 600, color: '#108ee9'}}
-                   onClick={(e) => {
-                       e.preventDefault();
-                       this.setState({
-                           fullScreen: !this.state.fullScreen,
-                       });
-                   }}
-                >
-                    Click to switch fullscreen
-                </a>
-            </div>
+            <Grid data={data} square={false} className="not-square-grid" columnNum={3} square={true}/>
         );
     }
 
@@ -56,8 +62,8 @@ class Luxus extends Component {
                     hidden={this.state.hidden}
                 >
                     <TabBar.Item
-                        title="Life"
-                        key="Life"
+                        title="丽时产品"
+                        key="丽时产品"
                         icon={<div style={{
                             width: '22px',
                             height: '22px',
@@ -100,8 +106,8 @@ class Luxus extends Component {
                             }}
                             />
                         }
-                        title="Koubei"
-                        key="Koubei"
+                        title="丽时动态"
+                        key="丽时动态"
                         badge={'new'}
                         selected={this.state.selectedTab === 'redTab'}
                         onPress={() => {
@@ -130,8 +136,8 @@ class Luxus extends Component {
                             }}
                             />
                         }
-                        title="Friend"
-                        key="Friend"
+                        title="关于丽时"
+                        key="关于丽时"
                         dot
                         selected={this.state.selectedTab === 'greenTab'}
                         onPress={() => {
@@ -141,20 +147,6 @@ class Luxus extends Component {
                         }}
                     >
                         {this.renderContent('Friend')}
-                    </TabBar.Item>
-                    <TabBar.Item
-                        icon={{uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg'}}
-                        selectedIcon={{uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg'}}
-                        title="My"
-                        key="my"
-                        selected={this.state.selectedTab === 'yellowTab'}
-                        onPress={() => {
-                            this.setState({
-                                selectedTab: 'yellowTab',
-                            });
-                        }}
-                    >
-                        {this.renderContent('My')}
                     </TabBar.Item>
                 </TabBar>
             </div>

@@ -2,7 +2,7 @@ import React, { PureComponent, Suspense, Component } from "react"
 import ReactDOM from 'react-dom'
 import { FormattedMessage } from 'react-intl'
 import { connect } from 'dva'
-import { TabBar, ListView } from 'antd-mobile';
+import { TabBar, ListView } from 'antd-mobile'
 
 const data = [
     {
@@ -83,6 +83,9 @@ class ListViewExample extends React.Component {
             return;
         }
         console.log('reach end', event);
+        console.log(dataBlobs)
+        console.log(sectionIDs)
+        console.log(rowIDs)
         this.setState({ isLoading: true });
         setTimeout(() => {
             genData(++pageIndex);
@@ -138,7 +141,7 @@ class ListViewExample extends React.Component {
                 dataSource={this.state.dataSource}
                 renderHeader={() => <span>header</span>}
                 renderFooter={() => (<div style={{ padding: 30, textAlign: 'center' }}>
-                    {this.state.isLoading ? 'Loading...' : 'Loaded'}
+                    {this.state.isLoading ? '加载中...' : '加载完毕'}
                 </div>)}
                 renderSectionHeader={sectionData => (
                     <div>{`Task ${sectionData.split(' ')[1]}`}</div>
@@ -172,12 +175,10 @@ class List extends React.Component {
         return (
             <div style={{ backgroundColor: 'white', height: '100%', textAlign: 'center' }}>
                 <div style={{ paddingTop: 60 }}>Clicked “{pageText}” tab， show “{pageText}” information</div>
-                <a style={{ display: 'block', marginTop: 40, marginBottom: 20, color: '#108ee9' }}
+                <a style={{ display: 'block', marginTop: 40, marginBottom: 20, color: '#293479' }}
                    onClick={(e) => {
                        e.preventDefault();
-                       this.setState({
-                           hidden: !this.state.hidden,
-                       });
+                       this.setState({ hidden: !this.state.hidden });
                    }}
                 >
                     Click to show/hide tab-bar
@@ -191,15 +192,15 @@ class List extends React.Component {
             <div style={{ position: 'fixed', height: '100%', width: '100%', top: 0 }}>
                 <TabBar
                     unselectedTintColor="#949494"
-                    tintColor="#33A3F4"
+                    tintColor="#293479"
                     barTintColor="white"
                     tabBarPosition="bottom"
                     hidden={this.state.hidden}
                     prerenderingSiblingsNumber={0}
                 >
                     <TabBar.Item
-                        title="Life"
-                        key="Life"
+                        title="丽时产品"
+                        key="丽时产品"
                         icon={<div style={{
                             width: '22px',
                             height: '22px',
@@ -213,12 +214,8 @@ class List extends React.Component {
                         />
                         }
                         selected={this.state.selectedTab === 'blueTab'}
-                        badge={1}
-                        onPress={() => {
-                            this.setState({
-                                selectedTab: 'blueTab',
-                            });
-                        }}
+                        // badge={1}
+                        onPress={() => this.setState({selectedTab: 'blueTab'})}
                         data-seed="logId"
                     >
                         <ListViewExample />
@@ -238,15 +235,11 @@ class List extends React.Component {
                                 background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat' }}
                             />
                         }
-                        title="Koubei"
-                        key="Koubei"
+                        title="丽时动态"
+                        key="丽时动态"
                         badge={'new'}
                         selected={this.state.selectedTab === 'redTab'}
-                        onPress={() => {
-                            this.setState({
-                                selectedTab: 'redTab',
-                            });
-                        }}
+                        onPress={() => this.setState({selectedTab: 'redTab'})}
                         data-seed="logId1"
                     >
                         {this.renderContent('Koubei')}
@@ -266,31 +259,13 @@ class List extends React.Component {
                                 background: 'url(https://zos.alipayobjects.com/rmsportal/IIRLrXXrFAhXVdhMWgUI.svg) center center /  21px 21px no-repeat' }}
                             />
                         }
-                        title="Friend"
-                        key="Friend"
+                        title="关于丽时"
+                        key="关于丽时"
                         dot
                         selected={this.state.selectedTab === 'greenTab'}
-                        onPress={() => {
-                            this.setState({
-                                selectedTab: 'greenTab',
-                            });
-                        }}
+                        onPress={() => this.setState({selectedTab: 'greenTab'})}
                     >
                         {this.renderContent('Friend')}
-                    </TabBar.Item>
-                    <TabBar.Item
-                        icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
-                        selectedIcon={{ uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg' }}
-                        title="My"
-                        key="my"
-                        selected={this.state.selectedTab === 'yellowTab'}
-                        onPress={() => {
-                            this.setState({
-                                selectedTab: 'yellowTab',
-                            });
-                        }}
-                    >
-                        {this.renderContent('My')}
                     </TabBar.Item>
                 </TabBar>
             </div>
