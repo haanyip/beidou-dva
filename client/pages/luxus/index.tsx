@@ -43,7 +43,7 @@ class Luxus extends Component {
         ]
 
         return (
-            <Grid data={data} square={false} className="not-square-grid" columnNum={3} square={true}/>
+            <Grid data={data} square={false} className="not-square-grid" columnNum={3}/>
         );
     }
 
