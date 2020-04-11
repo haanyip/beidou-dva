@@ -1,21 +1,27 @@
-Hash: a7e72b5ee1a086f7b9e3
+Hash: 2f0068b2b7a7b3171b4e
 Version: webpack 4.41.1
-Time: 31309ms
-Built at: 04/11/2020 4:00:25 PM
+Time: 31741ms
+Built at: 04/11/2020 7:43:41 PM
                             Asset       Size  Chunks                                Chunk Names
+                      c-e4f9f.jpg   28.5 KiB          [emitted]                     
+                      d-dc0dd.jpg   25.7 KiB          [emitted]                     
               iconfont-31332.woff   24.3 KiB          [emitted]                     
                iconfont-4ab4e.ttf   39.7 KiB          [emitted]                     
                iconfont-8a758.svg    188 KiB          [emitted]                     
                iconfont-9a8f3.eot   39.9 KiB          [emitted]                     
                         index.css    215 KiB       0  [emitted]                     index
-    index.js?a7e72b5ee1a086f7b9e3   55.4 KiB       0  [emitted] [immutable]         index
-interface.js?a7e72b5ee1a086f7b9e3  985 bytes       1  [emitted] [immutable]         interface
-  locales.js?a7e72b5ee1a086f7b9e3   64.2 KiB       2  [emitted] [immutable]         locales
+    index.js?2f0068b2b7a7b3171b4e   55.4 KiB       0  [emitted] [immutable]         index
+interface.js?2f0068b2b7a7b3171b4e  985 bytes       1  [emitted] [immutable]         interface
+  locales.js?2f0068b2b7a7b3171b4e   64.2 KiB       2  [emitted] [immutable]         locales
+                      m-3e59d.jpg   33.2 KiB          [emitted]                     
                      manifest.css    141 KiB       3  [emitted]                     manifest
                       manifest.js   1.94 MiB       3  [emitted]              [big]  manifest
-Entrypoint index [big] = manifest.css manifest.js index.css index.js?a7e72b5ee1a086f7b9e3
-Entrypoint interface = interface.js?a7e72b5ee1a086f7b9e3
-Entrypoint locales = locales.js?a7e72b5ee1a086f7b9e3
+                    new-e58ee.jpg   23.7 KiB          [emitted]                     
+                      p-e9bbd.jpg   19.3 KiB          [emitted]                     
+                      u-834a8.jpg   25.4 KiB          [emitted]                     
+Entrypoint index [big] = manifest.css manifest.js index.css index.js?2f0068b2b7a7b3171b4e
+Entrypoint interface = interface.js?2f0068b2b7a7b3171b4e
+Entrypoint locales = locales.js?2f0068b2b7a7b3171b4e
    [0] ./node_modules/react/index.js 190 bytes {3} [built]
   [35] ./node_modules/immutable/dist/immutable.es.js 152 KiB {3} [built]
   [61] (webpack)/buildin/global.js 472 bytes {3} [built]
@@ -44,32 +50,32 @@ Entrypoint locales = locales.js?a7e72b5ee1a086f7b9e3
        | ./node_modules/react-router-redux/es/selectors.js 621 bytes [built]
        | ./node_modules/react-router-redux/es/actions.js 1.07 KiB [built]
        | ./node_modules/react-router-redux/es/middleware.js 699 bytes [built]
- [574] multi ./client/index.tsx 28 bytes {0} [built]
- [575] ./node_modules/babel-polyfill/lib/index.js 833 bytes {3} [built]
-[1188] ./client/index.less 39 bytes {0} [built]
-[1189] multi ./client/interface/index.tsx 28 bytes {1} [built]
-[1190] ./client/interface/index.tsx 0 bytes {1} [built]
-[1191] multi ./client/locales/index.ts 28 bytes {2} [built]
-[1193] ./client/index.tsx + 11 modules 56.8 KiB {0} [built]
+ [580] multi ./client/index.tsx 28 bytes {0} [built]
+ [581] ./node_modules/babel-polyfill/lib/index.js 833 bytes {3} [built]
+[1194] ./client/index.less 39 bytes {0} [built]
+[1195] multi ./client/interface/index.tsx 28 bytes {1} [built]
+[1196] ./client/interface/index.tsx 0 bytes {1} [built]
+[1197] multi ./client/locales/index.ts 28 bytes {2} [built]
+[1199] ./client/index.tsx + 11 modules 56.5 KiB {0} [built]
        | ./client/index.tsx 4.24 KiB [built]
        | ./client/router/router.tsx 1.26 KiB [built]
        | ./client/models/setting.ts 179 bytes [built]
        | ./client/models/home.ts 9.33 KiB [built]
        | ./client/pages/home/index.tsx 11.6 KiB [built]
-       | ./client/pages/luxus/index.tsx 6.21 KiB [built]
+       | ./client/pages/luxus/index.tsx 5.94 KiB [built]
        | ./client/pages/list/index.tsx 11.5 KiB [built]
        | ./client/components/Header/index.tsx 1.34 KiB [built]
        | ./client/pages/home/menu.tsx 1.4 KiB [built]
        | ./client/pages/home/preview.tsx 1.28 KiB [built]
        | ./client/pages/home/component.tsx 5.31 KiB [built]
        | ./client/components/ViewActive/index.tsx 3.06 KiB [built]
-[1198] ./client/locales/index.ts + 4 modules 66.4 KiB {2} [built]
+[1204] ./client/locales/index.ts + 4 modules 66.4 KiB {2} [built]
        | ./client/locales/index.ts 624 bytes [built]
        | ./client/locales/zh-TW.ts 1.02 KiB [built]
        | ./client/locales/en-US.ts 1.02 KiB [built]
        | ./client/locales/zh-TW/home.ts 31.5 KiB [built]
        | ./client/locales/en-US/home.ts 32.3 KiB [built]
-    + 1207 hidden modules
+    + 1213 hidden modules
 
 WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 This can impact web performance.
@@ -82,7 +88,7 @@ Entrypoints:
       manifest.css
       manifest.js
       index.css
-      index.js?a7e72b5ee1a086f7b9e3
+      index.js?2f0068b2b7a7b3171b4e
 
 
 WARNING in webpack performance recommendations: 

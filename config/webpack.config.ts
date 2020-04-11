@@ -2,6 +2,8 @@
 const path = require('path');
 var ManifestPlugin = require('webpack-manifest-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const TerserJSPlugin = require('terser-webpack-plugin');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 module.exports = (app, defaultConfig) => {
   // defaultConfig.output.filename ='[name].[hash].js'
   // defaultConfig.output.chunkFilename ='[name].[hash].js'
@@ -13,17 +15,27 @@ module.exports = (app, defaultConfig) => {
   // }))
   // defaultConfig.plugins.push(new CopyWebpackPlugin([
   //   {
-  //     from: path.join(__dirname, '../client/assets/ueditor'), 
+  //     from: path.join(__dirname, '../client/assets/ueditor'),
   //     to: path.join(__dirname, '../build')
   //   }
   // ]))
+
+  defaultConfig.optimization = {
+    minimizer: [
+      new TerserJSPlugin({
+        parallel: true,
+      }),
+      new OptimizeCSSAssetsPlugin(),
+    ],
+  }
+
   return defaultConfig;
 }
 // import { Configuration } from 'webpack';
 // // const pxtorem = require('postcss-pxtorem');
 // // const autoprefixer = require('autoprefixer');
 // import webpack from 'webpack'
-// export default (app, defaultConfig, dev ): Configuration => {  
+// export default (app, defaultConfig, dev ): Configuration => {
 //   defaultConfig.devtool = 'source-map';
 //   defaultConfig.plugins.push(new webpack.LoaderOptionsPlugin({
 //     options: {
@@ -31,7 +43,7 @@ module.exports = (app, defaultConfig) => {
 //           // postcss: [require('postcss-px2rem')({ rootValue: 100, propWhiteList: [] })]
 //     }
 //   }))
- 
+
 //   return defaultConfig;
 // };
 // import path from 'path';
