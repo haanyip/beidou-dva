@@ -1,7 +1,5 @@
 import React from 'react';
 import { Switch, Route, routerRedux, Redirect } from 'dva/router';
-import Loading from '../components/Loading'
-import Loadable from 'react-loadable';
 // import { IntlProvider } from 'react-intl';
 // import  queryString   from 'query-string';
 const { ConnectedRouter } = routerRedux;
@@ -12,7 +10,7 @@ const { ConnectedRouter } = routerRedux;
 //   loading: Loading
 // });
 import Home from '../pages/home'
-import Luxus from '../pages/luxus'
+import Category from '../pages/category'
 import List from '../pages/list'
 const Routers = ({ history, app }) => {
 
@@ -28,7 +26,7 @@ const Routers = ({ history, app }) => {
       </Switch> */}
       {/* <IntlProvider locale={defaultLang} messages={messages}> */}
         <Switch>
-          <Route exact path="/" component={Luxus} render={() => (<Redirect to="/" />)} />
+          <Route exact path="/" component={Category} render={() => (<Redirect to="/" />)} />
           <Route path="/home"  component={Home} />
           <Route path="/list"  component={List} />
           {/* {routeList.map(({path,component:Component},index) => (
